@@ -1,0 +1,13 @@
+{
+  "stratum": "audit",
+  "pages": [
+    "home"
+  ],
+  "target": 20,
+  "seed": 20261011,
+  "screens": [
+    "dark/A",
+    "brutalism/B"
+  ],
+  "startedAt": "2026-10-11T15:25:50.648Z"
+}

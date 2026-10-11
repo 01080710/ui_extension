@@ -1,0 +1,3036 @@
+[
+ {
+  "domain": "cpc.com.tw",
+  "stratum": "tw",
+  "status": "unreachable"
+ },
+ {
+  "domain": "skbank.com.tw",
+  "stratum": "tw",
+  "status": "unreachable"
+ },
+ {
+  "domain": "yamazaki.com.tw",
+  "stratum": "tw",
+  "status": "unreachable"
+ },
+ {
+  "domain": "ncue.edu.tw",
+  "stratum": "tw",
+  "url": "https://ncue.edu.tw/cgi-bin/login?index=1",
+  "cms": "other",
+  "status": "too-little-text",
+  "pages": [
+   {
+    "page": "home",
+    "url": "https://ncue.edu.tw/cgi-bin/login?index=1",
+    "status": "too-little-text",
+    "n": 5
+   },
+   {
+    "page": "inner",
+    "status": "no-inner-link"
+   }
+  ]
+ },
+ {
+  "domain": "meikoschool.com.tw",
+  "stratum": "tw",
+  "status": "unreachable"
+ },
+ {
+  "domain": "bodygoals.com.tw",
+  "stratum": "tw",
+  "status": "unreachable"
+ },
+ {
+  "domain": "yuantafutures.com.tw",
+  "stratum": "tw",
+  "status": "unreachable"
+ },
+ {
+  "domain": "oopr18.tw",
+  "stratum": "tw",
+  "url": "https://oopr18.tw/",
+  "cms": "other",
+  "status": "too-little-text",
+  "pages": [
+   {
+    "page": "home",
+    "url": "https://oopr18.tw/",
+    "status": "too-little-text",
+    "n": 12
+   },
+   {
+    "page": "inner",
+    "status": "no-inner-link"
+   }
+  ]
+ },
+ {
+  "domain": "daiker.com.tw",
+  "stratum": "tw",
+  "status": "unreachable"
+ },
+ {
+  "domain": "hlc.edu.tw",
+  "stratum": "tw",
+  "status": "unreachable"
+ },
+ {
+  "domain": "bmwcct.com.tw",
+  "stratum": "tw",
+  "url": "https://bmwcct.com.tw/",
+  "cms": "other",
+  "status": "too-little-text",
+  "pages": [
+   {
+    "page": "home",
+    "url": "https://bmwcct.com.tw/",
+    "status": "too-little-text",
+    "n": 3
+   },
+   {
+    "page": "inner",
+    "url": "https://bmwcct.com.tw/down.htm",
+    "status": "too-little-text",
+    "n": 4
+   }
+  ]
+ },
+ {
+  "domain": "tfai.org.tw",
+  "stratum": "tw",
+  "status": "unreachable"
+ },
+ {
+  "domain": "huimin.com.tw",
+  "stratum": "tw",
+  "status": "unreachable"
+ },
+ {
+  "domain": "shopmore.com.tw",
+  "stratum": "tw",
+  "url": "https://tracking.shopmore.com.tw/Download",
+  "cms": "other",
+  "status": "too-little-text",
+  "pages": [
+   {
+    "page": "home",
+    "url": "https://tracking.shopmore.com.tw/Download",
+    "status": "too-little-text",
+    "n": 11
+   },
+   {
+    "page": "inner",
+    "status": "no-inner-link"
+   }
+  ]
+ },
+ {
+  "domain": "cbc.gov.tw",
+  "stratum": "tw",
+  "status": "unreachable"
+ },
+ {
+  "domain": "vscinemas.com.tw",
+  "stratum": "tw",
+  "status": "unreachable"
+ },
+ {
+  "domain": "sushiexpress.com.tw",
+  "stratum": "tw",
+  "url": "https://www.sushiexpress.com.tw/Index",
+  "cms": "other",
+  "status": "too-little-text",
+  "pages": [
+   {
+    "page": "home",
+    "url": "https://www.sushiexpress.com.tw/Index",
+    "status": "too-little-text",
+    "n": 16
+   },
+   {
+    "page": "inner",
+    "url": "https://www.sushiexpress.com.tw/news_article/0/3990",
+    "status": "unreachable"
+   }
+  ]
+ },
+ {
+  "domain": "twfhcsec.com.tw",
+  "stratum": "tw",
+  "status": "unreachable"
+ },
+ {
+  "domain": "upyoung.com.tw",
+  "stratum": "tw",
+  "url": "https://www.upyoung.com.tw/",
+  "cms": "other",
+  "status": "too-little-text",
+  "pages": [
+   {
+    "page": "home",
+    "url": "https://www.upyoung.com.tw/",
+    "status": "too-little-text",
+    "n": 14
+   },
+   {
+    "page": "inner",
+    "url": "https://www.upyoung.com.tw/index.php",
+    "status": "too-little-text",
+    "n": 14
+   }
+  ]
+ },
+ {
+  "domain": "cathay-cube.com.tw",
+  "stratum": "tw",
+  "status": "unreachable"
+ },
+ {
+  "domain": "chimei.org.tw",
+  "stratum": "tw",
+  "status": "unreachable"
+ },
+ {
+  "domain": "cnsonline.com.tw",
+  "stratum": "tw",
+  "status": "unreachable"
+ },
+ {
+  "domain": "astroinfo.com.tw",
+  "stratum": "tw",
+  "status": "unreachable"
+ },
+ {
+  "domain": "yiban.com.tw",
+  "stratum": "tw",
+  "url": "https://yiban.com.tw/",
+  "cms": "other",
+  "status": "too-little-text",
+  "pages": [
+   {
+    "page": "home",
+    "url": "https://yiban.com.tw/",
+    "status": "too-little-text",
+    "n": 15
+   },
+   {
+    "page": "inner",
+    "url": "https://yiban.com.tw/index.html",
+    "status": "too-little-text",
+    "n": 15
+   }
+  ]
+ },
+ {
+  "domain": "law110.com.tw",
+  "stratum": "tw",
+  "status": "unreachable"
+ },
+ {
+  "domain": "mnd.gov.tw",
+  "stratum": "tw",
+  "status": "unreachable"
+ },
+ {
+  "domain": "cshm.org.tw",
+  "stratum": "tw",
+  "status": "unreachable"
+ },
+ {
+  "domain": "newbalance.com.tw",
+  "stratum": "tw",
+  "url": "https://www.newbalance.com.tw/",
+  "cms": "other",
+  "status": "too-little-text",
+  "pages": [
+   {
+    "page": "home",
+    "url": "https://www.newbalance.com.tw/",
+    "status": "too-little-text",
+    "n": 2
+   },
+   {
+    "page": "inner",
+    "status": "no-inner-link"
+   }
+  ]
+ },
+ {
+  "domain": "feebee.tw",
+  "stratum": "tw",
+  "url": "https://feebee.com.tw/",
+  "cms": "other",
+  "status": "ok",
+  "pages": [
+   {
+    "page": "home",
+    "url": "https://feebee.com.tw/",
+    "status": "ok",
+    "n": 300,
+    "baseline": {
+     "readable": 0.9931972789115646,
+     "noiseShift": 0
+    },
+    "runs": [
+     {
+      "theme": "minimal",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.39,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "minimal",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.7333333333333333,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "dark",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.39,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "dark",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.7333333333333333,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "material",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.39,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "material",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.7333333333333333,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "solarized",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.39,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "solarized",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.7333333333333333,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "brutalism",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.39,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "brutalism",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.5333333333333333,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "custom",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.39,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "custom",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.7333333333333333,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "contrast",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.39,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "contrast",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.7333333333333333,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "sepia",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.54,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "sepia",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.9233333333333333,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "terminal",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.72,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "terminal",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.7666666666666667,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "corporate",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.39,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "corporate",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.5333333333333333,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     }
+    ]
+   },
+   {
+    "page": "inner",
+    "url": "https://feebee.com.tw/cat/peripherals",
+    "status": "ok",
+    "n": 84,
+    "baseline": {
+     "readable": 0.7831325301204819,
+     "noiseShift": 0
+    },
+    "runs": [
+     {
+      "theme": "minimal",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.08333333333333333,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "minimal",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.8452380952380952,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "dark",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.08333333333333333,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "dark",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.8452380952380952,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "material",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.08333333333333333,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "material",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.8452380952380952,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "solarized",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.08333333333333333,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "solarized",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.8452380952380952,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "brutalism",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.08333333333333333,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "brutalism",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.8214285714285714,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "custom",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.08333333333333333,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "custom",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.8452380952380952,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "contrast",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.08333333333333333,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "contrast",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.8452380952380952,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "sepia",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.16666666666666666,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "sepia",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.9047619047619048,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "terminal",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.8333333333333334,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "terminal",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.9642857142857143,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "corporate",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.08333333333333333,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "corporate",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.8214285714285714,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "domain": "ldplayer.tw",
+  "stratum": "tw",
+  "url": "https://www.ldplayer.tw/",
+  "cms": "other",
+  "status": "ok",
+  "pages": [
+   {
+    "page": "home",
+    "url": "https://www.ldplayer.tw/",
+    "status": "ok",
+    "n": 43,
+    "baseline": {
+     "readable": 0.9,
+     "noiseShift": 0
+    },
+    "runs": [
+     {
+      "theme": "minimal",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.046511627906976744,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "minimal",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.4418604651162791,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "dark",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.046511627906976744,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "dark",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.4418604651162791,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "material",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.046511627906976744,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "material",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.4418604651162791,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "solarized",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.046511627906976744,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "solarized",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.4418604651162791,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "brutalism",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.046511627906976744,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "brutalism",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.4418604651162791,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "custom",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.046511627906976744,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "custom",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.4418604651162791,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "contrast",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.046511627906976744,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "contrast",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.4418604651162791,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "sepia",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "sepia",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.3953488372093023,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "terminal",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.11627906976744186,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "terminal",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.5116279069767442,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "corporate",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.046511627906976744,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "corporate",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.4418604651162791,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     }
+    ]
+   },
+   {
+    "page": "inner",
+    "url": "https://www.ldplayer.tw/versions",
+    "status": "ok",
+    "n": 99,
+    "baseline": {
+     "readable": 0.6804123711340206,
+     "noiseShift": 0
+    },
+    "runs": [
+     {
+      "theme": "minimal",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.1717171717171717,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "minimal",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.6363636363636364,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "dark",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.1717171717171717,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "dark",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.6363636363636364,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "material",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.1717171717171717,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "material",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.6363636363636364,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "solarized",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.1717171717171717,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "solarized",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 0.9896907216494846,
+      "shifted": 0.6767676767676768,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "brutalism",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.1717171717171717,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "brutalism",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.6060606060606061,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "custom",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.1717171717171717,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "custom",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.6363636363636364,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "contrast",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.1717171717171717,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "contrast",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.6868686868686869,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "sepia",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.36363636363636365,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "sepia",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.7272727272727273,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "terminal",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.2222222222222222,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "terminal",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.6363636363636364,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "corporate",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.1717171717171717,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "corporate",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.5858585858585859,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "domain": "hotelscombined.com.tw",
+  "stratum": "tw",
+  "url": "https://www.hotelscombined.com.tw/",
+  "cms": "other",
+  "status": "ok",
+  "pages": [
+   {
+    "page": "home",
+    "url": "https://www.hotelscombined.com.tw/",
+    "status": "ok",
+    "n": 79,
+    "baseline": {
+     "readable": 0.9743589743589743,
+     "noiseShift": 0
+    },
+    "runs": [
+     {
+      "theme": "minimal",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.02531645569620253,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "minimal",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.0759493670886076,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "dark",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.02564102564102564,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "dark",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.07692307692307693,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "material",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.02564102564102564,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "material",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.07692307692307693,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "solarized",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.02564102564102564,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "solarized",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.10256410256410256,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "brutalism",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.02564102564102564,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "brutalism",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.02564102564102564,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "custom",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.02564102564102564,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "custom",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.07692307692307693,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "contrast",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.02564102564102564,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "contrast",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.10256410256410256,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "sepia",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.15384615384615385,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "sepia",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.23076923076923078,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "terminal",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.16666666666666666,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "terminal",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.16666666666666666,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "corporate",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.02564102564102564,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "corporate",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.05128205128205128,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     }
+    ]
+   },
+   {
+    "page": "inner",
+    "url": "https://www.hotelscombined.com.tw/flights/TPE-MZG/2026-11-23/2026-11-27/?sort=bestflight_a",
+    "status": "ok",
+    "n": 280,
+    "baseline": {
+     "readable": 0.9888888888888889,
+     "noiseShift": 0
+    },
+    "runs": [
+     {
+      "theme": "minimal",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.060714285714285714,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "minimal",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.060714285714285714,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "dark",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.060714285714285714,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "dark",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.060714285714285714,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "material",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.060714285714285714,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "material",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.060714285714285714,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "solarized",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.060714285714285714,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "solarized",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.060714285714285714,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "brutalism",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.060714285714285714,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "brutalism",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 0.8740740740740741,
+      "shifted": 0.07857142857142857,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "custom",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.060714285714285714,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "custom",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.060714285714285714,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "contrast",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.060714285714285714,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "contrast",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.060714285714285714,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "sepia",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.562962962962963,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "sepia",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.5650557620817844,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "terminal",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.620817843866171,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "terminal",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.620817843866171,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "corporate",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.550185873605948,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "corporate",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.550185873605948,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "domain": "sk858.com.tw",
+  "stratum": "tw",
+  "status": "unreachable"
+ },
+ {
+  "domain": "warx.com.tw",
+  "stratum": "tw",
+  "status": "unreachable"
+ },
+ {
+  "domain": "bok.com.tw",
+  "stratum": "tw",
+  "status": "unreachable"
+ },
+ {
+  "domain": "gkuncleshop.com.tw",
+  "stratum": "tw",
+  "url": "https://www.gkuncleshop.com.tw/adult-check?redirect=%2F",
+  "cms": "other",
+  "status": "too-little-text",
+  "pages": [
+   {
+    "page": "home",
+    "url": "https://www.gkuncleshop.com.tw/adult-check?redirect=%2F",
+    "status": "too-little-text",
+    "n": 7
+   },
+   {
+    "page": "inner",
+    "status": "no-inner-link"
+   }
+  ]
+ },
+ {
+  "domain": "kgilife.com.tw",
+  "stratum": "tw",
+  "status": "unreachable"
+ },
+ {
+  "domain": "sitca.org.tw",
+  "stratum": "tw",
+  "status": "unreachable"
+ },
+ {
+  "domain": "matsu.gov.tw",
+  "stratum": "tw",
+  "url": "https://www.matsu.gov.tw/",
+  "cms": "other",
+  "status": "ok",
+  "pages": [
+   {
+    "page": "home",
+    "url": "https://www.matsu.gov.tw/",
+    "status": "ok",
+    "n": 141,
+    "baseline": {
+     "readable": 0.9844961240310077,
+     "noiseShift": 0
+    },
+    "runs": [
+     {
+      "theme": "minimal",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.06382978723404255,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "minimal",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.09929078014184398,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "dark",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.06382978723404255,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "dark",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.09929078014184398,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "material",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.06382978723404255,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "material",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.09929078014184398,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "solarized",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.06382978723404255,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "solarized",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.11347517730496454,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "brutalism",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.06382978723404255,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "brutalism",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.09929078014184398,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "custom",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.06382978723404255,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "custom",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.09929078014184398,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "contrast",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.06382978723404255,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "contrast",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.1773049645390071,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "sepia",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.12056737588652482,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "sepia",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.5886524822695035,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "terminal",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.14893617021276595,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "terminal",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.18439716312056736,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "corporate",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.06382978723404255,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "corporate",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.09219858156028368,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     }
+    ]
+   },
+   {
+    "page": "inner",
+    "url": "https://www.matsu.gov.tw/chhtml/news/371030000A/5967",
+    "status": "ok",
+    "n": 158,
+    "baseline": {
+     "readable": 0.9850746268656716,
+     "noiseShift": 0
+    },
+    "runs": [
+     {
+      "theme": "minimal",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "minimal",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.006329113924050633,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "dark",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "dark",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.006329113924050633,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "material",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "material",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.006329113924050633,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "solarized",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "solarized",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.12025316455696203,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "brutalism",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "brutalism",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.006329113924050633,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "custom",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "custom",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.006329113924050633,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "contrast",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "contrast",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.15822784810126583,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "sepia",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.02531645569620253,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "sepia",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.2088607594936709,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "terminal",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.08227848101265822,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "terminal",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.08860759493670886,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "corporate",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "corporate",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "domain": "edah.org.tw",
+  "stratum": "tw",
+  "status": "unreachable"
+ },
+ {
+  "domain": "mdares.gov.tw",
+  "stratum": "tw",
+  "status": "unreachable"
+ },
+ {
+  "domain": "hiwinner.tw",
+  "stratum": "tw",
+  "status": "unreachable"
+ },
+ {
+  "domain": "winho.com.tw",
+  "stratum": "tw",
+  "url": "https://www.winho.com.tw/",
+  "cms": "other",
+  "status": "ok",
+  "pages": [
+   {
+    "page": "home",
+    "url": "https://www.winho.com.tw/",
+    "status": "too-little-text",
+    "n": 19
+   },
+   {
+    "page": "inner",
+    "url": "https://www.winho.com.tw/wesi.html",
+    "status": "ok",
+    "n": 32,
+    "baseline": {
+     "readable": 0.9375,
+     "noiseShift": 0
+    },
+    "runs": [
+     {
+      "theme": "minimal",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.28125,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "minimal",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.53125,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "dark",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.28125,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "dark",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.53125,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "material",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.28125,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "material",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.53125,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "solarized",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.28125,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "solarized",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.53125,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "brutalism",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.28125,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "brutalism",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.4375,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "custom",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.28125,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "custom",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.53125,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "contrast",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.28125,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "contrast",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.53125,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "sepia",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.03125,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "sepia",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.40625,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "terminal",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.375,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "terminal",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.53125,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "corporate",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.28125,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "corporate",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.3125,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "domain": "kaoct.com.tw",
+  "stratum": "tw",
+  "status": "unreachable"
+ },
+ {
+  "domain": "ncyu.edu.tw",
+  "stratum": "tw",
+  "status": "unreachable"
+ },
+ {
+  "domain": "moex.gov.tw",
+  "stratum": "tw",
+  "status": "unreachable"
+ },
+ {
+  "domain": "88kanqiu.tw",
+  "stratum": "tw",
+  "status": "unreachable"
+ },
+ {
+  "domain": "truu.tw",
+  "stratum": "tw",
+  "status": "unreachable"
+ },
+ {
+  "domain": "hcc.edu.tw",
+  "stratum": "tw",
+  "status": "unreachable"
+ },
+ {
+  "domain": "tnu.edu.tw",
+  "stratum": "tw",
+  "status": "unreachable"
+ },
+ {
+  "domain": "ambassador.com.tw",
+  "stratum": "tw",
+  "status": "unreachable"
+ },
+ {
+  "domain": "hcu.edu.tw",
+  "stratum": "tw",
+  "status": "unreachable"
+ },
+ {
+  "domain": "cde.org.tw",
+  "stratum": "tw",
+  "url": "https://cde.org.tw/owa/auth/cglogon.aspx?url=https://cde.org.tw:443/owa",
+  "cms": "other",
+  "status": "too-little-text",
+  "pages": [
+   {
+    "page": "home",
+    "url": "https://cde.org.tw/owa/auth/cglogon.aspx?url=https://cde.org.tw:443/owa",
+    "status": "too-little-text",
+    "n": 2
+   },
+   {
+    "page": "inner",
+    "status": "no-inner-link"
+   }
+  ]
+ },
+ {
+  "domain": "trade.gov.tw",
+  "stratum": "tw",
+  "status": "unreachable"
+ },
+ {
+  "domain": "sris.com.tw",
+  "stratum": "tw",
+  "status": "unreachable"
+ },
+ {
+  "domain": "ecs.com.tw",
+  "stratum": "tw",
+  "status": "unreachable"
+ },
+ {
+  "domain": "hwh.edu.tw",
+  "stratum": "tw",
+  "status": "unreachable"
+ },
+ {
+  "domain": "travelking.com.tw",
+  "stratum": "tw",
+  "url": "https://travelking.com.tw/C/tw/home",
+  "cms": "other",
+  "status": "ok",
+  "pages": [
+   {
+    "page": "home",
+    "url": "https://travelking.com.tw/C/tw/home",
+    "status": "ok",
+    "n": 35,
+    "baseline": {
+     "readable": 0.7142857142857143,
+     "noiseShift": 0.05714285714285714
+    },
+    "runs": [
+     {
+      "theme": "minimal",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.08571428571428572,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "minimal",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.14285714285714285,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "dark",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.08571428571428572,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "dark",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.14285714285714285,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "material",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.08571428571428572,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "material",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.14285714285714285,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "solarized",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.08571428571428572,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "solarized",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.2,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "brutalism",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.08571428571428572,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "brutalism",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.08571428571428572,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "custom",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.08571428571428572,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "custom",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.14285714285714285,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "contrast",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.08571428571428572,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "contrast",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.37142857142857144,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "sepia",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.17142857142857143,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "sepia",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.4,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "terminal",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.3142857142857143,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "terminal",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.3142857142857143,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "corporate",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.08571428571428572,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "corporate",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.08571428571428572,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     }
+    ]
+   },
+   {
+    "page": "inner",
+    "url": "https://travelking.com.tw/C/tour/tw/TK260002",
+    "status": "too-little-text",
+    "n": 0
+   }
+  ]
+ },
+ {
+  "domain": "sportslottery.com.tw",
+  "stratum": "tw",
+  "url": "https://www.sportslottery.com.tw/",
+  "cms": "other",
+  "status": "ok",
+  "pages": [
+   {
+    "page": "home",
+    "url": "https://www.sportslottery.com.tw/",
+    "status": "ok",
+    "n": 52,
+    "baseline": {
+     "readable": 0.9038461538461539,
+     "noiseShift": 0
+    },
+    "runs": [
+     {
+      "theme": "minimal",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.1346153846153846,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "minimal",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.1346153846153846,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "dark",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.11538461538461539,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "dark",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.1346153846153846,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "material",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.1346153846153846,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "material",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.1346153846153846,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "solarized",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.11538461538461539,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "solarized",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.11538461538461539,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "brutalism",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.11538461538461539,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "brutalism",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.11538461538461539,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "custom",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.11538461538461539,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "custom",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.11538461538461539,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "contrast",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.11538461538461539,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "contrast",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.11538461538461539,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "sepia",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.23076923076923078,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "sepia",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.23076923076923078,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "terminal",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.40384615384615385,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "terminal",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.40384615384615385,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "corporate",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.11538461538461539,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "corporate",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.11538461538461539,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     }
+    ]
+   },
+   {
+    "page": "inner",
+    "url": "https://www.sportslottery.com.tw/sportsbook/in-play",
+    "status": "unreachable"
+   }
+  ]
+ }
+]

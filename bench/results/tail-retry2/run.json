@@ -1,0 +1,11 @@
+{
+  "stratum": "tail",
+  "pages": [
+    "home",
+    "inner"
+  ],
+  "target": 100000,
+  "seed": 20261011,
+  "screens": [],
+  "startedAt": "2026-10-11T16:57:26.205Z"
+}

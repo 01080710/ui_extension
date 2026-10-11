@@ -1,0 +1,5788 @@
+[
+ {
+  "domain": "yiban.com.tw",
+  "stratum": "audit",
+  "url": "https://yiban.com.tw/",
+  "cms": "other",
+  "status": "too-little-text",
+  "pages": [
+   {
+    "page": "home",
+    "url": "https://yiban.com.tw/",
+    "status": "too-little-text",
+    "n": 15
+   }
+  ]
+ },
+ {
+  "domain": "applovin.com",
+  "stratum": "audit",
+  "url": "https://applovin.com/en",
+  "cms": "other",
+  "status": "ok",
+  "pages": [
+   {
+    "page": "home",
+    "url": "https://applovin.com/en",
+    "status": "ok",
+    "n": 28,
+    "baseline": {
+     "readable": 0.9642857142857143,
+     "noiseShift": 0
+    },
+    "runs": [
+     {
+      "theme": "minimal",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.6428571428571429,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "minimal",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.6296296296296297,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "dark",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.6296296296296297,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": [],
+      "shot": "applovin.com__home__dark-A.jpg"
+     },
+     {
+      "theme": "dark",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.6296296296296297,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "material",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.6296296296296297,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "material",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.6296296296296297,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "solarized",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.6296296296296297,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "solarized",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.6296296296296297,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "brutalism",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.6296296296296297,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "brutalism",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.6296296296296297,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": [],
+      "shot": "applovin.com__home__brutalism-B.jpg"
+     },
+     {
+      "theme": "custom",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.6296296296296297,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "custom",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.6296296296296297,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "contrast",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.6296296296296297,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "contrast",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.6296296296296297,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "sepia",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.4444444444444444,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "sepia",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.7407407407407407,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "terminal",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.5555555555555556,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "terminal",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.6666666666666666,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "corporate",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.6296296296296297,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "corporate",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.6296296296296297,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     }
+    ],
+    "shots": {
+     "baseline": "applovin.com__home__baseline.jpg"
+    }
+   }
+  ]
+ },
+ {
+  "domain": "ebay.com",
+  "stratum": "audit",
+  "url": "https://www.ebay.com/",
+  "cms": "other",
+  "status": "ok",
+  "pages": [
+   {
+    "page": "home",
+    "url": "https://www.ebay.com/",
+    "status": "ok",
+    "n": 114,
+    "baseline": {
+     "readable": 0.9824561403508771,
+     "noiseShift": 0
+    },
+    "runs": [
+     {
+      "theme": "minimal",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.24561403508771928,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "minimal",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.2543859649122807,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "dark",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.24561403508771928,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": [],
+      "shot": "ebay.com__home__dark-A.jpg"
+     },
+     {
+      "theme": "dark",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.2543859649122807,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "material",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.8421052631578947,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "material",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.8421052631578947,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "solarized",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.24561403508771928,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "solarized",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.6578947368421053,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "brutalism",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.24561403508771928,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "brutalism",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.2631578947368421,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": [],
+      "shot": "ebay.com__home__brutalism-B.jpg"
+     },
+     {
+      "theme": "custom",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.24561403508771928,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "custom",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.2543859649122807,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "contrast",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.24561403508771928,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "contrast",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.6929824561403509,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "sepia",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.8157894736842105,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "sepia",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.8859649122807017,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "terminal",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.38596491228070173,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "terminal",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.38596491228070173,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "corporate",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.12280701754385964,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "corporate",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.12280701754385964,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     }
+    ],
+    "shots": {
+     "baseline": "ebay.com__home__baseline.jpg"
+    }
+   }
+  ]
+ },
+ {
+  "domain": "nzdoctor.co.nz",
+  "stratum": "audit",
+  "url": "https://www.nzdoctor.co.nz/",
+  "cms": "drupal",
+  "status": "ok",
+  "pages": [
+   {
+    "page": "home",
+    "url": "https://www.nzdoctor.co.nz/",
+    "status": "ok",
+    "n": 90,
+    "baseline": {
+     "readable": 0.7222222222222222,
+     "noiseShift": 0
+    },
+    "runs": [
+     {
+      "theme": "minimal",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.7777777777777778,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "minimal",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.9222222222222223,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "dark",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.7777777777777778,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": [],
+      "shot": "nzdoctor.co.nz__home__dark-A.jpg"
+     },
+     {
+      "theme": "dark",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.9222222222222223,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "material",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.7777777777777778,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "material",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.9222222222222223,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "solarized",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.7777777777777778,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "solarized",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.9222222222222223,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "brutalism",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.7777777777777778,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "brutalism",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.8888888888888888,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": [],
+      "shot": "nzdoctor.co.nz__home__brutalism-B.jpg"
+     },
+     {
+      "theme": "custom",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.7777777777777778,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "custom",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.9222222222222223,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "contrast",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.7777777777777778,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "contrast",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.9222222222222223,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "sepia",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.6888888888888889,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "sepia",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.9444444444444444,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "terminal",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.7111111111111111,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "terminal",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.7888888888888889,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "corporate",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.7777777777777778,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "corporate",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.8111111111111111,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     }
+    ],
+    "shots": {
+     "baseline": "nzdoctor.co.nz__home__baseline.jpg"
+    }
+   }
+  ]
+ },
+ {
+  "domain": "android.com",
+  "stratum": "audit",
+  "url": "https://www.android.com/",
+  "cms": "other",
+  "status": "ok",
+  "pages": [
+   {
+    "page": "home",
+    "url": "https://www.android.com/",
+    "status": "ok",
+    "n": 21,
+    "baseline": {
+     "readable": 1,
+     "noiseShift": 0
+    },
+    "runs": [
+     {
+      "theme": "minimal",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.19047619047619047,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "minimal",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.19047619047619047,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "dark",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.19047619047619047,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": [],
+      "shot": "android.com__home__dark-A.jpg"
+     },
+     {
+      "theme": "dark",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.19047619047619047,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "material",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.19047619047619047,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "material",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.19047619047619047,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "solarized",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.19047619047619047,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "solarized",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.19047619047619047,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "brutalism",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.19047619047619047,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "brutalism",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.19047619047619047,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": [],
+      "shot": "android.com__home__brutalism-B.jpg"
+     },
+     {
+      "theme": "custom",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.19047619047619047,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "custom",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.19047619047619047,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "contrast",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.19047619047619047,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "contrast",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.19047619047619047,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "sepia",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.19047619047619047,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "sepia",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.3333333333333333,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "terminal",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.2857142857142857,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "terminal",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.2857142857142857,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "corporate",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.19047619047619047,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "corporate",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.19047619047619047,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     }
+    ],
+    "shots": {
+     "baseline": "android.com__home__baseline.jpg"
+    }
+   }
+  ]
+ },
+ {
+  "domain": "moonlitads.com",
+  "stratum": "audit",
+  "url": "https://moonlitads.com/",
+  "cms": "other",
+  "status": "ok",
+  "pages": [
+   {
+    "page": "home",
+    "url": "https://moonlitads.com/",
+    "status": "ok",
+    "n": 32,
+    "baseline": {
+     "readable": 0.8,
+     "noiseShift": 0
+    },
+    "runs": [
+     {
+      "theme": "minimal",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.3125,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "minimal",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.3125,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "dark",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.3125,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": [],
+      "shot": "moonlitads.com__home__dark-A.jpg"
+     },
+     {
+      "theme": "dark",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.3125,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "material",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.3125,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "material",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.3125,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "solarized",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.3125,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "solarized",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.46875,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "brutalism",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.3125,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "brutalism",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.53125,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": [],
+      "shot": "moonlitads.com__home__brutalism-B.jpg"
+     },
+     {
+      "theme": "custom",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.3125,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "custom",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.3125,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "contrast",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.3125,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "contrast",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.53125,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "sepia",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.3125,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "sepia",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.84375,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "terminal",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.90625,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "terminal",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.90625,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "corporate",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.3125,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "corporate",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.625,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     }
+    ],
+    "shots": {
+     "baseline": "moonlitads.com__home__baseline.jpg"
+    }
+   }
+  ]
+ },
+ {
+  "domain": "jwejse.cyou",
+  "stratum": "audit",
+  "status": "unreachable"
+ },
+ {
+  "domain": "jjlife.tw",
+  "stratum": "audit",
+  "url": "https://jjlife.tw/",
+  "cms": "other",
+  "status": "ok",
+  "pages": [
+   {
+    "page": "home",
+    "url": "https://jjlife.tw/",
+    "status": "ok",
+    "n": 300,
+    "baseline": {
+     "readable": 0.35333333333333333,
+     "noiseShift": 0.9666666666666667
+    },
+    "runs": [
+     {
+      "theme": "minimal",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.98,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "minimal",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.98,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "dark",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.98,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": [],
+      "shot": "jjlife.tw__home__dark-A.jpg"
+     },
+     {
+      "theme": "dark",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.98,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "material",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.98,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "material",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.98,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "solarized",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.98,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "solarized",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.98,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "brutalism",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.98,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "brutalism",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.98,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": [],
+      "shot": "jjlife.tw__home__brutalism-B.jpg"
+     },
+     {
+      "theme": "custom",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.98,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "custom",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.98,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "contrast",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.98,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "contrast",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.98,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "sepia",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.9666666666666667,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "sepia",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.9666666666666667,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "terminal",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.98,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "terminal",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.98,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "corporate",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.98,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "corporate",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.98,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     }
+    ],
+    "shots": {
+     "baseline": "jjlife.tw__home__baseline.jpg"
+    }
+   }
+  ]
+ },
+ {
+  "domain": "cisco.com",
+  "stratum": "audit",
+  "url": "https://www.cisco.com/",
+  "cms": "other",
+  "status": "ok",
+  "pages": [
+   {
+    "page": "home",
+    "url": "https://www.cisco.com/",
+    "status": "ok",
+    "n": 38,
+    "baseline": {
+     "readable": 1,
+     "noiseShift": 0
+    },
+    "runs": [
+     {
+      "theme": "minimal",
+      "mode": "A",
+      "fgToken": 0.9473684210526315,
+      "bgToken": 1,
+      "readable": 0.9736842105263158,
+      "shifted": 0.21052631578947367,
+      "inlineImportant": 0,
+      "misses": [
+       "span.cmp-button__text rgb(7, 24, 45)",
+       "a.ot-sdk-show-settings rgb(10, 96, 255)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "minimal",
+      "mode": "B",
+      "fgToken": 0.9473684210526315,
+      "bgToken": 1,
+      "readable": 0.9736842105263158,
+      "shifted": 0.21052631578947367,
+      "inlineImportant": 0,
+      "misses": [
+       "span.cmp-button__text rgb(7, 24, 45)",
+       "a.ot-sdk-show-settings rgb(10, 96, 255)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "dark",
+      "mode": "A",
+      "fgToken": 0.9210526315789473,
+      "bgToken": 0.9736842105263158,
+      "readable": 0.9736842105263158,
+      "shifted": 0.21052631578947367,
+      "inlineImportant": 0,
+      "misses": [
+       "span.cmp-button__text rgb(7, 24, 45)",
+       "span.cmp-button__text rgb(255, 255, 255)",
+       "a.ot-sdk-show-settings rgb(10, 96, 255)"
+      ],
+      "exceptions": [],
+      "shot": "cisco.com__home__dark-A.jpg"
+     },
+     {
+      "theme": "dark",
+      "mode": "B",
+      "fgToken": 0.9210526315789473,
+      "bgToken": 0.9736842105263158,
+      "readable": 0.9736842105263158,
+      "shifted": 0.21052631578947367,
+      "inlineImportant": 0,
+      "misses": [
+       "span.cmp-button__text rgb(7, 24, 45)",
+       "span.cmp-button__text rgb(255, 255, 255)",
+       "a.ot-sdk-show-settings rgb(10, 96, 255)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "material",
+      "mode": "A",
+      "fgToken": 0.9473684210526315,
+      "bgToken": 1,
+      "readable": 0.9736842105263158,
+      "shifted": 0.21052631578947367,
+      "inlineImportant": 0,
+      "misses": [
+       "span.cmp-button__text rgb(7, 24, 45)",
+       "a.ot-sdk-show-settings rgb(10, 96, 255)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "material",
+      "mode": "B",
+      "fgToken": 0.9473684210526315,
+      "bgToken": 1,
+      "readable": 0.9736842105263158,
+      "shifted": 0.21052631578947367,
+      "inlineImportant": 0,
+      "misses": [
+       "span.cmp-button__text rgb(7, 24, 45)",
+       "a.ot-sdk-show-settings rgb(10, 96, 255)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "solarized",
+      "mode": "A",
+      "fgToken": 0.9210526315789473,
+      "bgToken": 0.9736842105263158,
+      "readable": 0.9473684210526315,
+      "shifted": 0.21052631578947367,
+      "inlineImportant": 0,
+      "misses": [
+       "span.cmp-button__text rgb(7, 24, 45)",
+       "span.cmp-button__text rgb(255, 255, 255)",
+       "a.ot-sdk-show-settings rgb(10, 96, 255)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "solarized",
+      "mode": "B",
+      "fgToken": 0.9210526315789473,
+      "bgToken": 0.9736842105263158,
+      "readable": 0.9473684210526315,
+      "shifted": 0.3157894736842105,
+      "inlineImportant": 0,
+      "misses": [
+       "span.cmp-button__text rgb(7, 24, 45)",
+       "span.cmp-button__text rgb(255, 255, 255)",
+       "a.ot-sdk-show-settings rgb(10, 96, 255)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "brutalism",
+      "mode": "A",
+      "fgToken": 0.9210526315789473,
+      "bgToken": 1,
+      "readable": 0.9736842105263158,
+      "shifted": 0.21052631578947367,
+      "inlineImportant": 0,
+      "misses": [
+       "span.cmp-button__text rgb(7, 24, 45)",
+       "span.cmp-button__text rgb(255, 255, 255)",
+       "a.ot-sdk-show-settings rgb(10, 96, 255)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "brutalism",
+      "mode": "B",
+      "fgToken": 0.9210526315789473,
+      "bgToken": 1,
+      "readable": 0.9473684210526315,
+      "shifted": 0.21052631578947367,
+      "inlineImportant": 0,
+      "misses": [
+       "span.cmp-button__text rgb(7, 24, 45)",
+       "span.cmp-button__text rgb(255, 255, 255)",
+       "a.ot-sdk-show-settings rgb(10, 96, 255)"
+      ],
+      "exceptions": [],
+      "shot": "cisco.com__home__brutalism-B.jpg"
+     },
+     {
+      "theme": "custom",
+      "mode": "A",
+      "fgToken": 0.9473684210526315,
+      "bgToken": 1,
+      "readable": 0.9736842105263158,
+      "shifted": 0.21052631578947367,
+      "inlineImportant": 0,
+      "misses": [
+       "span.cmp-button__text rgb(7, 24, 45)",
+       "a.ot-sdk-show-settings rgb(10, 96, 255)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "custom",
+      "mode": "B",
+      "fgToken": 0.9473684210526315,
+      "bgToken": 1,
+      "readable": 0.9736842105263158,
+      "shifted": 0.21052631578947367,
+      "inlineImportant": 0,
+      "misses": [
+       "span.cmp-button__text rgb(7, 24, 45)",
+       "a.ot-sdk-show-settings rgb(10, 96, 255)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "contrast",
+      "mode": "A",
+      "fgToken": 0.9473684210526315,
+      "bgToken": 1,
+      "readable": 0.9736842105263158,
+      "shifted": 0.21052631578947367,
+      "inlineImportant": 0,
+      "misses": [
+       "span.cmp-button__text rgb(7, 24, 45)",
+       "a.ot-sdk-show-settings rgb(10, 96, 255)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "contrast",
+      "mode": "B",
+      "fgToken": 0.9473684210526315,
+      "bgToken": 1,
+      "readable": 0.9736842105263158,
+      "shifted": 0.3157894736842105,
+      "inlineImportant": 0,
+      "misses": [
+       "span.cmp-button__text rgb(7, 24, 45)",
+       "a.ot-sdk-show-settings rgb(10, 96, 255)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "sepia",
+      "mode": "A",
+      "fgToken": 0.9473684210526315,
+      "bgToken": 0.9736842105263158,
+      "readable": 0.9473684210526315,
+      "shifted": 0.42105263157894735,
+      "inlineImportant": 0,
+      "misses": [
+       "span.cmp-button__text rgb(7, 24, 45)",
+       "a.ot-sdk-show-settings rgb(10, 96, 255)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "sepia",
+      "mode": "B",
+      "fgToken": 0.9473684210526315,
+      "bgToken": 0.9736842105263158,
+      "readable": 0.9473684210526315,
+      "shifted": 0.5526315789473685,
+      "inlineImportant": 0,
+      "misses": [
+       "span.cmp-button__text rgb(7, 24, 45)",
+       "a.ot-sdk-show-settings rgb(10, 96, 255)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "terminal",
+      "mode": "A",
+      "fgToken": 0.9210526315789473,
+      "bgToken": 0.9736842105263158,
+      "readable": 0.9736842105263158,
+      "shifted": 0.6052631578947368,
+      "inlineImportant": 0,
+      "misses": [
+       "span.cmp-button__text rgb(7, 24, 45)",
+       "span.cmp-button__text rgb(255, 255, 255)",
+       "a.ot-sdk-show-settings rgb(10, 96, 255)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "terminal",
+      "mode": "B",
+      "fgToken": 0.9210526315789473,
+      "bgToken": 0.9736842105263158,
+      "readable": 0.9736842105263158,
+      "shifted": 0.6052631578947368,
+      "inlineImportant": 0,
+      "misses": [
+       "span.cmp-button__text rgb(7, 24, 45)",
+       "span.cmp-button__text rgb(255, 255, 255)",
+       "a.ot-sdk-show-settings rgb(10, 96, 255)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "corporate",
+      "mode": "A",
+      "fgToken": 0.9473684210526315,
+      "bgToken": 1,
+      "readable": 0.9736842105263158,
+      "shifted": 0.21052631578947367,
+      "inlineImportant": 0,
+      "misses": [
+       "span.cmp-button__text rgb(7, 24, 45)",
+       "a.ot-sdk-show-settings rgb(10, 96, 255)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "corporate",
+      "mode": "B",
+      "fgToken": 0.9473684210526315,
+      "bgToken": 1,
+      "readable": 0.9736842105263158,
+      "shifted": 0.21052631578947367,
+      "inlineImportant": 0,
+      "misses": [
+       "span.cmp-button__text rgb(7, 24, 45)",
+       "a.ot-sdk-show-settings rgb(10, 96, 255)"
+      ],
+      "exceptions": []
+     }
+    ],
+    "shots": {
+     "baseline": "cisco.com__home__baseline.jpg"
+    }
+   }
+  ]
+ },
+ {
+  "domain": "oldman.tw",
+  "stratum": "audit",
+  "url": "https://oldman.tw/",
+  "cms": "other",
+  "status": "ok",
+  "pages": [
+   {
+    "page": "home",
+    "url": "https://oldman.tw/",
+    "status": "ok",
+    "n": 72,
+    "baseline": {
+     "readable": 0.37037037037037035,
+     "noiseShift": 0
+    },
+    "runs": [
+     {
+      "theme": "minimal",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.06944444444444445,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "minimal",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.9583333333333334,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "dark",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.125,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": [],
+      "shot": "oldman.tw__home__dark-A.jpg"
+     },
+     {
+      "theme": "dark",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.9583333333333334,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "material",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "material",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.19444444444444445,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "solarized",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.06944444444444445,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "solarized",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.5138888888888888,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "brutalism",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.125,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "brutalism",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.3194444444444444,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": [],
+      "shot": "oldman.tw__home__brutalism-B.jpg"
+     },
+     {
+      "theme": "custom",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.125,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "custom",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.9027777777777778,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "contrast",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.06944444444444445,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "contrast",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.9444444444444444,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "sepia",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.1111111111111111,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "sepia",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.8888888888888888,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "terminal",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.1527777777777778,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "terminal",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.2638888888888889,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "corporate",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.06944444444444445,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "corporate",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.25,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     }
+    ],
+    "shots": {
+     "baseline": "oldman.tw__home__baseline.jpg"
+    }
+   }
+  ]
+ },
+ {
+  "domain": "autoskola-weiss.cz",
+  "stratum": "audit",
+  "url": "https://autoskola-weiss.cz/",
+  "cms": "other",
+  "status": "ok",
+  "pages": [
+   {
+    "page": "home",
+    "url": "https://autoskola-weiss.cz/",
+    "status": "ok",
+    "n": 30,
+    "baseline": {
+     "readable": 1,
+     "noiseShift": 0
+    },
+    "runs": [
+     {
+      "theme": "minimal",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": null,
+      "readable": null,
+      "shifted": 0.4,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "minimal",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": null,
+      "readable": null,
+      "shifted": 0.6666666666666666,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "dark",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": null,
+      "readable": null,
+      "shifted": 0.4,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": [],
+      "shot": "autoskola-weiss.cz__home__dark-A.jpg"
+     },
+     {
+      "theme": "dark",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": null,
+      "readable": null,
+      "shifted": 0.6666666666666666,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "material",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": null,
+      "readable": null,
+      "shifted": 0.4,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "material",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": null,
+      "readable": null,
+      "shifted": 0.6666666666666666,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "solarized",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": null,
+      "readable": null,
+      "shifted": 0.4,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "solarized",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": null,
+      "readable": null,
+      "shifted": 0.6666666666666666,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "brutalism",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": null,
+      "readable": null,
+      "shifted": 0.4,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "brutalism",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": null,
+      "readable": null,
+      "shifted": 0.6666666666666666,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": [],
+      "shot": "autoskola-weiss.cz__home__brutalism-B.jpg"
+     },
+     {
+      "theme": "custom",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": null,
+      "readable": null,
+      "shifted": 0.4,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "custom",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": null,
+      "readable": null,
+      "shifted": 0.6666666666666666,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "contrast",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": null,
+      "readable": null,
+      "shifted": 0.4,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "contrast",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": null,
+      "readable": null,
+      "shifted": 0.6666666666666666,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "sepia",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": null,
+      "readable": null,
+      "shifted": 0.6666666666666666,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "sepia",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": null,
+      "readable": null,
+      "shifted": 0.9333333333333333,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "terminal",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": null,
+      "readable": null,
+      "shifted": 0.6333333333333333,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "terminal",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": null,
+      "readable": null,
+      "shifted": 0.9,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "corporate",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": null,
+      "readable": null,
+      "shifted": 0.4,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "corporate",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": null,
+      "readable": null,
+      "shifted": 0.6666666666666666,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     }
+    ],
+    "shots": {
+     "baseline": "autoskola-weiss.cz__home__baseline.jpg"
+    }
+   }
+  ]
+ },
+ {
+  "domain": "cnsonline.com.tw",
+  "stratum": "audit",
+  "status": "unreachable"
+ },
+ {
+  "domain": "wikipedia.org",
+  "stratum": "audit",
+  "url": "https://www.wikipedia.org/",
+  "cms": "other",
+  "status": "ok",
+  "pages": [
+   {
+    "page": "home",
+    "url": "https://www.wikipedia.org/",
+    "status": "ok",
+    "n": 69,
+    "baseline": {
+     "readable": 1,
+     "noiseShift": 0
+    },
+    "runs": [
+     {
+      "theme": "minimal",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "minimal",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.028985507246376812,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "dark",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": [],
+      "shot": "wikipedia.org__home__dark-A.jpg"
+     },
+     {
+      "theme": "dark",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.028985507246376812,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "material",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "material",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.028985507246376812,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "solarized",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "solarized",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 0.9846153846153847,
+      "shifted": 0.028985507246376812,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "brutalism",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "brutalism",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": [],
+      "shot": "wikipedia.org__home__brutalism-B.jpg"
+     },
+     {
+      "theme": "custom",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "custom",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.028985507246376812,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "contrast",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "contrast",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.028985507246376812,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "sepia",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.043478260869565216,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "sepia",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.08695652173913043,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "terminal",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.4927536231884058,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "terminal",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.4927536231884058,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "corporate",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "corporate",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     }
+    ],
+    "shots": {
+     "baseline": "wikipedia.org__home__baseline.jpg"
+    }
+   }
+  ]
+ },
+ {
+  "domain": "cavesbooks.com.tw",
+  "stratum": "audit",
+  "url": "https://www.cavesbooks.com.tw/zh",
+  "cms": "other",
+  "status": "ok",
+  "pages": [
+   {
+    "page": "home",
+    "url": "https://www.cavesbooks.com.tw/zh",
+    "status": "ok",
+    "n": 192,
+    "baseline": {
+     "readable": 0.6614583333333334,
+     "noiseShift": 0
+    },
+    "runs": [
+     {
+      "theme": "minimal",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.4375,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "minimal",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.4739583333333333,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "dark",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.4739583333333333,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": [],
+      "shot": "cavesbooks.com.tw__home__dark-A.jpg"
+     },
+     {
+      "theme": "dark",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.4739583333333333,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "material",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.4739583333333333,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "material",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.4739583333333333,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "solarized",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.4739583333333333,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "solarized",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.34375,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "brutalism",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.4739583333333333,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "brutalism",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.4322916666666667,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": [],
+      "shot": "cavesbooks.com.tw__home__brutalism-B.jpg"
+     },
+     {
+      "theme": "custom",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.4375,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "custom",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.4375,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "contrast",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.4375,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "contrast",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.14583333333333334,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "sepia",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.4375,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "sepia",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.171875,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "terminal",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.546875,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "terminal",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.5416666666666666,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "corporate",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.4739583333333333,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "corporate",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.7708333333333334,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     }
+    ],
+    "shots": {
+     "baseline": "cavesbooks.com.tw__home__baseline.jpg"
+    }
+   }
+  ]
+ },
+ {
+  "domain": "feebee.tw",
+  "stratum": "audit",
+  "status": "unreachable"
+ },
+ {
+  "domain": "familyvacationcritic.com",
+  "stratum": "audit",
+  "url": "https://www.smartertravel.com/article-types/family-travel/",
+  "cms": "other",
+  "status": "ok",
+  "pages": [
+   {
+    "page": "home",
+    "url": "https://www.smartertravel.com/article-types/family-travel/",
+    "status": "ok",
+    "n": 86,
+    "baseline": {
+     "readable": 0.9753086419753086,
+     "noiseShift": 0
+    },
+    "runs": [
+     {
+      "theme": "minimal",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.9069767441860465,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "minimal",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.9186046511627907,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "dark",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.9069767441860465,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": [],
+      "shot": "familyvacationcritic.com__home__dark-A.jpg"
+     },
+     {
+      "theme": "dark",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.9186046511627907,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "material",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.9069767441860465,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "material",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.9186046511627907,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "solarized",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.9069767441860465,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "solarized",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.9186046511627907,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "brutalism",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.9069767441860465,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "brutalism",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.9069767441860465,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": [],
+      "shot": "familyvacationcritic.com__home__brutalism-B.jpg"
+     },
+     {
+      "theme": "custom",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.9069767441860465,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "custom",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.9186046511627907,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "contrast",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.9069767441860465,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "contrast",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.9186046511627907,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "sepia",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.9418604651162791,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "sepia",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.9534883720930233,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "terminal",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.9534883720930233,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "terminal",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.9534883720930233,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "corporate",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.9069767441860465,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "corporate",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.9069767441860465,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     }
+    ],
+    "shots": {
+     "baseline": "familyvacationcritic.com__home__baseline.jpg"
+    }
+   }
+  ]
+ },
+ {
+  "domain": "qq.com",
+  "stratum": "audit",
+  "url": "https://www.qq.com/",
+  "cms": "other",
+  "status": "ok",
+  "pages": [
+   {
+    "page": "home",
+    "url": "https://www.qq.com/",
+    "status": "ok",
+    "n": 195,
+    "baseline": {
+     "readable": 0.6137566137566137,
+     "noiseShift": 0
+    },
+    "runs": [
+     {
+      "theme": "minimal",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "minimal",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.764102564102564,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "dark",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": [],
+      "shot": "qq.com__home__dark-A.jpg"
+     },
+     {
+      "theme": "dark",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.764102564102564,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "material",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "material",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.764102564102564,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "solarized",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.010256410256410256,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "solarized",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.764102564102564,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "brutalism",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.010256410256410256,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "brutalism",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.764102564102564,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": [],
+      "shot": "qq.com__home__brutalism-B.jpg"
+     },
+     {
+      "theme": "custom",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.010256410256410256,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "custom",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.764102564102564,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "contrast",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.010256410256410256,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "contrast",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.764102564102564,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "sepia",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.08717948717948718,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "sepia",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.8,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "terminal",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.07692307692307693,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "terminal",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.8102564102564103,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "corporate",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.010256410256410256,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "corporate",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.764102564102564,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     }
+    ],
+    "shots": {
+     "baseline": "qq.com__home__baseline.jpg"
+    }
+   }
+  ]
+ },
+ {
+  "domain": "t-v.by",
+  "stratum": "audit",
+  "url": "https://t-v.by/",
+  "cms": "other",
+  "status": "ok",
+  "pages": [
+   {
+    "page": "home",
+    "url": "https://t-v.by/",
+    "status": "ok",
+    "n": 112,
+    "baseline": {
+     "readable": 0.8035714285714286,
+     "noiseShift": 0
+    },
+    "runs": [
+     {
+      "theme": "minimal",
+      "mode": "A",
+      "fgToken": 0.9910714285714286,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.1875,
+      "inlineImportant": 0,
+      "misses": [
+       "a.mn-has-sub.active rgb(15, 111, 113)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "minimal",
+      "mode": "B",
+      "fgToken": 0.9910714285714286,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.4732142857142857,
+      "inlineImportant": 0,
+      "misses": [
+       "a.mn-has-sub.active rgb(15, 111, 113)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "dark",
+      "mode": "A",
+      "fgToken": 0.9910714285714286,
+      "bgToken": 1,
+      "readable": 0.9910714285714286,
+      "shifted": 0.1875,
+      "inlineImportant": 0,
+      "misses": [
+       "a.mn-has-sub.active rgb(15, 111, 113)"
+      ],
+      "exceptions": [],
+      "shot": "t-v.by__home__dark-A.jpg"
+     },
+     {
+      "theme": "dark",
+      "mode": "B",
+      "fgToken": 0.9910714285714286,
+      "bgToken": 1,
+      "readable": 0.9910714285714286,
+      "shifted": 0.4732142857142857,
+      "inlineImportant": 0,
+      "misses": [
+       "a.mn-has-sub.active rgb(15, 111, 113)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "material",
+      "mode": "A",
+      "fgToken": 0.9910714285714286,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.16071428571428573,
+      "inlineImportant": 0,
+      "misses": [
+       "a.mn-has-sub.active rgb(15, 111, 113)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "material",
+      "mode": "B",
+      "fgToken": 0.9910714285714286,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.45535714285714285,
+      "inlineImportant": 0,
+      "misses": [
+       "a.mn-has-sub.active rgb(15, 111, 113)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "solarized",
+      "mode": "A",
+      "fgToken": 0.9910714285714286,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.1875,
+      "inlineImportant": 0,
+      "misses": [
+       "a.mn-has-sub.active rgb(15, 111, 113)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "solarized",
+      "mode": "B",
+      "fgToken": 0.9910714285714286,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.49107142857142855,
+      "inlineImportant": 0,
+      "misses": [
+       "a.mn-has-sub.active rgb(15, 111, 113)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "brutalism",
+      "mode": "A",
+      "fgToken": 0.9910714285714286,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.1875,
+      "inlineImportant": 0,
+      "misses": [
+       "a.mn-has-sub.active rgb(15, 111, 113)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "brutalism",
+      "mode": "B",
+      "fgToken": 0.9910714285714286,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.1875,
+      "inlineImportant": 0,
+      "misses": [
+       "a.mn-has-sub.active rgb(15, 111, 113)"
+      ],
+      "exceptions": [],
+      "shot": "t-v.by__home__brutalism-B.jpg"
+     },
+     {
+      "theme": "custom",
+      "mode": "A",
+      "fgToken": 0.9910714285714286,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.1875,
+      "inlineImportant": 0,
+      "misses": [
+       "a.mn-has-sub.active rgb(15, 111, 113)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "custom",
+      "mode": "B",
+      "fgToken": 0.9910714285714286,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.4732142857142857,
+      "inlineImportant": 0,
+      "misses": [
+       "a.mn-has-sub.active rgb(15, 111, 113)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "contrast",
+      "mode": "A",
+      "fgToken": 0.9910714285714286,
+      "bgToken": 1,
+      "readable": 0.9910714285714286,
+      "shifted": 0.1875,
+      "inlineImportant": 0,
+      "misses": [
+       "a.mn-has-sub.active rgb(15, 111, 113)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "contrast",
+      "mode": "B",
+      "fgToken": 0.9910714285714286,
+      "bgToken": 1,
+      "readable": 0.9910714285714286,
+      "shifted": 0.49107142857142855,
+      "inlineImportant": 0,
+      "misses": [
+       "a.mn-has-sub.active rgb(15, 111, 113)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "sepia",
+      "mode": "A",
+      "fgToken": 0.9910714285714286,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.2767857142857143,
+      "inlineImportant": 0,
+      "misses": [
+       "a.mn-has-sub.active rgb(15, 111, 113)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "sepia",
+      "mode": "B",
+      "fgToken": 0.9910714285714286,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.5714285714285714,
+      "inlineImportant": 0,
+      "misses": [
+       "a.mn-has-sub.active rgb(15, 111, 113)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "terminal",
+      "mode": "A",
+      "fgToken": 0.9910714285714286,
+      "bgToken": 1,
+      "readable": 0.9910714285714286,
+      "shifted": 0.6071428571428571,
+      "inlineImportant": 0,
+      "misses": [
+       "a.mn-has-sub.active rgb(15, 111, 113)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "terminal",
+      "mode": "B",
+      "fgToken": 0.9910714285714286,
+      "bgToken": 1,
+      "readable": 0.9910714285714286,
+      "shifted": 0.6071428571428571,
+      "inlineImportant": 0,
+      "misses": [
+       "a.mn-has-sub.active rgb(15, 111, 113)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "corporate",
+      "mode": "A",
+      "fgToken": 0.9910714285714286,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.1875,
+      "inlineImportant": 0,
+      "misses": [
+       "a.mn-has-sub.active rgb(15, 111, 113)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "corporate",
+      "mode": "B",
+      "fgToken": 0.9910714285714286,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.21428571428571427,
+      "inlineImportant": 0,
+      "misses": [
+       "a.mn-has-sub.active rgb(15, 111, 113)"
+      ],
+      "exceptions": []
+     }
+    ],
+    "shots": {
+     "baseline": "t-v.by__home__baseline.jpg"
+    }
+   }
+  ]
+ },
+ {
+  "domain": "wa.me",
+  "stratum": "audit",
+  "url": "https://api.whatsapp.com/",
+  "cms": "other",
+  "status": "ok",
+  "pages": [
+   {
+    "page": "home",
+    "url": "https://api.whatsapp.com/",
+    "status": "ok",
+    "n": 37,
+    "baseline": {
+     "readable": 0.972972972972973,
+     "noiseShift": 0
+    },
+    "runs": [
+     {
+      "theme": "minimal",
+      "mode": "A",
+      "fgToken": 0.918918918918919,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0,
+      "inlineImportant": 0,
+      "misses": [
+       "span._advp._aeam rgb(30, 79, 166)",
+       "span._advp._aeam rgb(30, 79, 166)",
+       "span._advp._aeam rgb(28, 79, 166)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "minimal",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.43243243243243246,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "dark",
+      "mode": "A",
+      "fgToken": 0.918918918918919,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0,
+      "inlineImportant": 0,
+      "misses": [
+       "span._advp._aeam rgb(101, 151, 235)",
+       "span._advp._aeam rgb(101, 151, 235)",
+       "span._advp._aeam rgb(101, 151, 235)"
+      ],
+      "exceptions": [],
+      "shot": "wa.me__home__dark-A.jpg"
+     },
+     {
+      "theme": "dark",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.43243243243243246,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "material",
+      "mode": "A",
+      "fgToken": 0.918918918918919,
+      "bgToken": 1,
+      "readable": 0.918918918918919,
+      "shifted": 0,
+      "inlineImportant": 0,
+      "misses": [
+       "span._advp._aeam rgb(117, 119, 197)",
+       "span._advp._aeam rgb(117, 119, 197)",
+       "span._advp._aeam rgb(117, 119, 197)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "material",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.43243243243243246,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "solarized",
+      "mode": "A",
+      "fgToken": 0.918918918918919,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0,
+      "inlineImportant": 0,
+      "misses": [
+       "span._advp._aeam rgb(59, 96, 165)",
+       "span._advp._aeam rgb(59, 96, 165)",
+       "span._advp._aeam rgb(59, 96, 165)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "solarized",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.43243243243243246,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "brutalism",
+      "mode": "A",
+      "fgToken": 0.918918918918919,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0,
+      "inlineImportant": 0,
+      "misses": [
+       "span._advp._aeam rgb(28, 78, 220)",
+       "span._advp._aeam rgb(28, 78, 220)",
+       "span._advp._aeam rgb(28, 78, 220)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "brutalism",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.32432432432432434,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": [],
+      "shot": "wa.me__home__brutalism-B.jpg"
+     },
+     {
+      "theme": "custom",
+      "mode": "A",
+      "fgToken": 0.918918918918919,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0,
+      "inlineImportant": 0,
+      "misses": [
+       "span._advp._aeam rgb(29, 81, 227)",
+       "span._advp._aeam rgb(29, 81, 227)",
+       "span._advp._aeam rgb(29, 81, 227)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "custom",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.43243243243243246,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "contrast",
+      "mode": "A",
+      "fgToken": 0.918918918918919,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0,
+      "inlineImportant": 0,
+      "misses": [
+       "span._advp._aeam rgb(178, 200, 72)",
+       "span._advp._aeam rgb(178, 200, 72)",
+       "span._advp._aeam rgb(178, 200, 72)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "contrast",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.43243243243243246,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "sepia",
+      "mode": "A",
+      "fgToken": 0.918918918918919,
+      "bgToken": 1,
+      "readable": 0.918918918918919,
+      "shifted": 0.02702702702702703,
+      "inlineImportant": 0,
+      "misses": [
+       "span._advp._aeam rgb(154, 109, 14)",
+       "span._advp._aeam rgb(154, 109, 14)",
+       "span._advp._aeam rgb(154, 109, 14)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "sepia",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.4594594594594595,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "terminal",
+      "mode": "A",
+      "fgToken": 0.918918918918919,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.02702702702702703,
+      "inlineImportant": 0,
+      "misses": [
+       "span._advp._aeam rgb(124, 189, 122)",
+       "span._advp._aeam rgb(124, 189, 122)",
+       "span._advp._aeam rgb(124, 189, 122)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "terminal",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.32432432432432434,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "corporate",
+      "mode": "A",
+      "fgToken": 0.918918918918919,
+      "bgToken": 1,
+      "readable": 0.918918918918919,
+      "shifted": 0,
+      "inlineImportant": 0,
+      "misses": [
+       "span._advp._aeam rgb(50, 139, 163)",
+       "span._advp._aeam rgb(50, 139, 163)",
+       "span._advp._aeam rgb(50, 139, 163)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "corporate",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.02702702702702703,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     }
+    ],
+    "shots": {
+     "baseline": "wa.me__home__baseline.jpg"
+    }
+   }
+  ]
+ },
+ {
+  "domain": "primiti.net",
+  "stratum": "audit",
+  "status": "unreachable"
+ },
+ {
+  "domain": "skbank.com.tw",
+  "stratum": "audit",
+  "status": "unreachable"
+ },
+ {
+  "domain": "nginx.com",
+  "stratum": "audit",
+  "url": "https://www.f5.com/products/nginx",
+  "cms": "other",
+  "status": "ok",
+  "pages": [
+   {
+    "page": "home",
+    "url": "https://www.f5.com/products/nginx",
+    "status": "ok",
+    "n": 42,
+    "baseline": {
+     "readable": 1,
+     "noiseShift": 0
+    },
+    "runs": [
+     {
+      "theme": "minimal",
+      "mode": "A",
+      "fgToken": 0.6666666666666666,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.8809523809523809,
+      "inlineImportant": 0,
+      "misses": [
+       "div.d-card-title.w-full rgb(34, 34, 34)",
+       "div.w-full.font-primary rgb(34, 34, 34)",
+       "div.d-card-title.w-full rgb(34, 34, 34)",
+       "div.w-full.font-primary rgb(34, 34, 34)",
+       "div.d-card-title.w-full rgb(34, 34, 34)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "minimal",
+      "mode": "B",
+      "fgToken": 0.6666666666666666,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.8809523809523809,
+      "inlineImportant": 0,
+      "misses": [
+       "div.d-card-title.w-full rgb(34, 34, 34)",
+       "div.w-full.font-primary rgb(34, 34, 34)",
+       "div.d-card-title.w-full rgb(34, 34, 34)",
+       "div.w-full.font-primary rgb(34, 34, 34)",
+       "div.d-card-title.w-full rgb(34, 34, 34)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "dark",
+      "mode": "A",
+      "fgToken": 0.6666666666666666,
+      "bgToken": 1,
+      "readable": 0.6666666666666666,
+      "shifted": 0.8809523809523809,
+      "inlineImportant": 0,
+      "misses": [
+       "div.d-card-title.w-full rgb(34, 34, 34)",
+       "div.w-full.font-primary rgb(34, 34, 34)",
+       "div.d-card-title.w-full rgb(34, 34, 34)",
+       "div.w-full.font-primary rgb(34, 34, 34)",
+       "div.d-card-title.w-full rgb(34, 34, 34)"
+      ],
+      "exceptions": [],
+      "shot": "nginx.com__home__dark-A.jpg"
+     },
+     {
+      "theme": "dark",
+      "mode": "B",
+      "fgToken": 0.6666666666666666,
+      "bgToken": 1,
+      "readable": 0.6666666666666666,
+      "shifted": 0.8809523809523809,
+      "inlineImportant": 0,
+      "misses": [
+       "div.d-card-title.w-full rgb(34, 34, 34)",
+       "div.w-full.font-primary rgb(34, 34, 34)",
+       "div.d-card-title.w-full rgb(34, 34, 34)",
+       "div.w-full.font-primary rgb(34, 34, 34)",
+       "div.d-card-title.w-full rgb(34, 34, 34)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "material",
+      "mode": "A",
+      "fgToken": 0.6666666666666666,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.8809523809523809,
+      "inlineImportant": 0,
+      "misses": [
+       "div.d-card-title.w-full rgb(34, 34, 34)",
+       "div.w-full.font-primary rgb(34, 34, 34)",
+       "div.d-card-title.w-full rgb(34, 34, 34)",
+       "div.w-full.font-primary rgb(34, 34, 34)",
+       "div.d-card-title.w-full rgb(34, 34, 34)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "material",
+      "mode": "B",
+      "fgToken": 0.6666666666666666,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.8809523809523809,
+      "inlineImportant": 0,
+      "misses": [
+       "div.d-card-title.w-full rgb(34, 34, 34)",
+       "div.w-full.font-primary rgb(34, 34, 34)",
+       "div.d-card-title.w-full rgb(34, 34, 34)",
+       "div.w-full.font-primary rgb(34, 34, 34)",
+       "div.d-card-title.w-full rgb(34, 34, 34)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "solarized",
+      "mode": "A",
+      "fgToken": 0.6666666666666666,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.8809523809523809,
+      "inlineImportant": 0,
+      "misses": [
+       "div.d-card-title.w-full rgb(34, 34, 34)",
+       "div.w-full.font-primary rgb(34, 34, 34)",
+       "div.d-card-title.w-full rgb(34, 34, 34)",
+       "div.w-full.font-primary rgb(34, 34, 34)",
+       "div.d-card-title.w-full rgb(34, 34, 34)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "solarized",
+      "mode": "B",
+      "fgToken": 0.6666666666666666,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.8809523809523809,
+      "inlineImportant": 0,
+      "misses": [
+       "div.d-card-title.w-full rgb(34, 34, 34)",
+       "div.w-full.font-primary rgb(34, 34, 34)",
+       "div.d-card-title.w-full rgb(34, 34, 34)",
+       "div.w-full.font-primary rgb(34, 34, 34)",
+       "div.d-card-title.w-full rgb(34, 34, 34)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "brutalism",
+      "mode": "A",
+      "fgToken": 0.6666666666666666,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.8809523809523809,
+      "inlineImportant": 0,
+      "misses": [
+       "div.d-card-title.w-full rgb(34, 34, 34)",
+       "div.w-full.font-primary rgb(34, 34, 34)",
+       "div.d-card-title.w-full rgb(34, 34, 34)",
+       "div.w-full.font-primary rgb(34, 34, 34)",
+       "div.d-card-title.w-full rgb(34, 34, 34)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "brutalism",
+      "mode": "B",
+      "fgToken": 0.6666666666666666,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.8809523809523809,
+      "inlineImportant": 0,
+      "misses": [
+       "div.d-card-title.w-full rgb(34, 34, 34)",
+       "div.w-full.font-primary rgb(34, 34, 34)",
+       "div.d-card-title.w-full rgb(34, 34, 34)",
+       "div.w-full.font-primary rgb(34, 34, 34)",
+       "div.d-card-title.w-full rgb(34, 34, 34)"
+      ],
+      "exceptions": [],
+      "shot": "nginx.com__home__brutalism-B.jpg"
+     },
+     {
+      "theme": "custom",
+      "mode": "A",
+      "fgToken": 0.6666666666666666,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.8809523809523809,
+      "inlineImportant": 0,
+      "misses": [
+       "div.d-card-title.w-full rgb(34, 34, 34)",
+       "div.w-full.font-primary rgb(34, 34, 34)",
+       "div.d-card-title.w-full rgb(34, 34, 34)",
+       "div.w-full.font-primary rgb(34, 34, 34)",
+       "div.d-card-title.w-full rgb(34, 34, 34)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "custom",
+      "mode": "B",
+      "fgToken": 0.6666666666666666,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.8809523809523809,
+      "inlineImportant": 0,
+      "misses": [
+       "div.d-card-title.w-full rgb(34, 34, 34)",
+       "div.w-full.font-primary rgb(34, 34, 34)",
+       "div.d-card-title.w-full rgb(34, 34, 34)",
+       "div.w-full.font-primary rgb(34, 34, 34)",
+       "div.d-card-title.w-full rgb(34, 34, 34)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "contrast",
+      "mode": "A",
+      "fgToken": 0.6666666666666666,
+      "bgToken": 1,
+      "readable": 0.6666666666666666,
+      "shifted": 0.8809523809523809,
+      "inlineImportant": 0,
+      "misses": [
+       "div.d-card-title.w-full rgb(34, 34, 34)",
+       "div.w-full.font-primary rgb(34, 34, 34)",
+       "div.d-card-title.w-full rgb(34, 34, 34)",
+       "div.w-full.font-primary rgb(34, 34, 34)",
+       "div.d-card-title.w-full rgb(34, 34, 34)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "contrast",
+      "mode": "B",
+      "fgToken": 0.6666666666666666,
+      "bgToken": 1,
+      "readable": 0.6666666666666666,
+      "shifted": 0.8809523809523809,
+      "inlineImportant": 0,
+      "misses": [
+       "div.d-card-title.w-full rgb(34, 34, 34)",
+       "div.w-full.font-primary rgb(34, 34, 34)",
+       "div.d-card-title.w-full rgb(34, 34, 34)",
+       "div.w-full.font-primary rgb(34, 34, 34)",
+       "div.d-card-title.w-full rgb(34, 34, 34)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "sepia",
+      "mode": "A",
+      "fgToken": 0.6666666666666666,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.9285714285714286,
+      "inlineImportant": 0,
+      "misses": [
+       "div.d-card-title.w-full rgb(34, 34, 34)",
+       "div.w-full.font-primary rgb(34, 34, 34)",
+       "div.d-card-title.w-full rgb(34, 34, 34)",
+       "div.w-full.font-primary rgb(34, 34, 34)",
+       "div.d-card-title.w-full rgb(34, 34, 34)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "sepia",
+      "mode": "B",
+      "fgToken": 0.6666666666666666,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.9285714285714286,
+      "inlineImportant": 0,
+      "misses": [
+       "div.d-card-title.w-full rgb(34, 34, 34)",
+       "div.w-full.font-primary rgb(34, 34, 34)",
+       "div.d-card-title.w-full rgb(34, 34, 34)",
+       "div.w-full.font-primary rgb(34, 34, 34)",
+       "div.d-card-title.w-full rgb(34, 34, 34)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "terminal",
+      "mode": "A",
+      "fgToken": 0.6666666666666666,
+      "bgToken": 1,
+      "readable": 0.6666666666666666,
+      "shifted": 0.9761904761904762,
+      "inlineImportant": 0,
+      "misses": [
+       "div.d-card-title.w-full rgb(34, 34, 34)",
+       "div.w-full.font-primary rgb(34, 34, 34)",
+       "div.d-card-title.w-full rgb(34, 34, 34)",
+       "div.w-full.font-primary rgb(34, 34, 34)",
+       "div.d-card-title.w-full rgb(34, 34, 34)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "terminal",
+      "mode": "B",
+      "fgToken": 0.6666666666666666,
+      "bgToken": 1,
+      "readable": 0.6666666666666666,
+      "shifted": 0.9761904761904762,
+      "inlineImportant": 0,
+      "misses": [
+       "div.d-card-title.w-full rgb(34, 34, 34)",
+       "div.w-full.font-primary rgb(34, 34, 34)",
+       "div.d-card-title.w-full rgb(34, 34, 34)",
+       "div.w-full.font-primary rgb(34, 34, 34)",
+       "div.d-card-title.w-full rgb(34, 34, 34)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "corporate",
+      "mode": "A",
+      "fgToken": 0.6666666666666666,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.8809523809523809,
+      "inlineImportant": 0,
+      "misses": [
+       "div.d-card-title.w-full rgb(34, 34, 34)",
+       "div.w-full.font-primary rgb(34, 34, 34)",
+       "div.d-card-title.w-full rgb(34, 34, 34)",
+       "div.w-full.font-primary rgb(34, 34, 34)",
+       "div.d-card-title.w-full rgb(34, 34, 34)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "corporate",
+      "mode": "B",
+      "fgToken": 0.6666666666666666,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.8809523809523809,
+      "inlineImportant": 0,
+      "misses": [
+       "div.d-card-title.w-full rgb(34, 34, 34)",
+       "div.w-full.font-primary rgb(34, 34, 34)",
+       "div.d-card-title.w-full rgb(34, 34, 34)",
+       "div.w-full.font-primary rgb(34, 34, 34)",
+       "div.d-card-title.w-full rgb(34, 34, 34)"
+      ],
+      "exceptions": []
+     }
+    ],
+    "shots": {
+     "baseline": "nginx.com__home__baseline.jpg"
+    }
+   }
+  ]
+ },
+ {
+  "domain": "nutc.edu.tw",
+  "stratum": "audit",
+  "url": "https://www.nutc.edu.tw/",
+  "cms": "other",
+  "status": "ok",
+  "pages": [
+   {
+    "page": "home",
+    "url": "https://www.nutc.edu.tw/",
+    "status": "ok",
+    "n": 93,
+    "baseline": {
+     "readable": 0.8554216867469879,
+     "noiseShift": 0
+    },
+    "runs": [
+     {
+      "theme": "minimal",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "minimal",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 0.8987341772151899,
+      "readable": 1,
+      "shifted": 0.2903225806451613,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "dark",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": [],
+      "shot": "nutc.edu.tw__home__dark-A.jpg"
+     },
+     {
+      "theme": "dark",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 0.8987341772151899,
+      "readable": 1,
+      "shifted": 0.2903225806451613,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "material",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "material",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.2903225806451613,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "solarized",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "solarized",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 0.8987341772151899,
+      "readable": 1,
+      "shifted": 0.2903225806451613,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "brutalism",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "brutalism",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.2903225806451613,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": [],
+      "shot": "nutc.edu.tw__home__brutalism-B.jpg"
+     },
+     {
+      "theme": "custom",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "custom",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 0.8987341772151899,
+      "readable": 1,
+      "shifted": 0.2903225806451613,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "contrast",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "contrast",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.2903225806451613,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "sepia",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.07526881720430108,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "sepia",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 0.8987341772151899,
+      "readable": 1,
+      "shifted": 0.3655913978494624,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "terminal",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.24731182795698925,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "terminal",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 0.8987341772151899,
+      "readable": 1,
+      "shifted": 0.24731182795698925,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "corporate",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "corporate",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 0.8987341772151899,
+      "readable": 1,
+      "shifted": 0.20430107526881722,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     }
+    ],
+    "shots": {
+     "baseline": "nutc.edu.tw__home__baseline.jpg"
+    }
+   }
+  ]
+ },
+ {
+  "domain": "meraki.com",
+  "stratum": "audit",
+  "url": "https://www.cisco.com/site/us/en/about/corporate-strategy-office/acquisitions/meraki/index.html",
+  "cms": "other",
+  "status": "ok",
+  "pages": [
+   {
+    "page": "home",
+    "url": "https://www.cisco.com/site/us/en/about/corporate-strategy-office/acquisitions/meraki/index.html",
+    "status": "ok",
+    "n": 47,
+    "baseline": {
+     "readable": 1,
+     "noiseShift": 0
+    },
+    "runs": [
+     {
+      "theme": "minimal",
+      "mode": "A",
+      "fgToken": 0.9787234042553191,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.06382978723404255,
+      "inlineImportant": 0,
+      "misses": [
+       "a.ot-sdk-show-settings rgb(10, 96, 255)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "minimal",
+      "mode": "B",
+      "fgToken": 0.9777777777777777,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.6888888888888889,
+      "inlineImportant": 0,
+      "misses": [
+       "a.ot-sdk-show-settings rgb(10, 96, 255)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "dark",
+      "mode": "A",
+      "fgToken": 0.9777777777777777,
+      "bgToken": 1,
+      "readable": 0.9777777777777777,
+      "shifted": 0.06666666666666667,
+      "inlineImportant": 0,
+      "misses": [
+       "a.ot-sdk-show-settings rgb(10, 96, 255)"
+      ],
+      "exceptions": [],
+      "shot": "meraki.com__home__dark-A.jpg"
+     },
+     {
+      "theme": "dark",
+      "mode": "B",
+      "fgToken": 0.9777777777777777,
+      "bgToken": 1,
+      "readable": 0.9777777777777777,
+      "shifted": 0.6888888888888889,
+      "inlineImportant": 0,
+      "misses": [
+       "a.ot-sdk-show-settings rgb(10, 96, 255)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "material",
+      "mode": "A",
+      "fgToken": 0.9777777777777777,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.06666666666666667,
+      "inlineImportant": 0,
+      "misses": [
+       "a.ot-sdk-show-settings rgb(10, 96, 255)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "material",
+      "mode": "B",
+      "fgToken": 0.9777777777777777,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.6888888888888889,
+      "inlineImportant": 0,
+      "misses": [
+       "a.ot-sdk-show-settings rgb(10, 96, 255)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "solarized",
+      "mode": "A",
+      "fgToken": 0.9777777777777777,
+      "bgToken": 1,
+      "readable": 0.9777777777777777,
+      "shifted": 0.06666666666666667,
+      "inlineImportant": 0,
+      "misses": [
+       "a.ot-sdk-show-settings rgb(10, 96, 255)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "solarized",
+      "mode": "B",
+      "fgToken": 0.9777777777777777,
+      "bgToken": 1,
+      "readable": 0.9777777777777777,
+      "shifted": 0.7111111111111111,
+      "inlineImportant": 0,
+      "misses": [
+       "a.ot-sdk-show-settings rgb(10, 96, 255)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "brutalism",
+      "mode": "A",
+      "fgToken": 0.9777777777777777,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.06666666666666667,
+      "inlineImportant": 0,
+      "misses": [
+       "a.ot-sdk-show-settings rgb(10, 96, 255)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "brutalism",
+      "mode": "B",
+      "fgToken": 0.9777777777777777,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.08888888888888889,
+      "inlineImportant": 0,
+      "misses": [
+       "a.ot-sdk-show-settings rgb(10, 96, 255)"
+      ],
+      "exceptions": [],
+      "shot": "meraki.com__home__brutalism-B.jpg"
+     },
+     {
+      "theme": "custom",
+      "mode": "A",
+      "fgToken": 0.9777777777777777,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.06666666666666667,
+      "inlineImportant": 0,
+      "misses": [
+       "a.ot-sdk-show-settings rgb(10, 96, 255)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "custom",
+      "mode": "B",
+      "fgToken": 0.9777777777777777,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.6888888888888889,
+      "inlineImportant": 0,
+      "misses": [
+       "a.ot-sdk-show-settings rgb(10, 96, 255)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "contrast",
+      "mode": "A",
+      "fgToken": 0.9777777777777777,
+      "bgToken": 1,
+      "readable": 0.9777777777777777,
+      "shifted": 0.06666666666666667,
+      "inlineImportant": 0,
+      "misses": [
+       "a.ot-sdk-show-settings rgb(10, 96, 255)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "contrast",
+      "mode": "B",
+      "fgToken": 0.9777777777777777,
+      "bgToken": 1,
+      "readable": 0.9777777777777777,
+      "shifted": 0.7111111111111111,
+      "inlineImportant": 0,
+      "misses": [
+       "a.ot-sdk-show-settings rgb(10, 96, 255)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "sepia",
+      "mode": "A",
+      "fgToken": 0.9777777777777777,
+      "bgToken": 1,
+      "readable": 0.9777777777777777,
+      "shifted": 0.15555555555555556,
+      "inlineImportant": 0,
+      "misses": [
+       "a.ot-sdk-show-settings rgb(10, 96, 255)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "sepia",
+      "mode": "B",
+      "fgToken": 0.9777777777777777,
+      "bgToken": 1,
+      "readable": 0.9777777777777777,
+      "shifted": 0.7777777777777778,
+      "inlineImportant": 0,
+      "misses": [
+       "a.ot-sdk-show-settings rgb(10, 96, 255)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "terminal",
+      "mode": "A",
+      "fgToken": 0.9777777777777777,
+      "bgToken": 1,
+      "readable": 0.9777777777777777,
+      "shifted": 0.8222222222222222,
+      "inlineImportant": 0,
+      "misses": [
+       "a.ot-sdk-show-settings rgb(10, 96, 255)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "terminal",
+      "mode": "B",
+      "fgToken": 0.9777777777777777,
+      "bgToken": 1,
+      "readable": 0.9777777777777777,
+      "shifted": 0.8222222222222222,
+      "inlineImportant": 0,
+      "misses": [
+       "a.ot-sdk-show-settings rgb(10, 96, 255)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "corporate",
+      "mode": "A",
+      "fgToken": 0.9777777777777777,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.06666666666666667,
+      "inlineImportant": 0,
+      "misses": [
+       "a.ot-sdk-show-settings rgb(10, 96, 255)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "corporate",
+      "mode": "B",
+      "fgToken": 0.9777777777777777,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.06666666666666667,
+      "inlineImportant": 0,
+      "misses": [
+       "a.ot-sdk-show-settings rgb(10, 96, 255)"
+      ],
+      "exceptions": []
+     }
+    ],
+    "shots": {
+     "baseline": "meraki.com__home__baseline.jpg"
+    }
+   }
+  ]
+ },
+ {
+  "domain": "hes-goal.dad",
+  "stratum": "audit",
+  "status": "unreachable"
+ },
+ {
+  "domain": "myayf.com",
+  "stratum": "audit",
+  "url": "https://myayf.com/",
+  "cms": "other",
+  "status": "too-little-text",
+  "pages": [
+   {
+    "page": "home",
+    "url": "https://myayf.com/",
+    "status": "too-little-text",
+    "n": 12
+   }
+  ]
+ },
+ {
+  "domain": "eatogether.com.tw",
+  "stratum": "audit",
+  "url": "https://eatogether.com.tw/zh-TW/home",
+  "cms": "other",
+  "status": "ok",
+  "pages": [
+   {
+    "page": "home",
+    "url": "https://eatogether.com.tw/zh-TW/home",
+    "status": "ok",
+    "n": 29,
+    "baseline": {
+     "readable": 0.9655172413793104,
+     "noiseShift": 0
+    },
+    "runs": [
+     {
+      "theme": "minimal",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.3448275862068966,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "minimal",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.5517241379310345,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "dark",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.3448275862068966,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": [],
+      "shot": "eatogether.com.tw__home__dark-A.jpg"
+     },
+     {
+      "theme": "dark",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.5517241379310345,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "material",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.3448275862068966,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "material",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.5517241379310345,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "solarized",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.3448275862068966,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "solarized",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.7931034482758621,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "brutalism",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.3448275862068966,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "brutalism",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.8275862068965517,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": [],
+      "shot": "eatogether.com.tw__home__brutalism-B.jpg"
+     },
+     {
+      "theme": "custom",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.3448275862068966,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "custom",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.5517241379310345,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "contrast",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.3448275862068966,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "contrast",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.8275862068965517,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "sepia",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.06896551724137931,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "sepia",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.8275862068965517,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "terminal",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.4827586206896552,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "terminal",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.8275862068965517,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "corporate",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.3448275862068966,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "corporate",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.8275862068965517,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     }
+    ],
+    "shots": {
+     "baseline": "eatogether.com.tw__home__baseline.jpg"
+    }
+   }
+  ]
+ },
+ {
+  "domain": "bbc.co.uk",
+  "stratum": "audit",
+  "url": "https://www.bbc.com/",
+  "cms": "other",
+  "status": "ok",
+  "pages": [
+   {
+    "page": "home",
+    "url": "https://www.bbc.com/",
+    "status": "ok",
+    "n": 49,
+    "baseline": {
+     "readable": 1,
+     "noiseShift": 0
+    },
+    "runs": [
+     {
+      "theme": "minimal",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.9591836734693877,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "minimal",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.5510204081632653,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "dark",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.061224489795918366,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": [],
+      "shot": "bbc.co.uk__home__dark-A.jpg"
+     },
+     {
+      "theme": "dark",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.5510204081632653,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "material",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.061224489795918366,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "material",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.5510204081632653,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "solarized",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.061224489795918366,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "solarized",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.5510204081632653,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "brutalism",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.061224489795918366,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "brutalism",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.5510204081632653,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": [],
+      "shot": "bbc.co.uk__home__brutalism-B.jpg"
+     },
+     {
+      "theme": "custom",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.061224489795918366,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "custom",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.5510204081632653,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "contrast",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.061224489795918366,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "contrast",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.5510204081632653,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "sepia",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.5102040816326531,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "sepia",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.673469387755102,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "terminal",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.8163265306122449,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "terminal",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.8163265306122449,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "corporate",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.061224489795918366,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "corporate",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.5510204081632653,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     }
+    ],
+    "shots": {
+     "baseline": "bbc.co.uk__home__baseline.jpg"
+    }
+   }
+  ]
+ },
+ {
+  "domain": "funbox.com.tw",
+  "stratum": "audit",
+  "url": "https://shop.funbox.com.tw/",
+  "cms": "other",
+  "status": "ok",
+  "pages": [
+   {
+    "page": "home",
+    "url": "https://shop.funbox.com.tw/",
+    "status": "ok",
+    "n": 78,
+    "baseline": {
+     "readable": 0.6538461538461539,
+     "noiseShift": 0
+    },
+    "runs": [
+     {
+      "theme": "minimal",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.07692307692307693,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "minimal",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.1282051282051282,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "dark",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.07692307692307693,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": [],
+      "shot": "funbox.com.tw__home__dark-A.jpg"
+     },
+     {
+      "theme": "dark",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.1282051282051282,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "material",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.07692307692307693,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "material",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.1282051282051282,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "solarized",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.07692307692307693,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "solarized",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.16666666666666666,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "brutalism",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.07692307692307693,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "brutalism",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.07692307692307693,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": [],
+      "shot": "funbox.com.tw__home__brutalism-B.jpg"
+     },
+     {
+      "theme": "custom",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.07692307692307693,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "custom",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.1282051282051282,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "contrast",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.07692307692307693,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "contrast",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.6666666666666666,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "sepia",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "sepia",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.5897435897435898,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "terminal",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.10256410256410256,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "terminal",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.10256410256410256,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "corporate",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.07692307692307693,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "corporate",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.07692307692307693,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     }
+    ],
+    "shots": {
+     "baseline": "funbox.com.tw__home__baseline.jpg"
+    }
+   }
+  ]
+ },
+ {
+  "domain": "yahoo.com",
+  "stratum": "audit",
+  "url": "https://www.yahoo.com/",
+  "cms": "other",
+  "status": "ok",
+  "pages": [
+   {
+    "page": "home",
+    "url": "https://www.yahoo.com/",
+    "status": "ok",
+    "n": 170,
+    "baseline": {
+     "readable": 0.7647058823529411,
+     "noiseShift": 0
+    },
+    "runs": [
+     {
+      "theme": "minimal",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.25882352941176473,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "minimal",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.611764705882353,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "dark",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 0.9647058823529412,
+      "readable": 0.9647058823529412,
+      "shifted": 0.48823529411764705,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": [],
+      "shot": "yahoo.com__home__dark-A.jpg"
+     },
+     {
+      "theme": "dark",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 0.9647058823529412,
+      "readable": 0.9647058823529412,
+      "shifted": 0.611764705882353,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "material",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.48823529411764705,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "material",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.611764705882353,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "solarized",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 0.9647058823529412,
+      "readable": 1,
+      "shifted": 0.48823529411764705,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "solarized",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 0.9647058823529412,
+      "readable": 1,
+      "shifted": 0.6058823529411764,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "brutalism",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.48823529411764705,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "brutalism",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.5647058823529412,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": [],
+      "shot": "yahoo.com__home__brutalism-B.jpg"
+     },
+     {
+      "theme": "custom",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.48823529411764705,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "custom",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.611764705882353,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "contrast",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 0.9647058823529412,
+      "shifted": 0.48823529411764705,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "contrast",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 0.9647058823529412,
+      "shifted": 0.6058823529411764,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "sepia",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 0.9647058823529412,
+      "readable": 1,
+      "shifted": 0.43529411764705883,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "sepia",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 0.9647058823529412,
+      "readable": 1,
+      "shifted": 0.5941176470588235,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "terminal",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 0.9647058823529412,
+      "readable": 0.9647058823529412,
+      "shifted": 0.6882352941176471,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "terminal",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 0.9647058823529412,
+      "readable": 0.9647058823529412,
+      "shifted": 0.711764705882353,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "corporate",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.48823529411764705,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "corporate",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.5562130177514792,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     }
+    ],
+    "shots": {
+     "baseline": "yahoo.com__home__baseline.jpg"
+    }
+   }
+  ]
+ },
+ {
+  "domain": "2xlnetworks.net",
+  "stratum": "audit",
+  "status": "timeout",
+  "restarted": true
+ }
+]

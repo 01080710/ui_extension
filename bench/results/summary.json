@@ -1,0 +1,324 @@
+{
+  "generatedAt": "2026-10-11T15:25:39.126Z",
+  "thresholds": {
+    "fgToken": 0.95,
+    "readable": 0.95
+  },
+  "counts": {
+    "unreachable": 67,
+    "too-little-text": 40,
+    "ok": 100,
+    "error": 3,
+    "timeout": 67
+  },
+  "overall": {
+    "sites": 100,
+    "passRateModeA": 0.8939999999999999,
+    "passRateModeB": 0.9229999999999998,
+    "sitesPassingAllThemesModeA": 0.85,
+    "fgTokenModeA": 0.9858373315977369,
+    "bgTokenModeA": 0.9937814963330839,
+    "readableModeA": 0.9902088969330937,
+    "readableBaseline": 0.921825207179961,
+    "shiftedModeA": 0.3312818863695117,
+    "shiftedModeB": 0.5284124983866108,
+    "baselineNoiseShift": 0.022234221671534386,
+    "extensionExceptions": 0
+  },
+  "perThemeMode": {
+    "minimal/A": {
+      "pass": 0.92,
+      "fgToken": 0.9891642114229211,
+      "bgToken": 0.995565677786266,
+      "readable": 0.9933971595655805,
+      "shifted": 0.27215161040627944
+    },
+    "minimal/B": {
+      "pass": 0.93,
+      "fgToken": 0.989965140810807,
+      "bgToken": 0.9940421483745011,
+      "readable": 0.9933971595655805,
+      "shifted": 0.5028778946429336
+    },
+    "dark/A": {
+      "pass": 0.87,
+      "fgToken": 0.9825267247040734,
+      "bgToken": 0.991986555651427,
+      "readable": 0.9867111844647012,
+      "shifted": 0.27631950466459465
+    },
+    "dark/B": {
+      "pass": 0.91,
+      "fgToken": 0.9857958688482177,
+      "bgToken": 0.991697508998283,
+      "readable": 0.9889456672233217,
+      "shifted": 0.5022503879122002
+    },
+    "material/A": {
+      "pass": 0.89,
+      "fgToken": 0.9861929478861751,
+      "bgToken": 0.9958438000696621,
+      "readable": 0.9902268659961492,
+      "shifted": 0.28506800653319375
+    },
+    "material/B": {
+      "pass": 0.93,
+      "fgToken": 0.9899620920303193,
+      "bgToken": 0.9968782828282827,
+      "readable": 0.9932721595655805,
+      "shifted": 0.5142491332269876
+    },
+    "solarized/A": {
+      "pass": 0.9,
+      "fgToken": 0.9841517247040734,
+      "bgToken": 0.991986555651427,
+      "readable": 0.9905130555879411,
+      "shifted": 0.2772737025076837
+    },
+    "solarized/B": {
+      "pass": 0.91,
+      "fgToken": 0.9857958688482177,
+      "bgToken": 0.991697508998283,
+      "readable": 0.9888003371289541,
+      "shifted": 0.5223031441981449
+    },
+    "brutalism/A": {
+      "pass": 0.91,
+      "fgToken": 0.9843404039493565,
+      "bgToken": 0.9945811950276453,
+      "readable": 0.9933971595655805,
+      "shifted": 0.2964345681836563
+    },
+    "brutalism/B": {
+      "pass": 0.92,
+      "fgToken": 0.9859845480935006,
+      "bgToken": 0.9958156777862661,
+      "readable": 0.9923810701363588,
+      "shifted": 0.45104360053146636
+    },
+    "custom/A": {
+      "pass": 0.91,
+      "fgToken": 0.9889727097909371,
+      "bgToken": 0.995565677786266,
+      "readable": 0.9935757309941519,
+      "shifted": 0.3013273823303657
+    },
+    "custom/B": {
+      "pass": 0.93,
+      "fgToken": 0.9899620920303193,
+      "bgToken": 0.9940421483745011,
+      "readable": 0.9933971595655805,
+      "shifted": 0.5108239799329183
+    },
+    "contrast/A": {
+      "pass": 0.89,
+      "fgToken": 0.9863816271314582,
+      "bgToken": 0.9939811950276453,
+      "readable": 0.9873933273218438,
+      "shifted": 0.29804226527350947
+    },
+    "contrast/B": {
+      "pass": 0.93,
+      "fgToken": 0.9901507712756021,
+      "bgToken": 0.9952156777862661,
+      "readable": 0.9894278100804645,
+      "shifted": 0.5325938374993325
+    },
+    "sepia/A": {
+      "pass": 0.89,
+      "fgToken": 0.9869012812195085,
+      "bgToken": 0.991986555651427,
+      "readable": 0.9897364353741396,
+      "shifted": 0.38380071625330997
+    },
+    "sepia/B": {
+      "pass": 0.93,
+      "fgToken": 0.9899620920303193,
+      "bgToken": 0.991697508998283,
+      "readable": 0.992781728943571,
+      "shifted": 0.6411094620082203
+    },
+    "terminal/A": {
+      "pass": 0.87,
+      "fgToken": 0.9824237372826897,
+      "bgToken": 0.991986555651427,
+      "readable": 0.9869111844647012,
+      "shifted": 0.6197923394683204
+    },
+    "terminal/B": {
+      "pass": 0.91,
+      "fgToken": 0.9859845480935006,
+      "bgToken": 0.991697508998283,
+      "readable": 0.9889456672233217,
+      "shifted": 0.681034590409535
+    },
+    "corporate/A": {
+      "pass": 0.89,
+      "fgToken": 0.9873179478861752,
+      "bgToken": 0.9943311950276452,
+      "readable": 0.9902268659961492,
+      "shifted": 0.3026087680742039
+    },
+    "corporate/B": {
+      "pass": 0.93,
+      "fgToken": 0.9899620920303193,
+      "bgToken": 0.9940421483745011,
+      "readable": 0.9932721595655805,
+      "shifted": 0.4258389535043694
+    }
+  },
+  "worstSites": [
+    {
+      "domain": "amazonaws.com",
+      "passA": 0,
+      "fgToken": 0.820754716981132,
+      "readable": 0.842,
+      "misses": [
+        "span.rggn_8711ccd9.rggn_98b54368 rgb(22, 29, 38)",
+        "span.rggn_8711ccd9.rggn_98b54368 rgb(22, 29, 38)",
+        "span.rggn_8711ccd9.rggn_98b54368 rgb(22, 29, 38)",
+        "span.rggn_8711ccd9.rggn_98b54368 rgb(22, 29, 38)",
+        "span.rggn_8711ccd9.rggn_98b54368 rgb(22, 29, 38)"
+      ]
+    },
+    {
+      "domain": "wa.me",
+      "passA": 0,
+      "fgToken": 0.9189189189189191,
+      "readable": 0.9756756756756758,
+      "misses": [
+        "span._advp._aeam rgb(30, 83, 175)",
+        "span._advp._aeam rgb(30, 83, 175)",
+        "span._advp._aeam rgb(28, 82, 175)"
+      ]
+    },
+    {
+      "domain": "f5.com",
+      "passA": 0,
+      "fgToken": 0.8823529411764708,
+      "readable": 0.9647058823529413,
+      "misses": [
+        "div.m-0.font-secondary rgb(34, 34, 34)",
+        "span.group-hover:underline.group-hover:underline-offset-5 rgb(34, 34, 34)",
+        "div.m-0.font-secondary rgb(34, 34, 34)",
+        "span.group-hover:underline.group-hover:underline-offset-5 rgb(34, 34, 34)",
+        "div.m-0.font-secondary rgb(34, 34, 34)"
+      ]
+    },
+    {
+      "domain": "nginx.com",
+      "passA": 0,
+      "fgToken": 0.6666666666666667,
+      "readable": 0.9,
+      "misses": [
+        "div.d-card-title.w-full rgb(34, 34, 34)",
+        "div.w-full.font-primary rgb(34, 34, 34)",
+        "div.d-card-title.w-full rgb(34, 34, 34)",
+        "div.w-full.font-primary rgb(34, 34, 34)",
+        "div.d-card-title.w-full rgb(34, 34, 34)"
+      ]
+    },
+    {
+      "domain": "windows.com",
+      "passA": 0,
+      "fgToken": 0.8888888888888891,
+      "readable": 0.9222222222222223,
+      "misses": [
+        "span rgb(0, 25, 104)",
+        "span rgb(0, 25, 104)"
+      ]
+    },
+    {
+      "domain": "cisco.com",
+      "passA": 0,
+      "fgToken": 0.9368421052631579,
+      "readable": 0.968421052631579,
+      "misses": [
+        "span.cmp-button__text rgb(7, 24, 45)",
+        "a.ot-sdk-show-settings rgb(10, 96, 255)"
+      ]
+    },
+    {
+      "domain": "microsoft.com",
+      "passA": 1,
+      "fgToken": 0.8695652173913043,
+      "readable": 0.835,
+      "misses": [
+        "a rgb(14, 23, 38)",
+        "span rgb(42, 68, 111)"
+      ]
+    },
+    {
+      "domain": "azure.com",
+      "passA": 1,
+      "fgToken": 0.96,
+      "readable": 0.9600000000000002,
+      "misses": [
+        "a rgb(244, 250, 253)"
+      ]
+    },
+    {
+      "domain": "mit.edu",
+      "passA": 2,
+      "fgToken": 0.9062499999999998,
+      "readable": 1,
+      "misses": [
+        "p rgb(227, 227, 227)",
+        "h4.spotlight__date rgb(226, 226, 226)",
+        "h4.spotlight__share-h rgb(226, 226, 226)",
+        "p rgb(219, 219, 219)",
+        "p rgb(219, 219, 219)"
+      ]
+    },
+    {
+      "domain": "hosting24.com",
+      "passA": 4,
+      "fgToken": 1,
+      "readable": 0.9379310344827585,
+      "misses": []
+    },
+    {
+      "domain": "telekom.net",
+      "passA": 4,
+      "fgToken": 0.925,
+      "readable": 0.9225,
+      "misses": [
+        "h2#cl-header.cl-header rgb(46, 48, 52)",
+        "p rgb(46, 48, 52)",
+        "p rgb(46, 48, 52)",
+        "p rgb(46, 48, 52)"
+      ]
+    },
+    {
+      "domain": "vimeo.com",
+      "passA": 7,
+      "fgToken": 1,
+      "readable": 0.9546218487394957,
+      "misses": []
+    },
+    {
+      "domain": "adobe.io",
+      "passA": 7,
+      "fgToken": 1,
+      "readable": 0.9555555555555555,
+      "misses": []
+    },
+    {
+      "domain": "cloudflare.com",
+      "passA": 9,
+      "fgToken": 1,
+      "readable": 0.9794871794871796,
+      "misses": []
+    },
+    {
+      "domain": "ui.com",
+      "passA": 9,
+      "fgToken": 0.9624999999999998,
+      "readable": 0.9696428571428569,
+      "misses": [
+        "span.sc-eb12a7ef-1.zMOng rgb(0, 111, 255)",
+        "span.sc-eb12a7ef-1.zMOng rgb(0, 111, 255)"
+      ]
+    }
+  ]
+}

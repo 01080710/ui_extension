@@ -1,0 +1,3488 @@
+[
+ {
+  "domain": "treatable-id.net",
+  "stratum": "tail",
+  "url": "https://treatable-id.net/ords/r/a12231/treatable-id/home",
+  "cms": "other",
+  "status": "too-little-text",
+  "pages": [
+   {
+    "page": "home",
+    "url": "https://treatable-id.net/ords/r/a12231/treatable-id/home",
+    "status": "too-little-text",
+    "n": 9
+   },
+   {
+    "page": "inner",
+    "status": "no-inner-link"
+   }
+  ]
+ },
+ {
+  "domain": "videyu.org",
+  "stratum": "tail",
+  "url": "https://videyu.org/",
+  "cms": "other",
+  "status": "too-little-text",
+  "pages": [
+   {
+    "page": "home",
+    "url": "https://videyu.org/",
+    "status": "too-little-text",
+    "n": 5
+   },
+   {
+    "page": "inner",
+    "url": "https://videyu.org/admin/login?next=%2Fadmin",
+    "status": "too-little-text",
+    "n": 3
+   }
+  ]
+ },
+ {
+  "domain": "fairplay1.pro",
+  "stratum": "tail",
+  "url": "https://fairplay1.pro/exchange_sports/inplay",
+  "cms": "other",
+  "status": "too-little-text",
+  "pages": [
+   {
+    "page": "home",
+    "url": "https://fairplay1.pro/exchange_sports/inplay",
+    "status": "too-little-text",
+    "n": 9
+   },
+   {
+    "page": "inner",
+    "url": "https://fairplay1.pro/exchange_sports/inplay",
+    "status": "too-little-text",
+    "n": 10
+   }
+  ]
+ },
+ {
+  "domain": "cloudx2.com",
+  "stratum": "tail",
+  "url": "https://cloudx2.com/",
+  "cms": "other",
+  "status": "too-little-text",
+  "pages": [
+   {
+    "page": "home",
+    "url": "https://cloudx2.com/",
+    "status": "too-little-text",
+    "n": 11
+   },
+   {
+    "page": "inner",
+    "url": "https://cloudx2.com/career",
+    "status": "too-little-text",
+    "n": 19
+   }
+  ]
+ },
+ {
+  "domain": "cyber-proud.com",
+  "stratum": "tail",
+  "status": "unreachable"
+ },
+ {
+  "domain": "otip.com",
+  "stratum": "tail",
+  "url": "https://www.otip.com/",
+  "cms": "unknown",
+  "status": "too-little-text",
+  "pages": [
+   {
+    "page": "home",
+    "url": "https://www.otip.com/",
+    "status": "too-little-text",
+    "n": 0
+   },
+   {
+    "page": "inner",
+    "status": "no-inner-link"
+   }
+  ]
+ },
+ {
+  "domain": "guestofaguest.com",
+  "stratum": "tail",
+  "status": "unreachable"
+ },
+ {
+  "domain": "hitbip.com",
+  "stratum": "tail",
+  "status": "unreachable"
+ },
+ {
+  "domain": "denbypottery.com",
+  "stratum": "tail",
+  "url": "https://denbypottery.com/",
+  "cms": "shopify",
+  "status": "too-little-text",
+  "pages": [
+   {
+    "page": "home",
+    "url": "https://denbypottery.com/",
+    "status": "too-little-text",
+    "n": 11
+   },
+   {
+    "page": "inner",
+    "status": "no-inner-link"
+   }
+  ]
+ },
+ {
+  "domain": "minchiroses.com",
+  "stratum": "tail",
+  "status": "unreachable"
+ },
+ {
+  "domain": "rci-travel.com",
+  "stratum": "tail",
+  "status": "unreachable"
+ },
+ {
+  "domain": "livestartpage.com",
+  "stratum": "tail",
+  "status": "error",
+  "error": "extension content script not found in page"
+ },
+ {
+  "domain": "freshz.hu",
+  "stratum": "tail",
+  "url": "https://freshz.hu/",
+  "cms": "other",
+  "status": "too-little-text",
+  "pages": [
+   {
+    "page": "home",
+    "url": "https://freshz.hu/",
+    "status": "too-little-text",
+    "n": 2
+   },
+   {
+    "page": "inner",
+    "status": "no-inner-link"
+   }
+  ]
+ },
+ {
+  "domain": "e-talent.jobs",
+  "stratum": "tail",
+  "status": "unreachable"
+ },
+ {
+  "domain": "estekhare.net",
+  "stratum": "tail",
+  "url": "https://estekhare.net/",
+  "cms": "other",
+  "status": "too-little-text",
+  "pages": [
+   {
+    "page": "home",
+    "url": "https://estekhare.net/",
+    "status": "too-little-text",
+    "n": 13
+   },
+   {
+    "page": "inner",
+    "url": "https://estekhare.net/index.php",
+    "status": "too-little-text",
+    "n": 13
+   }
+  ]
+ },
+ {
+  "domain": "yokagames.com",
+  "stratum": "tail",
+  "status": "unreachable"
+ },
+ {
+  "domain": "magic-bot.ru",
+  "stratum": "tail",
+  "url": "https://magic-bot.ru/",
+  "cms": "other",
+  "status": "too-little-text",
+  "pages": [
+   {
+    "page": "home",
+    "url": "https://magic-bot.ru/",
+    "status": "too-little-text",
+    "n": 2
+   },
+   {
+    "page": "inner",
+    "status": "no-inner-link"
+   }
+  ]
+ },
+ {
+  "domain": "kmjhty.com",
+  "stratum": "tail",
+  "status": "unreachable"
+ },
+ {
+  "domain": "bjcstore.com",
+  "stratum": "tail",
+  "url": "https://bjcstore.com/",
+  "cms": "wordpress",
+  "status": "ok",
+  "pages": [
+   {
+    "page": "home",
+    "url": "https://bjcstore.com/",
+    "status": "ok",
+    "n": 58,
+    "baseline": {
+     "readable": 0.603448275862069,
+     "noiseShift": 0
+    },
+    "runs": [
+     {
+      "theme": "minimal",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.3103448275862069,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "minimal",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.3103448275862069,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "dark",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.5344827586206896,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "dark",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.5344827586206896,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "material",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.5344827586206896,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "material",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.5344827586206896,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "solarized",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.5344827586206896,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "solarized",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.5344827586206896,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "brutalism",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.5344827586206896,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "brutalism",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 0.9827586206896551,
+      "shifted": 0.5344827586206896,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "custom",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.5344827586206896,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "custom",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.5344827586206896,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "contrast",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.5344827586206896,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "contrast",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.5344827586206896,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "sepia",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.5344827586206896,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "sepia",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.5344827586206896,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "terminal",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.9655172413793104,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "terminal",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.9655172413793104,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "corporate",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.5344827586206896,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "corporate",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.5344827586206896,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     }
+    ]
+   },
+   {
+    "page": "inner",
+    "url": "https://bjcstore.com/brands/bvlgari/",
+    "status": "unreachable"
+   }
+  ]
+ },
+ {
+  "domain": "equivont.com",
+  "stratum": "tail",
+  "status": "unreachable"
+ },
+ {
+  "domain": "supercleaner.app",
+  "stratum": "tail",
+  "url": "https://supercleaner.app/",
+  "cms": "other",
+  "status": "too-little-text",
+  "pages": [
+   {
+    "page": "home",
+    "url": "https://supercleaner.app/",
+    "status": "too-little-text",
+    "n": 0
+   },
+   {
+    "page": "inner",
+    "status": "no-inner-link"
+   }
+  ]
+ },
+ {
+  "domain": "h5v8q.com",
+  "stratum": "tail",
+  "url": "https://h5v8q.com/main/inicio",
+  "cms": "other",
+  "status": "ok",
+  "pages": [
+   {
+    "page": "home",
+    "url": "https://h5v8q.com/405",
+    "status": "ok",
+    "n": 21,
+    "baseline": {
+     "readable": 0.3333333333333333,
+     "noiseShift": 1
+    },
+    "runs": [
+     {
+      "theme": "minimal",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 0,
+      "shifted": 1,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "minimal",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 0,
+      "shifted": 0.9523809523809523,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "dark",
+      "mode": "A",
+      "fgToken": 0,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 1,
+      "inlineImportant": 0,
+      "misses": [
+       "ion-button.unset-btn.md rgb(255, 255, 255)",
+       "ion-button.unset-btn.register rgb(255, 255, 255)",
+       "ion-label.label.ellipsis rgb(255, 255, 255)",
+       "div.amount-display.money-7 rgb(255, 255, 255)",
+       "span.logo-text rgb(255, 255, 255)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "dark",
+      "mode": "B",
+      "fgToken": 0,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.9523809523809523,
+      "inlineImportant": 0,
+      "misses": [
+       "ion-button.unset-btn.md rgb(255, 255, 255)",
+       "ion-button.unset-btn.register rgb(255, 255, 255)",
+       "ion-label.label.ellipsis rgb(255, 255, 255)",
+       "div.amount-display.money-7 rgb(255, 255, 255)",
+       "span.logo-text rgb(255, 255, 255)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "material",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 0,
+      "shifted": 1,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "material",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 0,
+      "shifted": 0.9523809523809523,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "solarized",
+      "mode": "A",
+      "fgToken": 0,
+      "bgToken": 1,
+      "readable": 0,
+      "shifted": 1,
+      "inlineImportant": 0,
+      "misses": [
+       "ion-button.unset-btn.md rgb(255, 255, 255)",
+       "ion-button.unset-btn.register rgb(255, 255, 255)",
+       "ion-label.label.ellipsis rgb(255, 255, 255)",
+       "div.amount-display.money-7 rgb(255, 255, 255)",
+       "span.logo-text rgb(255, 255, 255)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "solarized",
+      "mode": "B",
+      "fgToken": 0,
+      "bgToken": 1,
+      "readable": 0,
+      "shifted": 0.9523809523809523,
+      "inlineImportant": 0,
+      "misses": [
+       "ion-button.unset-btn.md rgb(255, 255, 255)",
+       "ion-button.unset-btn.register rgb(255, 255, 255)",
+       "ion-label.label.ellipsis rgb(255, 255, 255)",
+       "div.amount-display.money-7 rgb(255, 255, 255)",
+       "span.logo-text rgb(255, 255, 255)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "brutalism",
+      "mode": "A",
+      "fgToken": 0,
+      "bgToken": 1,
+      "readable": 0,
+      "shifted": 1,
+      "inlineImportant": 0,
+      "misses": [
+       "ion-button.unset-btn.md rgb(255, 255, 255)",
+       "ion-button.unset-btn.register rgb(255, 255, 255)",
+       "ion-label.label.ellipsis rgb(255, 255, 255)",
+       "div.amount-display.money-7 rgb(255, 255, 255)",
+       "span.logo-text rgb(255, 255, 255)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "brutalism",
+      "mode": "B",
+      "fgToken": 0,
+      "bgToken": 1,
+      "readable": 0,
+      "shifted": 1,
+      "inlineImportant": 0,
+      "misses": [
+       "ion-button.unset-btn.md rgb(255, 255, 255)",
+       "ion-button.unset-btn.register rgb(255, 255, 255)",
+       "ion-label.label.ellipsis rgb(255, 255, 255)",
+       "div.amount-display.money-7 rgb(255, 255, 255)",
+       "span.logo-text rgb(255, 255, 255)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "custom",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 0,
+      "shifted": 1,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "custom",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 0,
+      "shifted": 0.9523809523809523,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "contrast",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 1,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "contrast",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 1,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "sepia",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 0,
+      "shifted": 1,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "sepia",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 0,
+      "shifted": 0.9523809523809523,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "terminal",
+      "mode": "A",
+      "fgToken": 0,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 1,
+      "inlineImportant": 0,
+      "misses": [
+       "ion-button.unset-btn.md rgb(255, 255, 255)",
+       "ion-button.unset-btn.register rgb(255, 255, 255)",
+       "ion-label.label.ellipsis rgb(255, 255, 255)",
+       "div.amount-display.money-7 rgb(255, 255, 255)",
+       "span.logo-text rgb(255, 255, 255)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "terminal",
+      "mode": "B",
+      "fgToken": 0,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 1,
+      "inlineImportant": 0,
+      "misses": [
+       "ion-button.unset-btn.md rgb(255, 255, 255)",
+       "ion-button.unset-btn.register rgb(255, 255, 255)",
+       "ion-label.label.ellipsis rgb(255, 255, 255)",
+       "div.amount-display.money-7 rgb(255, 255, 255)",
+       "span.logo-text rgb(255, 255, 255)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "corporate",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 0,
+      "shifted": 1,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "corporate",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 0,
+      "shifted": 1,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     }
+    ]
+   },
+   {
+    "page": "inner",
+    "status": "no-inner-link"
+   }
+  ]
+ },
+ {
+  "domain": "333win1.com",
+  "stratum": "tail",
+  "status": "unreachable"
+ },
+ {
+  "domain": "brandmaster.com",
+  "stratum": "tail",
+  "url": "https://www.papirfly.com/",
+  "cms": "wordpress",
+  "status": "ok",
+  "pages": [
+   {
+    "page": "home",
+    "url": "https://www.papirfly.com/",
+    "status": "ok",
+    "n": 39,
+    "baseline": {
+     "readable": 0.9230769230769231,
+     "noiseShift": 0
+    },
+    "runs": [
+     {
+      "theme": "minimal",
+      "mode": "A",
+      "fgToken": 0.9743589743589743,
+      "bgToken": 0.9743589743589743,
+      "readable": 0.9487179487179487,
+      "shifted": 0,
+      "inlineImportant": 0,
+      "misses": [
+       "button#hs-eu-decline-button rgb(105, 115, 140)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "minimal",
+      "mode": "B",
+      "fgToken": 0.9743589743589743,
+      "bgToken": 0.9743589743589743,
+      "readable": 0.9487179487179487,
+      "shifted": 0.5641025641025641,
+      "inlineImportant": 0,
+      "misses": [
+       "button#hs-eu-decline-button rgb(105, 115, 140)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "dark",
+      "mode": "A",
+      "fgToken": 0.9743589743589743,
+      "bgToken": 0.9743589743589743,
+      "readable": 0.9743589743589743,
+      "shifted": 0,
+      "inlineImportant": 0,
+      "misses": [
+       "button#hs-eu-decline-button rgb(105, 115, 140)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "dark",
+      "mode": "B",
+      "fgToken": 0.9743589743589743,
+      "bgToken": 0.9743589743589743,
+      "readable": 0.9743589743589743,
+      "shifted": 0.5641025641025641,
+      "inlineImportant": 0,
+      "misses": [
+       "button#hs-eu-decline-button rgb(105, 115, 140)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "material",
+      "mode": "A",
+      "fgToken": 0.9743589743589743,
+      "bgToken": 0.9743589743589743,
+      "readable": 0.9743589743589743,
+      "shifted": 0,
+      "inlineImportant": 0,
+      "misses": [
+       "button#hs-eu-decline-button rgb(105, 115, 140)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "material",
+      "mode": "B",
+      "fgToken": 0.9743589743589743,
+      "bgToken": 0.9743589743589743,
+      "readable": 0.9743589743589743,
+      "shifted": 0.5641025641025641,
+      "inlineImportant": 0,
+      "misses": [
+       "button#hs-eu-decline-button rgb(105, 115, 140)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "solarized",
+      "mode": "A",
+      "fgToken": 0.9743589743589743,
+      "bgToken": 0.9743589743589743,
+      "readable": 0.9487179487179487,
+      "shifted": 0,
+      "inlineImportant": 0,
+      "misses": [
+       "button#hs-eu-decline-button rgb(105, 115, 140)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "solarized",
+      "mode": "B",
+      "fgToken": 0.9743589743589743,
+      "bgToken": 0.9743589743589743,
+      "readable": 0.9487179487179487,
+      "shifted": 0.5641025641025641,
+      "inlineImportant": 0,
+      "misses": [
+       "button#hs-eu-decline-button rgb(105, 115, 140)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "brutalism",
+      "mode": "A",
+      "fgToken": 0.9743589743589743,
+      "bgToken": 0.9743589743589743,
+      "readable": 0.9743589743589743,
+      "shifted": 0,
+      "inlineImportant": 0,
+      "misses": [
+       "button#hs-eu-decline-button rgb(105, 115, 140)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "brutalism",
+      "mode": "B",
+      "fgToken": 0.9743589743589743,
+      "bgToken": 0.9743589743589743,
+      "readable": 0.9743589743589743,
+      "shifted": 0.5384615384615384,
+      "inlineImportant": 0,
+      "misses": [
+       "button#hs-eu-decline-button rgb(105, 115, 140)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "custom",
+      "mode": "A",
+      "fgToken": 0.9743589743589743,
+      "bgToken": 0.9743589743589743,
+      "readable": 0.9487179487179487,
+      "shifted": 0,
+      "inlineImportant": 0,
+      "misses": [
+       "button#hs-eu-decline-button rgb(105, 115, 140)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "custom",
+      "mode": "B",
+      "fgToken": 0.9743589743589743,
+      "bgToken": 0.9743589743589743,
+      "readable": 0.9487179487179487,
+      "shifted": 0.5641025641025641,
+      "inlineImportant": 0,
+      "misses": [
+       "button#hs-eu-decline-button rgb(105, 115, 140)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "contrast",
+      "mode": "A",
+      "fgToken": 0.9743589743589743,
+      "bgToken": 0.9743589743589743,
+      "readable": 0.9743589743589743,
+      "shifted": 0,
+      "inlineImportant": 0,
+      "misses": [
+       "button#hs-eu-decline-button rgb(105, 115, 140)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "contrast",
+      "mode": "B",
+      "fgToken": 0.9743589743589743,
+      "bgToken": 0.9743589743589743,
+      "readable": 0.9743589743589743,
+      "shifted": 0.48717948717948717,
+      "inlineImportant": 0,
+      "misses": [
+       "button#hs-eu-decline-button rgb(105, 115, 140)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "sepia",
+      "mode": "A",
+      "fgToken": 0.9743589743589743,
+      "bgToken": 0.9743589743589743,
+      "readable": 0.9487179487179487,
+      "shifted": 0.46153846153846156,
+      "inlineImportant": 0,
+      "misses": [
+       "button#hs-eu-decline-button rgb(105, 115, 140)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "sepia",
+      "mode": "B",
+      "fgToken": 0.9743589743589743,
+      "bgToken": 0.9743589743589743,
+      "readable": 0.9487179487179487,
+      "shifted": 0.6923076923076923,
+      "inlineImportant": 0,
+      "misses": [
+       "button#hs-eu-decline-button rgb(105, 115, 140)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "terminal",
+      "mode": "A",
+      "fgToken": 0.9743589743589743,
+      "bgToken": 0.9743589743589743,
+      "readable": 0.9743589743589743,
+      "shifted": 0.8461538461538461,
+      "inlineImportant": 0,
+      "misses": [
+       "button#hs-eu-decline-button rgb(105, 115, 140)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "terminal",
+      "mode": "B",
+      "fgToken": 0.9743589743589743,
+      "bgToken": 0.9743589743589743,
+      "readable": 0.9743589743589743,
+      "shifted": 0.8461538461538461,
+      "inlineImportant": 0,
+      "misses": [
+       "button#hs-eu-decline-button rgb(105, 115, 140)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "corporate",
+      "mode": "A",
+      "fgToken": 0.9743589743589743,
+      "bgToken": 0.9743589743589743,
+      "readable": 0.9743589743589743,
+      "shifted": 0,
+      "inlineImportant": 0,
+      "misses": [
+       "button#hs-eu-decline-button rgb(105, 115, 140)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "corporate",
+      "mode": "B",
+      "fgToken": 0.9743589743589743,
+      "bgToken": 0.9743589743589743,
+      "readable": 0.9743589743589743,
+      "shifted": 0.5384615384615384,
+      "inlineImportant": 0,
+      "misses": [
+       "button#hs-eu-decline-button rgb(105, 115, 140)"
+      ],
+      "exceptions": []
+     }
+    ]
+   },
+   {
+    "page": "inner",
+    "url": "https://www.papirfly.com/solutions/automotive/",
+    "status": "ok",
+    "n": 27,
+    "baseline": {
+     "readable": 1,
+     "noiseShift": 0
+    },
+    "runs": [
+     {
+      "theme": "minimal",
+      "mode": "A",
+      "fgToken": 0.9629629629629629,
+      "bgToken": 0.9629629629629629,
+      "readable": 0.9259259259259259,
+      "shifted": 0.48148148148148145,
+      "inlineImportant": 0,
+      "misses": [
+       "button#hs-eu-decline-button rgb(105, 115, 140)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "minimal",
+      "mode": "B",
+      "fgToken": 0.9629629629629629,
+      "bgToken": 0.9629629629629629,
+      "readable": 0.9259259259259259,
+      "shifted": 0.5925925925925926,
+      "inlineImportant": 0,
+      "misses": [
+       "button#hs-eu-decline-button rgb(105, 115, 140)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "dark",
+      "mode": "A",
+      "fgToken": 0.9629629629629629,
+      "bgToken": 0.9629629629629629,
+      "readable": 0.9629629629629629,
+      "shifted": 0.48148148148148145,
+      "inlineImportant": 0,
+      "misses": [
+       "button#hs-eu-decline-button rgb(105, 115, 140)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "dark",
+      "mode": "B",
+      "fgToken": 0.9629629629629629,
+      "bgToken": 0.9629629629629629,
+      "readable": 0.9629629629629629,
+      "shifted": 0.5925925925925926,
+      "inlineImportant": 0,
+      "misses": [
+       "button#hs-eu-decline-button rgb(105, 115, 140)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "material",
+      "mode": "A",
+      "fgToken": 0.9629629629629629,
+      "bgToken": 0.9629629629629629,
+      "readable": 0.9629629629629629,
+      "shifted": 0.48148148148148145,
+      "inlineImportant": 0,
+      "misses": [
+       "button#hs-eu-decline-button rgb(105, 115, 140)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "material",
+      "mode": "B",
+      "fgToken": 0.9629629629629629,
+      "bgToken": 0.9629629629629629,
+      "readable": 0.9629629629629629,
+      "shifted": 0.5925925925925926,
+      "inlineImportant": 0,
+      "misses": [
+       "button#hs-eu-decline-button rgb(105, 115, 140)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "solarized",
+      "mode": "A",
+      "fgToken": 0.9629629629629629,
+      "bgToken": 0.9629629629629629,
+      "readable": 0.9259259259259259,
+      "shifted": 0.48148148148148145,
+      "inlineImportant": 0,
+      "misses": [
+       "button#hs-eu-decline-button rgb(105, 115, 140)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "solarized",
+      "mode": "B",
+      "fgToken": 0.9629629629629629,
+      "bgToken": 0.9629629629629629,
+      "readable": 0.9259259259259259,
+      "shifted": 0.5925925925925926,
+      "inlineImportant": 0,
+      "misses": [
+       "button#hs-eu-decline-button rgb(105, 115, 140)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "brutalism",
+      "mode": "A",
+      "fgToken": 0.9629629629629629,
+      "bgToken": 0.9629629629629629,
+      "readable": 0.9629629629629629,
+      "shifted": 0.48148148148148145,
+      "inlineImportant": 0,
+      "misses": [
+       "button#hs-eu-decline-button rgb(105, 115, 140)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "brutalism",
+      "mode": "B",
+      "fgToken": 0.9629629629629629,
+      "bgToken": 0.9629629629629629,
+      "readable": 0.9629629629629629,
+      "shifted": 0.6296296296296297,
+      "inlineImportant": 0,
+      "misses": [
+       "button#hs-eu-decline-button rgb(105, 115, 140)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "custom",
+      "mode": "A",
+      "fgToken": 0.9629629629629629,
+      "bgToken": 0.9629629629629629,
+      "readable": 0.9259259259259259,
+      "shifted": 0.48148148148148145,
+      "inlineImportant": 0,
+      "misses": [
+       "button#hs-eu-decline-button rgb(105, 115, 140)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "custom",
+      "mode": "B",
+      "fgToken": 0.9629629629629629,
+      "bgToken": 0.9629629629629629,
+      "readable": 0.9259259259259259,
+      "shifted": 0.5925925925925926,
+      "inlineImportant": 0,
+      "misses": [
+       "button#hs-eu-decline-button rgb(105, 115, 140)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "contrast",
+      "mode": "A",
+      "fgToken": 0.9629629629629629,
+      "bgToken": 0.9629629629629629,
+      "readable": 0.9629629629629629,
+      "shifted": 0.48148148148148145,
+      "inlineImportant": 0,
+      "misses": [
+       "button#hs-eu-decline-button rgb(105, 115, 140)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "contrast",
+      "mode": "B",
+      "fgToken": 0.9629629629629629,
+      "bgToken": 0.9629629629629629,
+      "readable": 0.9629629629629629,
+      "shifted": 0.48148148148148145,
+      "inlineImportant": 0,
+      "misses": [
+       "button#hs-eu-decline-button rgb(105, 115, 140)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "sepia",
+      "mode": "A",
+      "fgToken": 0.9629629629629629,
+      "bgToken": 0.9629629629629629,
+      "readable": 0.9259259259259259,
+      "shifted": 0.18518518518518517,
+      "inlineImportant": 0,
+      "misses": [
+       "button#hs-eu-decline-button rgb(105, 115, 140)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "sepia",
+      "mode": "B",
+      "fgToken": 0.9629629629629629,
+      "bgToken": 0.9629629629629629,
+      "readable": 0.9259259259259259,
+      "shifted": 0.5925925925925926,
+      "inlineImportant": 0,
+      "misses": [
+       "button#hs-eu-decline-button rgb(105, 115, 140)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "terminal",
+      "mode": "A",
+      "fgToken": 0.9629629629629629,
+      "bgToken": 0.9629629629629629,
+      "readable": 0.9629629629629629,
+      "shifted": 0.7777777777777778,
+      "inlineImportant": 0,
+      "misses": [
+       "button#hs-eu-decline-button rgb(105, 115, 140)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "terminal",
+      "mode": "B",
+      "fgToken": 0.9629629629629629,
+      "bgToken": 0.9629629629629629,
+      "readable": 0.9629629629629629,
+      "shifted": 0.7777777777777778,
+      "inlineImportant": 0,
+      "misses": [
+       "button#hs-eu-decline-button rgb(105, 115, 140)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "corporate",
+      "mode": "A",
+      "fgToken": 0.9629629629629629,
+      "bgToken": 0.9629629629629629,
+      "readable": 0.9629629629629629,
+      "shifted": 0.48148148148148145,
+      "inlineImportant": 0,
+      "misses": [
+       "button#hs-eu-decline-button rgb(105, 115, 140)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "corporate",
+      "mode": "B",
+      "fgToken": 0.9629629629629629,
+      "bgToken": 0.9629629629629629,
+      "readable": 0.9629629629629629,
+      "shifted": 0.6296296296296297,
+      "inlineImportant": 0,
+      "misses": [
+       "button#hs-eu-decline-button rgb(105, 115, 140)"
+      ],
+      "exceptions": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "domain": "shoesconcierge.jp",
+  "stratum": "tail",
+  "status": "unreachable"
+ },
+ {
+  "domain": "skiresort.com",
+  "stratum": "tail",
+  "url": "https://www.skiresort.com/en/",
+  "cms": "other",
+  "status": "ok",
+  "pages": [
+   {
+    "page": "home",
+    "url": "https://www.skiresort.com/en/",
+    "status": "ok",
+    "n": 96,
+    "baseline": {
+     "readable": 1,
+     "noiseShift": 0
+    },
+    "runs": [
+     {
+      "theme": "minimal",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.15625,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "minimal",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.7395833333333334,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "dark",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.15625,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "dark",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.7395833333333334,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "material",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.15625,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "material",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.7395833333333334,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "solarized",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.15625,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "solarized",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.75,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "brutalism",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.15625,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "brutalism",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.6770833333333334,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "custom",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.15625,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "custom",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.7395833333333334,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "contrast",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.21875,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "contrast",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.78125,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "sepia",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.5104166666666666,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "sepia",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.53125,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "terminal",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.7083333333333334,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "terminal",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.8125,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "corporate",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.21875,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "corporate",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.3854166666666667,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     }
+    ]
+   },
+   {
+    "page": "inner",
+    "url": "https://www.skiresort.com/en/ski-resorts/europe/",
+    "status": "ok",
+    "n": 158,
+    "baseline": {
+     "readable": 1,
+     "noiseShift": 0
+    },
+    "runs": [
+     {
+      "theme": "minimal",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": null,
+      "readable": null,
+      "shifted": 0.34810126582278483,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "minimal",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.7151898734177216,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "dark",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": null,
+      "readable": null,
+      "shifted": 0.34810126582278483,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "dark",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.7151898734177216,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "material",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": null,
+      "readable": null,
+      "shifted": 0.34810126582278483,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "material",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.7151898734177216,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "solarized",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": null,
+      "readable": null,
+      "shifted": 0.34810126582278483,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "solarized",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.7151898734177216,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "brutalism",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": null,
+      "readable": null,
+      "shifted": 0.34810126582278483,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "brutalism",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.6645569620253164,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "custom",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": null,
+      "readable": null,
+      "shifted": 0.34810126582278483,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "custom",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.7278481012658228,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "contrast",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": null,
+      "readable": null,
+      "shifted": 0.379746835443038,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "contrast",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.7341772151898734,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "sepia",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": null,
+      "readable": null,
+      "shifted": 0.14556962025316456,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "sepia",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.9113924050632911,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "terminal",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": null,
+      "readable": null,
+      "shifted": 0.8164556962025317,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "terminal",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.8164556962025317,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "corporate",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": null,
+      "readable": null,
+      "shifted": 0.379746835443038,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "corporate",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.5886075949367089,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "domain": "diveandcruise.com",
+  "stratum": "tail",
+  "url": "https://www.diveandcruise.com/",
+  "cms": "other",
+  "status": "ok",
+  "pages": [
+   {
+    "page": "home",
+    "url": "https://www.diveandcruise.com/",
+    "status": "ok",
+    "n": 125,
+    "baseline": {
+     "readable": 0.4098360655737705,
+     "noiseShift": 0
+    },
+    "runs": [
+     {
+      "theme": "minimal",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.112,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "minimal",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.568,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "dark",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.152,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "dark",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.568,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "material",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.112,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "material",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.568,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "solarized",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.112,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "solarized",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.712,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "brutalism",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.112,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "brutalism",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.128,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "custom",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.112,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "custom",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.568,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "contrast",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.112,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "contrast",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.736,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "sepia",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.096,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "sepia",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.704,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "terminal",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.728,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "terminal",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.728,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "corporate",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.112,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "corporate",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.112,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     }
+    ]
+   },
+   {
+    "page": "inner",
+    "url": "https://www.diveandcruise.com/destination/arctic",
+    "status": "unreachable"
+   }
+  ]
+ },
+ {
+  "domain": "fnoor.com",
+  "stratum": "tail",
+  "status": "unreachable"
+ },
+ {
+  "domain": "kurtheriangambit.com",
+  "stratum": "tail",
+  "url": "https://kurtheriangambit.com/",
+  "cms": "other",
+  "status": "too-little-text",
+  "pages": [
+   {
+    "page": "home",
+    "url": "https://kurtheriangambit.com/",
+    "status": "too-little-text",
+    "n": 0
+   },
+   {
+    "page": "inner",
+    "status": "no-inner-link"
+   }
+  ]
+ },
+ {
+  "domain": "fengyuncai.com",
+  "stratum": "tail",
+  "url": "https://www.fengyuncai.com/asp/index.asp",
+  "cms": "other",
+  "status": "ok",
+  "pages": [
+   {
+    "page": "home",
+    "url": "https://www.fengyuncai.com/asp/index.asp",
+    "status": "ok",
+    "n": 141,
+    "baseline": {
+     "readable": 1,
+     "noiseShift": 0.1276595744680851
+    },
+    "runs": [
+     {
+      "theme": "minimal",
+      "mode": "A",
+      "fgToken": 0.9716312056737588,
+      "bgToken": 0.9901960784313726,
+      "readable": 1,
+      "shifted": 0.9929078014184397,
+      "inlineImportant": 4,
+      "misses": [
+       "span rgb(74, 74, 74)",
+       "span rgb(60, 64, 67)",
+       "span rgb(60, 64, 67)",
+       "span rgb(60, 64, 67)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "minimal",
+      "mode": "B",
+      "fgToken": 0.9716312056737588,
+      "bgToken": 0.7058823529411765,
+      "readable": 1,
+      "shifted": 1,
+      "inlineImportant": 4,
+      "misses": [
+       "span rgb(74, 74, 74)",
+       "span rgb(60, 64, 67)",
+       "span rgb(60, 64, 67)",
+       "span rgb(60, 64, 67)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "dark",
+      "mode": "A",
+      "fgToken": 0.9716312056737588,
+      "bgToken": 0.9607843137254902,
+      "readable": 1,
+      "shifted": 0.9929078014184397,
+      "inlineImportant": 4,
+      "misses": [
+       "span rgb(74, 74, 74)",
+       "span rgb(60, 64, 67)",
+       "span rgb(60, 64, 67)",
+       "span rgb(60, 64, 67)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "dark",
+      "mode": "B",
+      "fgToken": 0.9716312056737588,
+      "bgToken": 0.29411764705882354,
+      "readable": 1,
+      "shifted": 1,
+      "inlineImportant": 4,
+      "misses": [
+       "span rgb(74, 74, 74)",
+       "span rgb(60, 64, 67)",
+       "span rgb(60, 64, 67)",
+       "span rgb(60, 64, 67)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "material",
+      "mode": "A",
+      "fgToken": 0.9716312056737588,
+      "bgToken": 0.9901960784313726,
+      "readable": 1,
+      "shifted": 0.9929078014184397,
+      "inlineImportant": 4,
+      "misses": [
+       "span rgb(74, 74, 74)",
+       "span rgb(60, 64, 67)",
+       "span rgb(60, 64, 67)",
+       "span rgb(60, 64, 67)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "material",
+      "mode": "B",
+      "fgToken": 0.9716312056737588,
+      "bgToken": 0.9901960784313726,
+      "readable": 1,
+      "shifted": 1,
+      "inlineImportant": 4,
+      "misses": [
+       "span rgb(74, 74, 74)",
+       "span rgb(60, 64, 67)",
+       "span rgb(60, 64, 67)",
+       "span rgb(60, 64, 67)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "solarized",
+      "mode": "A",
+      "fgToken": 0.9716312056737588,
+      "bgToken": 0.9607843137254902,
+      "readable": 1,
+      "shifted": 0.9929078014184397,
+      "inlineImportant": 4,
+      "misses": [
+       "span rgb(74, 74, 74)",
+       "span rgb(60, 64, 67)",
+       "span rgb(60, 64, 67)",
+       "span rgb(60, 64, 67)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "solarized",
+      "mode": "B",
+      "fgToken": 0.9716312056737588,
+      "bgToken": 0.29411764705882354,
+      "readable": 1,
+      "shifted": 1,
+      "inlineImportant": 4,
+      "misses": [
+       "span rgb(74, 74, 74)",
+       "span rgb(60, 64, 67)",
+       "span rgb(60, 64, 67)",
+       "span rgb(60, 64, 67)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "brutalism",
+      "mode": "A",
+      "fgToken": 0.9716312056737588,
+      "bgToken": 0.9901960784313726,
+      "readable": 1,
+      "shifted": 0.9929078014184397,
+      "inlineImportant": 4,
+      "misses": [
+       "span rgb(74, 74, 74)",
+       "span rgb(60, 64, 67)",
+       "span rgb(60, 64, 67)",
+       "span rgb(60, 64, 67)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "brutalism",
+      "mode": "B",
+      "fgToken": 0.9716312056737588,
+      "bgToken": 0.9901960784313726,
+      "readable": 1,
+      "shifted": 1,
+      "inlineImportant": 4,
+      "misses": [
+       "span rgb(74, 74, 74)",
+       "span rgb(60, 64, 67)",
+       "span rgb(60, 64, 67)",
+       "span rgb(60, 64, 67)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "custom",
+      "mode": "A",
+      "fgToken": 0.9716312056737588,
+      "bgToken": 0.9901960784313726,
+      "readable": 1,
+      "shifted": 0.9929078014184397,
+      "inlineImportant": 4,
+      "misses": [
+       "span rgb(74, 74, 74)",
+       "span rgb(60, 64, 67)",
+       "span rgb(60, 64, 67)",
+       "span rgb(60, 64, 67)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "custom",
+      "mode": "B",
+      "fgToken": 0.9716312056737588,
+      "bgToken": 0.7058823529411765,
+      "readable": 1,
+      "shifted": 1,
+      "inlineImportant": 4,
+      "misses": [
+       "span rgb(74, 74, 74)",
+       "span rgb(60, 64, 67)",
+       "span rgb(60, 64, 67)",
+       "span rgb(60, 64, 67)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "contrast",
+      "mode": "A",
+      "fgToken": 0.9716312056737588,
+      "bgToken": 0.9901960784313726,
+      "readable": 1,
+      "shifted": 0.9929078014184397,
+      "inlineImportant": 4,
+      "misses": [
+       "span rgb(74, 74, 74)",
+       "span rgb(60, 64, 67)",
+       "span rgb(60, 64, 67)",
+       "span rgb(60, 64, 67)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "contrast",
+      "mode": "B",
+      "fgToken": 0.9716312056737588,
+      "bgToken": 0.9901960784313726,
+      "readable": 1,
+      "shifted": 1,
+      "inlineImportant": 4,
+      "misses": [
+       "span rgb(74, 74, 74)",
+       "span rgb(60, 64, 67)",
+       "span rgb(60, 64, 67)",
+       "span rgb(60, 64, 67)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "sepia",
+      "mode": "A",
+      "fgToken": 0.9716312056737588,
+      "bgToken": 0.9607843137254902,
+      "readable": 1,
+      "shifted": 0.3120567375886525,
+      "inlineImportant": 4,
+      "misses": [
+       "span rgb(74, 74, 74)",
+       "span rgb(60, 64, 67)",
+       "span rgb(60, 64, 67)",
+       "span rgb(60, 64, 67)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "sepia",
+      "mode": "B",
+      "fgToken": 0.9716312056737588,
+      "bgToken": 0.29411764705882354,
+      "readable": 1,
+      "shifted": 1,
+      "inlineImportant": 4,
+      "misses": [
+       "span rgb(74, 74, 74)",
+       "span rgb(60, 64, 67)",
+       "span rgb(60, 64, 67)",
+       "span rgb(60, 64, 67)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "terminal",
+      "mode": "A",
+      "fgToken": 0.9716312056737588,
+      "bgToken": 0.9607843137254902,
+      "readable": 1,
+      "shifted": 0.574468085106383,
+      "inlineImportant": 4,
+      "misses": [
+       "span rgb(74, 74, 74)",
+       "span rgb(60, 64, 67)",
+       "span rgb(60, 64, 67)",
+       "span rgb(60, 64, 67)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "terminal",
+      "mode": "B",
+      "fgToken": 0.9716312056737588,
+      "bgToken": 0.6764705882352942,
+      "readable": 1,
+      "shifted": 1,
+      "inlineImportant": 4,
+      "misses": [
+       "span rgb(74, 74, 74)",
+       "span rgb(60, 64, 67)",
+       "span rgb(60, 64, 67)",
+       "span rgb(60, 64, 67)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "corporate",
+      "mode": "A",
+      "fgToken": 0.9716312056737588,
+      "bgToken": 0.9901960784313726,
+      "readable": 1,
+      "shifted": 0.9929078014184397,
+      "inlineImportant": 4,
+      "misses": [
+       "span rgb(74, 74, 74)",
+       "span rgb(60, 64, 67)",
+       "span rgb(60, 64, 67)",
+       "span rgb(60, 64, 67)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "corporate",
+      "mode": "B",
+      "fgToken": 0.9716312056737588,
+      "bgToken": 0.7058823529411765,
+      "readable": 1,
+      "shifted": 1,
+      "inlineImportant": 4,
+      "misses": [
+       "span rgb(74, 74, 74)",
+       "span rgb(60, 64, 67)",
+       "span rgb(60, 64, 67)",
+       "span rgb(60, 64, 67)"
+      ],
+      "exceptions": []
+     }
+    ]
+   },
+   {
+    "page": "inner",
+    "url": "https://www.fengyuncai.com/kbo/performances.asp",
+    "status": "unreachable"
+   }
+  ]
+ },
+ {
+  "domain": "gomage.com",
+  "stratum": "tail",
+  "url": "https://www.gomage.com/",
+  "cms": "wordpress",
+  "status": "ok",
+  "pages": [
+   {
+    "page": "home",
+    "url": "https://www.gomage.com/",
+    "status": "ok",
+    "n": 50,
+    "baseline": {
+     "readable": 1,
+     "noiseShift": 0
+    },
+    "runs": [
+     {
+      "theme": "minimal",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.16,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "minimal",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.88,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "dark",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.16,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "dark",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.88,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "material",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.16,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "material",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.88,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "solarized",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.16,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "solarized",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.88,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "brutalism",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.16,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "brutalism",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.2,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "custom",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.16,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "custom",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.88,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "contrast",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.16,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "contrast",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.88,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "sepia",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.86,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "sepia",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.92,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "terminal",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.84,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "terminal",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.84,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "corporate",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.16,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "corporate",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.76,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     }
+    ]
+   },
+   {
+    "page": "inner",
+    "url": "https://www.gomage.com/services/360-ecommerce-expertise/ux-ui-design/",
+    "status": "ok",
+    "n": 27,
+    "baseline": {
+     "readable": 1,
+     "noiseShift": 0
+    },
+    "runs": [
+     {
+      "theme": "minimal",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.5185185185185185,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "minimal",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.5185185185185185,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "dark",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.5185185185185185,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "dark",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.5185185185185185,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "material",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.5185185185185185,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "material",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.5185185185185185,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "solarized",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.5185185185185185,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "solarized",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.8148148148148148,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "brutalism",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.5185185185185185,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "brutalism",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.5185185185185185,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "custom",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.5185185185185185,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "custom",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.5185185185185185,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "contrast",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.5185185185185185,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "contrast",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.8148148148148148,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "sepia",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.6296296296296297,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "sepia",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.8518518518518519,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "terminal",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.7037037037037037,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "terminal",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.7037037037037037,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "corporate",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.5185185185185185,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "corporate",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.5185185185185185,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "domain": "fullcloudweb.com",
+  "stratum": "tail",
+  "url": "https://fullcloudweb.com/",
+  "cms": "other",
+  "status": "too-little-text",
+  "pages": [
+   {
+    "page": "home",
+    "url": "https://fullcloudweb.com/",
+    "status": "too-little-text",
+    "n": 7
+   },
+   {
+    "page": "inner",
+    "url": "https://fullcloudweb.com/a/",
+    "status": "too-little-text",
+    "n": 8
+   }
+  ]
+ },
+ {
+  "domain": "eff-massvoterreg.org",
+  "stratum": "tail",
+  "url": "https://eff-massvoterreg.org/login",
+  "cms": "other",
+  "status": "too-little-text",
+  "pages": [
+   {
+    "page": "home",
+    "url": "https://eff-massvoterreg.org/login",
+    "status": "too-little-text",
+    "n": 15
+   },
+   {
+    "page": "inner",
+    "status": "no-inner-link"
+   }
+  ]
+ },
+ {
+  "domain": "imageainewgeneration.lol",
+  "stratum": "tail",
+  "status": "unreachable"
+ },
+ {
+  "domain": "gromader.org",
+  "stratum": "tail",
+  "status": "unreachable"
+ },
+ {
+  "domain": "matrixdobrasil.ai",
+  "stratum": "tail",
+  "status": "unreachable"
+ },
+ {
+  "domain": "tanuki.ru",
+  "stratum": "tail",
+  "status": "unreachable"
+ },
+ {
+  "domain": "tni-ad.mil.id",
+  "stratum": "tail",
+  "url": "https://tni-ad.mil.id/",
+  "cms": "other",
+  "status": "too-little-text",
+  "pages": [
+   {
+    "page": "home",
+    "url": "https://tni-ad.mil.id/",
+    "status": "too-little-text",
+    "n": 6
+   },
+   {
+    "page": "inner",
+    "status": "no-inner-link"
+   }
+  ]
+ },
+ {
+  "domain": "peer1.com",
+  "stratum": "tail",
+  "status": "unreachable"
+ },
+ {
+  "domain": "hanwhasolutions.com",
+  "stratum": "tail",
+  "status": "unreachable"
+ },
+ {
+  "domain": "babyland.se",
+  "stratum": "tail",
+  "status": "unreachable"
+ },
+ {
+  "domain": "permanentstyle.com",
+  "stratum": "tail",
+  "url": "https://www.permanentstyle.com/",
+  "cms": "wordpress",
+  "status": "ok",
+  "pages": [
+   {
+    "page": "home",
+    "url": "https://www.permanentstyle.com/",
+    "status": "ok",
+    "n": 38,
+    "baseline": {
+     "readable": 1,
+     "noiseShift": 0
+    },
+    "runs": [
+     {
+      "theme": "minimal",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.3684210526315789,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "minimal",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.07894736842105263,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "dark",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.3684210526315789,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "dark",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.07894736842105263,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "material",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.3684210526315789,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "material",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.07894736842105263,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "solarized",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.3684210526315789,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "solarized",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.10526315789473684,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "brutalism",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.3684210526315789,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "brutalism",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.3684210526315789,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "custom",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.3684210526315789,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "custom",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.07894736842105263,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "contrast",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.3684210526315789,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "contrast",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.2894736842105263,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "sepia",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.42105263157894735,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "sepia",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.4473684210526316,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "terminal",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.5789473684210527,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "terminal",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.5789473684210527,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "corporate",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.3684210526315789,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "corporate",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.42105263157894735,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     }
+    ]
+   },
+   {
+    "page": "inner",
+    "url": "https://www.permanentstyle.com/2026/08/the-wonderful-world-of-motorcycle-clothing.html",
+    "status": "ok",
+    "n": 39,
+    "baseline": {
+     "readable": 1,
+     "noiseShift": 0
+    },
+    "runs": [
+     {
+      "theme": "minimal",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.2564102564102564,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "minimal",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.358974358974359,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "dark",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.2564102564102564,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "dark",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.358974358974359,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "material",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.2564102564102564,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "material",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.358974358974359,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "solarized",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.2564102564102564,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "solarized",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.358974358974359,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "brutalism",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.2564102564102564,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "brutalism",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.2564102564102564,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "custom",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.2564102564102564,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "custom",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.358974358974359,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "contrast",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.2564102564102564,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "contrast",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.358974358974359,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "sepia",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.3333333333333333,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "sepia",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.46153846153846156,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "terminal",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.38461538461538464,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "terminal",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.38461538461538464,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "corporate",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.2564102564102564,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "corporate",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.2564102564102564,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "domain": "07kmbg777.site",
+  "stratum": "tail",
+  "status": "timeout",
+  "restarted": true
+ }
+]

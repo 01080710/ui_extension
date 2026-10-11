@@ -1,0 +1,1939 @@
+{
+  "generatedAt": "2026-10-11T17:06:40.939Z",
+  "strata": {
+    "head": {
+      "tried": 277,
+      "measured": 140,
+      "recoveredByRetry": 40,
+      "excluded": {
+        "no-site": 95,
+        "scope-limit": 33,
+        "bot-blocked": 8,
+        "not-html": 1
+      },
+      "rows": [
+        {
+          "domain": "gstatic.com",
+          "benchStatus": "unreachable",
+          "probe": {
+            "status": 404,
+            "ct": "text/html; charset=UTF-8",
+            "challenge": false,
+            "server": "sffe"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "googleapis.com",
+          "benchStatus": "unreachable",
+          "probe": {
+            "status": 404,
+            "ct": "text/html; charset=UTF-8",
+            "challenge": false,
+            "server": ""
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "youtube.com",
+          "benchStatus": "too-little-text",
+          "probe": {},
+          "category": "scope-limit"
+        },
+        {
+          "domain": "akamaiedge.net",
+          "benchStatus": "unreachable",
+          "probe": {
+            "error": "ENOTFOUND"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "domaincontrol.com",
+          "benchStatus": "unreachable",
+          "probe": {
+            "error": "ENOTFOUND"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "ezviz7.com",
+          "benchStatus": "unreachable",
+          "probe": {
+            "error": "CERT_HAS_EXPIRED"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "akamai.net",
+          "benchStatus": "unreachable",
+          "probe": {
+            "error": "ENOTFOUND"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "googlevideo.com",
+          "benchStatus": "unreachable",
+          "probe": {
+            "status": 404,
+            "ct": "text/html; charset=UTF-8",
+            "challenge": false,
+            "server": "sffe"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "googletagmanager.com",
+          "benchStatus": "unreachable",
+          "probe": {
+            "status": 404,
+            "ct": "text/html; charset=UTF-8",
+            "challenge": false,
+            "server": "Google Tag Manager"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "hicloudcam.com",
+          "benchStatus": "too-little-text",
+          "probe": {},
+          "category": "scope-limit"
+        },
+        {
+          "domain": "live.com",
+          "benchStatus": "too-little-text",
+          "probe": {},
+          "category": "scope-limit"
+        },
+        {
+          "domain": "appsflyersdk.com",
+          "benchStatus": "unreachable",
+          "probe": {
+            "status": 403,
+            "ct": "text/xml",
+            "challenge": false,
+            "server": "CloudFront"
+          },
+          "category": "bot-blocked"
+        },
+        {
+          "domain": "whatsapp.net",
+          "benchStatus": "too-little-text",
+          "probe": {},
+          "category": "scope-limit"
+        },
+        {
+          "domain": "bing.com",
+          "benchStatus": "too-little-text",
+          "probe": {},
+          "category": "scope-limit"
+        },
+        {
+          "domain": "akadns.net",
+          "benchStatus": "timeout",
+          "probe": {
+            "error": "ENOTFOUND"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "gtld-servers.net",
+          "benchStatus": "timeout",
+          "probe": {
+            "error": "ENOTFOUND"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "aaplimg.com",
+          "benchStatus": "timeout",
+          "probe": {
+            "error": "ENOTFOUND"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "cloudfront.net",
+          "benchStatus": "timeout",
+          "probe": {
+            "error": "ENOTFOUND"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "googleusercontent.com",
+          "benchStatus": "unreachable",
+          "probe": {
+            "status": 404,
+            "ct": "text/html; charset=UTF-8",
+            "challenge": false,
+            "server": "sffe"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "apple-dns.net",
+          "benchStatus": "timeout",
+          "probe": {
+            "error": "ENOTFOUND"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "doubleclick.net",
+          "benchStatus": "too-little-text",
+          "probe": {},
+          "category": "scope-limit"
+        },
+        {
+          "domain": "office.net",
+          "benchStatus": "timeout",
+          "probe": {
+            "error": "ENOTFOUND"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "youtu.be",
+          "benchStatus": "too-little-text",
+          "probe": {},
+          "category": "scope-limit"
+        },
+        {
+          "domain": "trafficmanager.net",
+          "benchStatus": "timeout",
+          "probe": {
+            "error": "ENOTFOUND"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "icloud.com",
+          "benchStatus": "too-little-text",
+          "probe": {},
+          "category": "scope-limit"
+        },
+        {
+          "domain": "googledomains.com",
+          "benchStatus": "too-little-text",
+          "probe": {},
+          "category": "scope-limit"
+        },
+        {
+          "domain": "googlesyndication.com",
+          "benchStatus": "too-little-text",
+          "probe": {},
+          "category": "scope-limit"
+        },
+        {
+          "domain": "whatsapp.com",
+          "benchStatus": "too-little-text",
+          "probe": {},
+          "category": "scope-limit"
+        },
+        {
+          "domain": "goo.gl",
+          "benchStatus": "unreachable",
+          "probe": {
+            "status": 400,
+            "ct": "text/html; charset=utf-8",
+            "challenge": false,
+            "server": "ESF"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "tiktok.com",
+          "benchStatus": "too-little-text",
+          "probe": {},
+          "category": "scope-limit"
+        },
+        {
+          "domain": "microsoftonline.com",
+          "benchStatus": "timeout",
+          "probe": {
+            "error": "ENOTFOUND"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "gvt1.com",
+          "benchStatus": "timeout",
+          "probe": {
+            "error": "ENOTFOUND"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "windowsupdate.com",
+          "benchStatus": "timeout",
+          "probe": {
+            "error": "ENOTFOUND"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "windows.net",
+          "benchStatus": "timeout",
+          "probe": {
+            "error": "ERR_TLS_CERT_ALTNAME_INVALID"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "pv-cdn.net",
+          "benchStatus": "timeout",
+          "probe": {
+            "error": "ENOTFOUND"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "myfritz.net",
+          "benchStatus": "too-little-text",
+          "probe": {},
+          "category": "scope-limit"
+        },
+        {
+          "domain": "msn.com",
+          "benchStatus": "too-little-text",
+          "probe": {},
+          "category": "scope-limit"
+        },
+        {
+          "domain": "tiktokcdn.com",
+          "benchStatus": "timeout",
+          "probe": {
+            "error": "ENOTFOUND"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "edgekey.net",
+          "benchStatus": "timeout",
+          "probe": {
+            "error": "ERR_TLS_CERT_ALTNAME_INVALID"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "akam.net",
+          "benchStatus": "timeout",
+          "probe": {
+            "error": "ENOTFOUND"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "tiktokv.com",
+          "benchStatus": "too-little-text",
+          "probe": {},
+          "category": "scope-limit"
+        },
+        {
+          "domain": "yandex.net",
+          "benchStatus": "too-little-text",
+          "probe": {},
+          "category": "scope-limit"
+        },
+        {
+          "domain": "root-servers.net",
+          "benchStatus": "timeout",
+          "probe": {
+            "error": "ENOTFOUND"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "blogspot.com",
+          "benchStatus": "too-little-text",
+          "probe": {},
+          "category": "scope-limit"
+        },
+        {
+          "domain": "a2z.com",
+          "benchStatus": "timeout",
+          "probe": {
+            "error": "ENOTFOUND"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "gvt2.com",
+          "benchStatus": "timeout",
+          "probe": {
+            "error": "ENOTFOUND"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "highwebmedia.com",
+          "benchStatus": "timeout",
+          "probe": {
+            "error": "ENOTFOUND"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "yuga.com",
+          "benchStatus": "too-little-text",
+          "probe": {},
+          "category": "scope-limit"
+        },
+        {
+          "domain": "gwfb.net",
+          "benchStatus": "timeout",
+          "probe": {
+            "error": "ENOTFOUND"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "nic.ru",
+          "benchStatus": "too-little-text",
+          "probe": {},
+          "category": "scope-limit"
+        },
+        {
+          "domain": "office365.com",
+          "benchStatus": "unreachable",
+          "probe": {
+            "status": 403,
+            "ct": "text/html",
+            "challenge": false,
+            "server": ""
+          },
+          "category": "bot-blocked"
+        },
+        {
+          "domain": "yccdn.ru",
+          "benchStatus": "timeout",
+          "probe": {
+            "error": "ENOTFOUND"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "cdninstagram.com",
+          "benchStatus": "timeout",
+          "probe": {
+            "error": "ENOTFOUND"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "edgesuite.net",
+          "benchStatus": "timeout",
+          "probe": {
+            "error": "ENOTFOUND"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "registrar-servers.com",
+          "benchStatus": "too-little-text",
+          "probe": {},
+          "category": "scope-limit"
+        },
+        {
+          "domain": "okcdn.ru",
+          "benchStatus": "unreachable",
+          "probe": {
+            "status": 403,
+            "ct": "text/html; charset=utf-8",
+            "challenge": false,
+            "server": "apache"
+          },
+          "category": "bot-blocked"
+        },
+        {
+          "domain": "outlook.com",
+          "benchStatus": "too-little-text",
+          "probe": {},
+          "category": "scope-limit"
+        },
+        {
+          "domain": "ytimg.com",
+          "benchStatus": "timeout",
+          "probe": {
+            "error": "ENOTFOUND"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "aws.dev",
+          "benchStatus": "timeout",
+          "probe": {
+            "error": "ENOTFOUND"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "3gppnetwork.org",
+          "benchStatus": "timeout",
+          "probe": {
+            "error": "ENOTFOUND"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "trbcdn.net",
+          "benchStatus": "timeout",
+          "probe": {
+            "error": "ERR_TLS_CERT_ALTNAME_INVALID"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "cdn77.org",
+          "benchStatus": "timeout",
+          "probe": {
+            "error": "ENOTFOUND"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "aliyuncs.com",
+          "benchStatus": "unreachable",
+          "probe": {
+            "status": 404,
+            "ct": "text/html; charset=utf-8",
+            "challenge": false,
+            "server": "Tengine"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "dnsowl.com",
+          "benchStatus": "timeout",
+          "probe": {
+            "error": "ENOTFOUND"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "nih.gov",
+          "benchStatus": "unreachable",
+          "probe": {
+            "status": 403,
+            "ct": "text/html; charset=UTF-8",
+            "challenge": true,
+            "server": "cloudflare"
+          },
+          "category": "bot-blocked"
+        },
+        {
+          "domain": "discord.gg",
+          "benchStatus": "too-little-text",
+          "probe": {},
+          "category": "scope-limit"
+        },
+        {
+          "domain": "amazon.dev",
+          "benchStatus": "timeout",
+          "probe": {
+            "error": "ENOTFOUND"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "archive.org",
+          "benchStatus": "too-little-text",
+          "probe": {},
+          "category": "scope-limit"
+        },
+        {
+          "domain": "static.microsoft",
+          "benchStatus": "timeout",
+          "probe": {
+            "error": "ENOTFOUND"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "azurefd.net",
+          "benchStatus": "unreachable",
+          "probe": {
+            "status": 404,
+            "ct": "text/html",
+            "challenge": false,
+            "server": ""
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "dns-parking.com",
+          "benchStatus": "timeout",
+          "probe": {
+            "error": "ENOTFOUND"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "forms.gle",
+          "benchStatus": "too-little-text",
+          "probe": {},
+          "category": "scope-limit"
+        },
+        {
+          "domain": "app-measurement.com",
+          "benchStatus": "unreachable",
+          "probe": {
+            "status": 404,
+            "ct": "text/html; charset=UTF-8",
+            "challenge": false,
+            "server": "sffe"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "amazon-adsystem.com",
+          "benchStatus": "timeout",
+          "probe": {
+            "error": "ENOTFOUND"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "app-analytics-services.com",
+          "benchStatus": "unreachable",
+          "probe": {
+            "status": 404,
+            "ct": "text/html; charset=UTF-8",
+            "challenge": false,
+            "server": ""
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "fastly-edge.com",
+          "benchStatus": "timeout",
+          "probe": {
+            "error": "ENOTFOUND"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "2mdn.net",
+          "benchStatus": "timeout",
+          "probe": {
+            "error": "ENOTFOUND"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "tm-azurefd.net",
+          "benchStatus": "unreachable",
+          "probe": {
+            "error": "ENOTFOUND"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "jomodns.com",
+          "benchStatus": "unreachable",
+          "probe": {
+            "error": "ECONNREFUSED"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "example.com",
+          "benchStatus": "too-little-text",
+          "probe": {},
+          "category": "scope-limit"
+        },
+        {
+          "domain": "paypal.com",
+          "benchStatus": "too-little-text",
+          "probe": {},
+          "category": "scope-limit"
+        },
+        {
+          "domain": "iiko.it",
+          "benchStatus": "timeout",
+          "probe": {
+            "error": "ENOTFOUND"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "shiabank.com",
+          "benchStatus": "timeout",
+          "probe": {
+            "error": "ECONNRESET"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "akamaized.net",
+          "benchStatus": "timeout",
+          "probe": {
+            "error": "ENOTFOUND"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "azurewebsites.net",
+          "benchStatus": "timeout",
+          "probe": {
+            "error": "ECONNREFUSED"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "ax-msedge.net",
+          "benchStatus": "timeout",
+          "probe": {
+            "error": "ENOTFOUND"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "yandexcloud.net",
+          "benchStatus": "timeout",
+          "probe": {
+            "error": "ENOTFOUND"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "nflxso.net",
+          "benchStatus": "timeout",
+          "probe": {
+            "error": "ENOTFOUND"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "vk.ru",
+          "benchStatus": "too-little-text",
+          "probe": {},
+          "category": "scope-limit"
+        },
+        {
+          "domain": "msftconnecttest.com",
+          "benchStatus": "timeout",
+          "probe": {
+            "error": "ERR_TLS_CERT_ALTNAME_INVALID"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "doctolib.net",
+          "benchStatus": "timeout",
+          "probe": {
+            "error": "ENOTFOUND"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "vkuserphoto.ru",
+          "benchStatus": "timeout",
+          "probe": {
+            "status": 418,
+            "ct": "",
+            "challenge": false,
+            "server": "kittenx"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "msftncsi.com",
+          "benchStatus": "unreachable",
+          "probe": {
+            "error": "ERR_TLS_CERT_ALTNAME_INVALID"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "namebrightdns.com",
+          "benchStatus": "timeout",
+          "probe": {
+            "error": "ENOTFOUND"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "googleadservices.com",
+          "benchStatus": "unreachable",
+          "probe": {
+            "status": 404,
+            "ct": "text/html; charset=UTF-8",
+            "challenge": false,
+            "server": "sffe"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "vedcdnlb.com",
+          "benchStatus": "timeout",
+          "probe": {
+            "error": "ENOTFOUND"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "youtube-nocookie.com",
+          "benchStatus": "unreachable",
+          "probe": {
+            "status": 404,
+            "ct": "text/html; charset=utf-8",
+            "challenge": false,
+            "server": "ESF"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "lsrelayaccess.com",
+          "benchStatus": "timeout",
+          "probe": {
+            "error": "ECONNRESET"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "ksyuncdn.com",
+          "benchStatus": "unreachable",
+          "probe": {
+            "error": "ENOTFOUND"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "spectrum.com",
+          "benchStatus": "unreachable",
+          "probe": {
+            "status": 403,
+            "ct": "text/html",
+            "challenge": true,
+            "server": "AkamaiGHost"
+          },
+          "category": "bot-blocked"
+        },
+        {
+          "domain": "ailawandorder.com",
+          "benchStatus": "timeout",
+          "probe": {
+            "error": "ERR_TLS_CERT_ALTNAME_INVALID"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "shifen.com",
+          "benchStatus": "unreachable",
+          "probe": {
+            "error": "ERR_TLS_CERT_ALTNAME_INVALID"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "bytefcdn-oversea.com",
+          "benchStatus": "timeout",
+          "probe": {
+            "error": "ENOTFOUND"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "steamserver.net",
+          "benchStatus": "timeout",
+          "probe": {
+            "error": "ENOTFOUND"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "dns.google",
+          "benchStatus": "too-little-text",
+          "probe": {},
+          "category": "scope-limit"
+        },
+        {
+          "domain": "sciencedirect.com",
+          "benchStatus": "unreachable",
+          "probe": {
+            "status": 400,
+            "ct": "text/html; charset=utf-8",
+            "challenge": false,
+            "server": "cloudflare"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "samsungcloud.com",
+          "benchStatus": "too-little-text",
+          "probe": {},
+          "category": "scope-limit"
+        },
+        {
+          "domain": "ttdns2.com",
+          "benchStatus": "timeout",
+          "probe": {
+            "error": "ENOTFOUND"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "researchgate.net",
+          "benchStatus": "unreachable",
+          "probe": {
+            "status": 403,
+            "ct": "text/html;charset=utf-8",
+            "challenge": true,
+            "server": "cloudflare"
+          },
+          "category": "bot-blocked"
+        },
+        {
+          "domain": "cdngslb.com",
+          "benchStatus": "unreachable",
+          "probe": {
+            "error": "UND_ERR_CONNECT_TIMEOUT"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "cdn-apple.com",
+          "benchStatus": "timeout",
+          "probe": {
+            "error": "ENOTFOUND"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "azureedge.net",
+          "benchStatus": "unreachable",
+          "probe": {
+            "status": 404,
+            "ct": "text/html",
+            "challenge": false,
+            "server": ""
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "ozon.ru",
+          "benchStatus": "unreachable",
+          "probe": {
+            "error": "TypeError"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "ggpht.com",
+          "benchStatus": "timeout",
+          "probe": {
+            "error": "ENOTFOUND"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "sfx.ms",
+          "benchStatus": "timeout",
+          "probe": {
+            "error": "ENOTFOUND"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "t.co",
+          "benchStatus": "too-little-text",
+          "probe": {},
+          "category": "scope-limit"
+        },
+        {
+          "domain": "mtgglobals.com",
+          "benchStatus": "too-little-text",
+          "probe": {},
+          "category": "scope-limit"
+        },
+        {
+          "domain": "rbxcdn.com",
+          "benchStatus": "timeout",
+          "probe": {
+            "error": "ENOTFOUND"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "spov-msedge.net",
+          "benchStatus": "timeout",
+          "probe": {
+            "error": "ENOTFOUND"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "msedge.net",
+          "benchStatus": "unreachable",
+          "probe": {
+            "error": "UND_ERR_CONNECT_TIMEOUT"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "wsdvs.com",
+          "benchStatus": "timeout",
+          "probe": {
+            "error": "ENOTFOUND"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "name-services.com",
+          "benchStatus": "timeout",
+          "probe": {
+            "error": "ENOTFOUND"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "imdb.com",
+          "benchStatus": "too-little-text",
+          "probe": {},
+          "category": "scope-limit"
+        },
+        {
+          "domain": "telecid.ru",
+          "benchStatus": "unreachable",
+          "probe": {
+            "status": 403,
+            "ct": "text/html; charset=utf-8",
+            "challenge": false,
+            "server": "nginx"
+          },
+          "category": "bot-blocked"
+        },
+        {
+          "domain": "nflximg.com",
+          "benchStatus": "unreachable",
+          "probe": {
+            "error": "SELF_SIGNED_CERT_IN_CHAIN"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "linktr.ee",
+          "benchStatus": "too-little-text",
+          "probe": {},
+          "category": "scope-limit"
+        },
+        {
+          "domain": "omtrdc.net",
+          "benchStatus": "timeout",
+          "probe": {
+            "error": "ERR_TLS_CERT_ALTNAME_INVALID"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "playstation.net",
+          "benchStatus": "timeout",
+          "probe": {
+            "error": "ENOTFOUND"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "media-amazon.com",
+          "benchStatus": "timeout",
+          "probe": {
+            "error": "ENOTFOUND"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "aliyuncsslbintl.com",
+          "benchStatus": "timeout",
+          "probe": {
+            "error": "ENOTFOUND"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "awswaf.com",
+          "benchStatus": "unreachable",
+          "probe": {
+            "error": "ENOTFOUND"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "wixsite.com",
+          "benchStatus": "unreachable",
+          "probe": {
+            "status": 200,
+            "ct": "text/html; charset=UTF-8",
+            "challenge": true,
+            "server": "Pepyaka"
+          },
+          "category": "bot-blocked"
+        },
+        {
+          "domain": "licdn.com",
+          "benchStatus": "timeout",
+          "probe": {
+            "error": "ERR_TLS_CERT_ALTNAME_INVALID"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "adsafeprotected.com",
+          "benchStatus": "unreachable",
+          "probe": {
+            "status": 200,
+            "ct": "image/gif",
+            "challenge": false,
+            "server": "AmazonS3"
+          },
+          "category": "not-html"
+        },
+        {
+          "domain": "alibabadns.com",
+          "benchStatus": "timeout",
+          "probe": {
+            "error": "ENOTFOUND"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "imcmdb.net",
+          "benchStatus": "unreachable",
+          "probe": {
+            "error": "ENOTFOUND"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "spo-msedge.net",
+          "benchStatus": "timeout",
+          "probe": {
+            "error": "ENOTFOUND"
+          },
+          "category": "no-site"
+        }
+      ]
+    },
+    "tail": {
+      "tried": 169,
+      "measured": 113,
+      "recoveredByRetry": 11,
+      "excluded": {
+        "scope-limit": 15,
+        "not-html": 1,
+        "no-site": 23,
+        "bot-blocked": 15,
+        "real-failed": 2
+      },
+      "rows": [
+        {
+          "domain": "yokagames.com",
+          "benchStatus": "too-little-text",
+          "probe": {},
+          "category": "scope-limit"
+        },
+        {
+          "domain": "treatable-id.net",
+          "benchStatus": "too-little-text",
+          "probe": {},
+          "category": "scope-limit"
+        },
+        {
+          "domain": "ymv9ydanm8.ru",
+          "benchStatus": "unreachable",
+          "probe": {
+            "status": 200,
+            "ct": "image/gif",
+            "challenge": false,
+            "server": ""
+          },
+          "category": "not-html"
+        },
+        {
+          "domain": "brasil.gov.br",
+          "benchStatus": "timeout",
+          "probe": {
+            "error": "CERT_HAS_EXPIRED"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "bjsxcy.com",
+          "benchStatus": "timeout",
+          "probe": {
+            "error": "CERT_HAS_EXPIRED"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "videyu.org",
+          "benchStatus": "too-little-text",
+          "probe": {},
+          "category": "scope-limit"
+        },
+        {
+          "domain": "becekenak.io",
+          "benchStatus": "unreachable",
+          "probe": {
+            "status": 404,
+            "ct": "text/html",
+            "challenge": false,
+            "server": "cloudflare"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "primiti.net",
+          "benchStatus": "unreachable",
+          "probe": {
+            "error": "UND_ERR_CONNECT_TIMEOUT"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "guestofaguest.com",
+          "benchStatus": "unreachable",
+          "probe": {
+            "status": 503,
+            "ct": "",
+            "challenge": false,
+            "server": ""
+          },
+          "category": "bot-blocked"
+        },
+        {
+          "domain": "fairplay1.pro",
+          "benchStatus": "too-little-text",
+          "probe": {},
+          "category": "scope-limit"
+        },
+        {
+          "domain": "flashsolutions.ca",
+          "benchStatus": "timeout",
+          "probe": {
+            "error": "ERR_TLS_CERT_ALTNAME_INVALID"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "livestartpage.com",
+          "benchStatus": "error",
+          "probe": {
+            "status": 200,
+            "ct": "text/html",
+            "challenge": false,
+            "server": "nginx"
+          },
+          "category": "real-failed"
+        },
+        {
+          "domain": "cloudx2.com",
+          "benchStatus": "too-little-text",
+          "probe": {},
+          "category": "scope-limit"
+        },
+        {
+          "domain": "cyber-proud.com",
+          "benchStatus": "unreachable",
+          "probe": {
+            "status": 403,
+            "ct": "text/html",
+            "challenge": false,
+            "server": "cloudflare"
+          },
+          "category": "bot-blocked"
+        },
+        {
+          "domain": "securev.net",
+          "benchStatus": "timeout",
+          "probe": {
+            "error": "ENOTFOUND"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "otip.com",
+          "benchStatus": "too-little-text",
+          "probe": {},
+          "category": "scope-limit"
+        },
+        {
+          "domain": "ddns.ms",
+          "benchStatus": "timeout",
+          "probe": {
+            "error": "ERR_SSL_WRONG_VERSION_NUMBER"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "07kmbg777.site",
+          "benchStatus": "timeout",
+          "probe": {
+            "status": 200,
+            "ct": "text/html; charset=utf-8",
+            "challenge": false,
+            "server": "cloudflare"
+          },
+          "category": "real-failed"
+        },
+        {
+          "domain": "hitbip.com",
+          "benchStatus": "unreachable",
+          "probe": {
+            "status": 403,
+            "ct": "application/xml",
+            "challenge": false,
+            "server": "AmazonS3"
+          },
+          "category": "bot-blocked"
+        },
+        {
+          "domain": "slovak-cottages.com",
+          "benchStatus": "unreachable",
+          "probe": {
+            "status": 525,
+            "ct": "text/html; charset=UTF-8",
+            "challenge": false,
+            "server": "cloudflare"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "denbypottery.com",
+          "benchStatus": "too-little-text",
+          "probe": {},
+          "category": "scope-limit"
+        },
+        {
+          "domain": "minchiroses.com",
+          "benchStatus": "unreachable",
+          "probe": {
+            "status": 403,
+            "ct": "text/html; charset=UTF-8",
+            "challenge": true,
+            "server": "cloudflare"
+          },
+          "category": "bot-blocked"
+        },
+        {
+          "domain": "libreriacompas.com",
+          "benchStatus": "unreachable",
+          "probe": {
+            "error": "UND_ERR_CONNECT_TIMEOUT"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "rci-travel.com",
+          "benchStatus": "unreachable",
+          "probe": {
+            "status": 405,
+            "ct": "text/html; charset=UTF-8",
+            "challenge": true,
+            "server": ""
+          },
+          "category": "bot-blocked"
+        },
+        {
+          "domain": "nagawinspot.com",
+          "benchStatus": "timeout",
+          "probe": {
+            "error": "ENOTFOUND"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "freshz.hu",
+          "benchStatus": "too-little-text",
+          "probe": {},
+          "category": "scope-limit"
+        },
+        {
+          "domain": "estekhare.net",
+          "benchStatus": "too-little-text",
+          "probe": {},
+          "category": "scope-limit"
+        },
+        {
+          "domain": "e-talent.jobs",
+          "benchStatus": "unreachable",
+          "probe": {
+            "status": 403,
+            "ct": "text/html; charset=UTF-8",
+            "challenge": true,
+            "server": "cloudflare"
+          },
+          "category": "bot-blocked"
+        },
+        {
+          "domain": "magic-bot.ru",
+          "benchStatus": "too-little-text",
+          "probe": {},
+          "category": "scope-limit"
+        },
+        {
+          "domain": "wlabel.ch",
+          "benchStatus": "timeout",
+          "probe": {
+            "error": "ENOTFOUND"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "kmjhty.com",
+          "benchStatus": "unreachable",
+          "probe": {
+            "status": 403,
+            "ct": "text/html; charset=UTF-8",
+            "challenge": false,
+            "server": "cloudflare"
+          },
+          "category": "bot-blocked"
+        },
+        {
+          "domain": "equivont.com",
+          "benchStatus": "unreachable",
+          "probe": {
+            "status": 403,
+            "ct": "text/html; charset=UTF-8",
+            "challenge": true,
+            "server": "cloudflare"
+          },
+          "category": "bot-blocked"
+        },
+        {
+          "domain": "joomlashine.com",
+          "benchStatus": "unreachable",
+          "probe": {
+            "error": "UND_ERR_CONNECT_TIMEOUT"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "leosmart.de",
+          "benchStatus": "unreachable",
+          "probe": {
+            "error": "UND_ERR_CONNECT_TIMEOUT"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "muliatrack.com",
+          "benchStatus": "unreachable",
+          "probe": {
+            "error": "ERR_TLS_CERT_ALTNAME_INVALID"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "zee61patterns.shop",
+          "benchStatus": "timeout",
+          "probe": {
+            "error": "ENOTFOUND"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "supercleaner.app",
+          "benchStatus": "too-little-text",
+          "probe": {},
+          "category": "scope-limit"
+        },
+        {
+          "domain": "sealapps.com",
+          "benchStatus": "timeout",
+          "probe": {
+            "error": "ENOTFOUND"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "333win1.com",
+          "benchStatus": "unreachable",
+          "probe": {
+            "status": 403,
+            "ct": "text/html",
+            "challenge": false,
+            "server": "awselb/2.0"
+          },
+          "category": "bot-blocked"
+        },
+        {
+          "domain": "fnoor.com",
+          "benchStatus": "unreachable",
+          "probe": {
+            "status": 403,
+            "ct": "text/html; charset=UTF-8",
+            "challenge": true,
+            "server": "cloudflare"
+          },
+          "category": "bot-blocked"
+        },
+        {
+          "domain": "kurtheriangambit.com",
+          "benchStatus": "too-little-text",
+          "probe": {},
+          "category": "scope-limit"
+        },
+        {
+          "domain": "eff-massvoterreg.org",
+          "benchStatus": "too-little-text",
+          "probe": {},
+          "category": "scope-limit"
+        },
+        {
+          "domain": "fullcloudweb.com",
+          "benchStatus": "too-little-text",
+          "probe": {},
+          "category": "scope-limit"
+        },
+        {
+          "domain": "watchtower.ai",
+          "benchStatus": "timeout",
+          "probe": {
+            "error": "ENOTFOUND"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "7kmu.com",
+          "benchStatus": "unreachable",
+          "probe": {
+            "status": 404,
+            "ct": "text/html; charset=utf-8",
+            "challenge": false,
+            "server": "cloudflare"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "anakslotggwp.com",
+          "benchStatus": "unreachable",
+          "probe": {
+            "status": 404,
+            "ct": "text/html; charset=us-ascii",
+            "challenge": false,
+            "server": "cloudflare"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "imageainewgeneration.lol",
+          "benchStatus": "unreachable",
+          "probe": {
+            "status": 403,
+            "ct": "text/html",
+            "challenge": false,
+            "server": "cloudflare"
+          },
+          "category": "bot-blocked"
+        },
+        {
+          "domain": "gromader.org",
+          "benchStatus": "unreachable",
+          "probe": {
+            "status": 403,
+            "ct": "text/html; charset=iso-8859-1",
+            "challenge": false,
+            "server": "Apache"
+          },
+          "category": "bot-blocked"
+        },
+        {
+          "domain": "tanuki.ru",
+          "benchStatus": "unreachable",
+          "probe": {
+            "status": 401,
+            "ct": "text/html",
+            "challenge": false,
+            "server": "QRATOR"
+          },
+          "category": "bot-blocked"
+        },
+        {
+          "domain": "3a.net.tw",
+          "benchStatus": "unreachable",
+          "probe": {
+            "error": "UND_ERR_CONNECT_TIMEOUT"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "hes-goal.dad",
+          "benchStatus": "unreachable",
+          "probe": {
+            "status": 523,
+            "ct": "text/html; charset=UTF-8",
+            "challenge": false,
+            "server": "cloudflare"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "tni-ad.mil.id",
+          "benchStatus": "too-little-text",
+          "probe": {},
+          "category": "scope-limit"
+        },
+        {
+          "domain": "peer1.com",
+          "benchStatus": "unreachable",
+          "probe": {
+            "status": 429,
+            "ct": "text/html; charset=utf-8",
+            "challenge": false,
+            "server": "cloudflare"
+          },
+          "category": "bot-blocked"
+        },
+        {
+          "domain": "datadec-online.com",
+          "benchStatus": "timeout",
+          "probe": {
+            "error": "ERR_TLS_CERT_ALTNAME_INVALID"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "babyland.se",
+          "benchStatus": "unreachable",
+          "probe": {
+            "status": 403,
+            "ct": "text/html; charset=UTF-8",
+            "challenge": true,
+            "server": "cloudflare"
+          },
+          "category": "bot-blocked"
+        },
+        {
+          "domain": "dgj055.icu",
+          "benchStatus": "timeout",
+          "probe": {
+            "error": "ENOTFOUND"
+          },
+          "category": "no-site"
+        }
+      ]
+    },
+    "tw": {
+      "tried": 133,
+      "measured": 95,
+      "recoveredByRetry": 43,
+      "excluded": {
+        "scope-limit": 10,
+        "no-site": 22,
+        "bot-blocked": 4,
+        "real-failed": 2
+      },
+      "rows": [
+        {
+          "domain": "ncue.edu.tw",
+          "benchStatus": "too-little-text",
+          "probe": {},
+          "category": "scope-limit"
+        },
+        {
+          "domain": "oopr18.tw",
+          "benchStatus": "too-little-text",
+          "probe": {},
+          "category": "scope-limit"
+        },
+        {
+          "domain": "apol.com.tw",
+          "benchStatus": "unreachable",
+          "probe": {
+            "error": "UND_ERR_CONNECT_TIMEOUT"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "bodygoals.com.tw",
+          "benchStatus": "unreachable",
+          "probe": {
+            "status": 200,
+            "ct": "text/html; charset=utf-8",
+            "challenge": true,
+            "server": "openresty"
+          },
+          "category": "bot-blocked"
+        },
+        {
+          "domain": "terasic.com.tw",
+          "benchStatus": "unreachable",
+          "probe": {
+            "error": "UNABLE_TO_VERIFY_LEAF_SIGNATURE"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "aopen.com.tw",
+          "benchStatus": "timeout",
+          "probe": {
+            "error": "ENOTFOUND"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "cctvdvr.com.tw",
+          "benchStatus": "unreachable",
+          "probe": {
+            "error": "UND_ERR_CONNECT_TIMEOUT"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "bmwcct.com.tw",
+          "benchStatus": "too-little-text",
+          "probe": {},
+          "category": "scope-limit"
+        },
+        {
+          "domain": "blueco.com.tw",
+          "benchStatus": "timeout",
+          "probe": {
+            "error": "ECONNRESET"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "shopmore.com.tw",
+          "benchStatus": "too-little-text",
+          "probe": {},
+          "category": "scope-limit"
+        },
+        {
+          "domain": "sanna.com.tw",
+          "benchStatus": "unreachable",
+          "probe": {
+            "error": "TimeoutError"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "sushiexpress.com.tw",
+          "benchStatus": "too-little-text",
+          "probe": {},
+          "category": "scope-limit"
+        },
+        {
+          "domain": "link-rich.com.tw",
+          "benchStatus": "timeout",
+          "probe": {
+            "error": "ERR_SSL_UNSUPPORTED_PROTOCOL"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "777s.com.tw",
+          "benchStatus": "unreachable",
+          "probe": {
+            "error": "UND_ERR_CONNECT_TIMEOUT"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "upyoung.com.tw",
+          "benchStatus": "too-little-text",
+          "probe": {},
+          "category": "scope-limit"
+        },
+        {
+          "domain": "yiban.com.tw",
+          "benchStatus": "too-little-text",
+          "probe": {},
+          "category": "scope-limit"
+        },
+        {
+          "domain": "astroinfo.com.tw",
+          "benchStatus": "unreachable",
+          "probe": {
+            "status": 503,
+            "ct": "text/html; charset=utf-8",
+            "challenge": false,
+            "server": "Apache"
+          },
+          "category": "bot-blocked"
+        },
+        {
+          "domain": "meepshop.tw",
+          "benchStatus": "timeout",
+          "probe": {
+            "error": "ENOTFOUND"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "aat.com.tw",
+          "benchStatus": "timeout",
+          "probe": {
+            "error": "ERR_TLS_CERT_ALTNAME_INVALID"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "newbalance.com.tw",
+          "benchStatus": "too-little-text",
+          "probe": {},
+          "category": "scope-limit"
+        },
+        {
+          "domain": "yisin.tw",
+          "benchStatus": "unreachable",
+          "probe": {
+            "error": "UND_ERR_CONNECT_TIMEOUT"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "3a.net.tw",
+          "benchStatus": "unreachable",
+          "probe": {
+            "error": "UND_ERR_CONNECT_TIMEOUT"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "sg588.tw",
+          "benchStatus": "timeout",
+          "probe": {
+            "error": "CERT_HAS_EXPIRED"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "lifeshow.com.tw",
+          "benchStatus": "timeout",
+          "probe": {
+            "error": "ERR_SSL_WRONG_VERSION_NUMBER"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "gkuncleshop.com.tw",
+          "benchStatus": "too-little-text",
+          "probe": {},
+          "category": "scope-limit"
+        },
+        {
+          "domain": "wanhai.com.tw",
+          "benchStatus": "timeout",
+          "probe": {
+            "error": "ENOTFOUND"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "nat.gov.tw",
+          "benchStatus": "unreachable",
+          "probe": {
+            "error": "UND_ERR_CONNECT_TIMEOUT"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "warx.com.tw",
+          "benchStatus": "unreachable",
+          "probe": {
+            "status": 200,
+            "ct": "text/html; charset=utf-8",
+            "challenge": true,
+            "server": "openresty"
+          },
+          "category": "bot-blocked"
+        },
+        {
+          "domain": "novelstar.com.tw",
+          "benchStatus": "unreachable",
+          "probe": {
+            "error": "UND_ERR_CONNECT_TIMEOUT"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "hiwinner.tw",
+          "benchStatus": "unreachable",
+          "probe": {
+            "status": 200,
+            "ct": "text/html; Charset=utf-8",
+            "challenge": false,
+            "server": ""
+          },
+          "category": "real-failed"
+        },
+        {
+          "domain": "tcmc.org.tw",
+          "benchStatus": "timeout",
+          "probe": {
+            "error": "ERR_SSL_WRONG_VERSION_NUMBER"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "xclub.tw",
+          "benchStatus": "unreachable",
+          "probe": {
+            "error": "UND_ERR_CONNECT_TIMEOUT"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "voicetube.tw",
+          "benchStatus": "unreachable",
+          "probe": {
+            "status": 525,
+            "ct": "text/html; charset=UTF-8",
+            "challenge": false,
+            "server": "cloudflare"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "kaoct.com.tw",
+          "benchStatus": "unreachable",
+          "probe": {
+            "status": 200,
+            "ct": "text/html; charset=utf-8",
+            "challenge": true,
+            "server": "cloudflare"
+          },
+          "category": "bot-blocked"
+        },
+        {
+          "domain": "ndu.edu.tw",
+          "benchStatus": "unreachable",
+          "probe": {
+            "error": "UNABLE_TO_VERIFY_LEAF_SIGNATURE"
+          },
+          "category": "no-site"
+        },
+        {
+          "domain": "cde.org.tw",
+          "benchStatus": "too-little-text",
+          "probe": {},
+          "category": "scope-limit"
+        },
+        {
+          "domain": "hwh.edu.tw",
+          "benchStatus": "unreachable",
+          "probe": {
+            "status": 200,
+            "ct": "text/html",
+            "challenge": false,
+            "server": "Apache"
+          },
+          "category": "real-failed"
+        },
+        {
+          "domain": "aoacloud.com.tw",
+          "benchStatus": "unreachable",
+          "probe": {
+            "error": "UND_ERR_CONNECT_TIMEOUT"
+          },
+          "category": "no-site"
+        }
+      ]
+    }
+  }
+}

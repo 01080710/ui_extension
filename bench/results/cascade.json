@@ -1,0 +1,381 @@
+{
+  "generatedAt": "2026-10-11T17:29:37.349Z",
+  "pool": 62,
+  "analysed": 20,
+  "withMisses": 12,
+  "byPage": {
+    "site-important": 10,
+    "uix-rule": 2
+  },
+  "byElement": {
+    "site-important": 42,
+    "uix-rule": 6
+  },
+  "siteImportantShareOfPages": 0.8333333333333334,
+  "decisionRule": "do C1 if ≥ 60% of analysed pages are mainly site-important",
+  "rows": [
+    {
+      "domain": "thegranitegroup.com",
+      "url": "https://www.thegranitegroup.com/category/enclosures",
+      "theme": "dark",
+      "fgToken": 0.9459459459459459,
+      "marked": 0,
+      "elements": []
+    },
+    {
+      "domain": "thegranitegroup.com",
+      "url": "https://www.thegranitegroup.com/",
+      "theme": "dark",
+      "fgToken": 0.9,
+      "marked": 0,
+      "elements": []
+    },
+    {
+      "domain": "amazonaws.com",
+      "url": "https://aws.amazon.com/tw/",
+      "theme": "dark",
+      "fgToken": 0.7924528301886793,
+      "marked": 5,
+      "elements": [
+        {
+          "cause": "site-important",
+          "detail": "[data-eb-784e8193] .rggn_c623175b at depth 1"
+        },
+        {
+          "cause": "site-important",
+          "detail": "[data-eb-784e8193] .rggn_c623175b at depth 1"
+        },
+        {
+          "cause": "site-important",
+          "detail": "[data-eb-784e8193] .rggn_c623175b at depth 1"
+        },
+        {
+          "cause": "site-important",
+          "detail": "[data-eb-784e8193] .rggn_c623175b at depth 1"
+        },
+        {
+          "cause": "site-important",
+          "detail": "[data-eb-784e8193] .rggn_c623175b at depth 1"
+        }
+      ]
+    },
+    {
+      "domain": "ithome.com.tw",
+      "url": "https://www.ithome.com.tw/news/179402",
+      "theme": "minimal",
+      "fgToken": 0.9459459459459459,
+      "marked": 4,
+      "elements": [
+        {
+          "cause": "site-important",
+          "detail": ".ithome-nl-cta.ithome-nl-cta .ithome-nl-cta__brand at depth 0"
+        },
+        {
+          "cause": "site-important",
+          "detail": ".ithome-nl-cta.ithome-nl-cta .ithome-nl-cta__body at depth 0"
+        },
+        {
+          "cause": "site-important",
+          "detail": ".ithome-nl-cta.ithome-nl-cta .ithome-nl-cta__links a at depth 0"
+        },
+        {
+          "cause": "site-important",
+          "detail": ".ithome-nl-cta.ithome-nl-cta .ithome-nl-cta__links a at depth 0"
+        }
+      ]
+    },
+    {
+      "domain": "sk858.com.tw",
+      "url": "https://www.sk858.com.tw/",
+      "theme": "minimal",
+      "fgToken": 0.8037383177570093,
+      "marked": 5,
+      "elements": [
+        {
+          "cause": "uix-rule",
+          "detail": "html[data-uix-theme] body at depth 7"
+        },
+        {
+          "cause": "site-important",
+          "detail": ".text-primary at depth 0"
+        },
+        {
+          "cause": "uix-rule",
+          "detail": "html[data-uix-theme] body at depth 7"
+        },
+        {
+          "cause": "uix-rule",
+          "detail": "html[data-uix-theme] body at depth 7"
+        },
+        {
+          "cause": "site-important",
+          "detail": ".text-primary at depth 0"
+        }
+      ]
+    },
+    {
+      "domain": "netmadeira.com",
+      "url": "https://netmadeira.com/",
+      "theme": "minimal",
+      "fgToken": 0.8470588235294118,
+      "error": "page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://netmadeira.com/\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "domain": "h5v8q.com",
+      "url": "https://h5v8q.com/405",
+      "theme": "dark",
+      "fgToken": 0,
+      "marked": 0,
+      "elements": []
+    },
+    {
+      "domain": "mnd.gov.tw",
+      "url": "https://www.mnd.gov.tw/About/Minister/1",
+      "theme": "minimal",
+      "fgToken": 0.8870967741935484,
+      "marked": 0,
+      "elements": []
+    },
+    {
+      "domain": "eprice.com.tw",
+      "url": "https://www.eprice.com.tw/report/all/1/",
+      "theme": "minimal",
+      "fgToken": 0.853448275862069,
+      "marked": 0,
+      "elements": []
+    },
+    {
+      "domain": "dellemc.com",
+      "url": "https://www.dell.com/en-us/learn/partners/lp/dell-mclaren-racing-partnership",
+      "theme": "dark",
+      "fgToken": 0.8157894736842105,
+      "marked": 4,
+      "elements": [
+        {
+          "cause": "site-important",
+          "detail": "un-chat-only-va un-chat-prompt button.dds__button.dds__button--secondary at depth 0"
+        },
+        {
+          "cause": "site-important",
+          "detail": "un-chat-only-va un-chat-prompt button.dds__button.dds__button--secondary at depth 0"
+        },
+        {
+          "cause": "site-important",
+          "detail": "un-chat-only-va un-chat-prompt button.dds__button.dds__button--secondary at depth 0"
+        },
+        {
+          "cause": "site-important",
+          "detail": "un-workspace-chat-controls .core-chat-text-area-placeholder at depth 0"
+        }
+      ]
+    },
+    {
+      "domain": "arubanetworks.com",
+      "url": "https://www.hpe.com/us/en/products/networking.html",
+      "theme": "minimal",
+      "fgToken": 0.8947368421052632,
+      "marked": 4,
+      "elements": [
+        {
+          "cause": "site-important",
+          "detail": "#truste-consent-text at depth 0"
+        },
+        {
+          "cause": "site-important",
+          "detail": "#truste-consent-text at depth 1"
+        },
+        {
+          "cause": "site-important",
+          "detail": "#truste-consent-text at depth 1"
+        },
+        {
+          "cause": "site-important",
+          "detail": "#truste-consent-text at depth 1"
+        }
+      ]
+    },
+    {
+      "domain": "entertainment14.net",
+      "url": "https://www.entertainment14.net/blog/page/2",
+      "theme": "minimal",
+      "fgToken": 0.8289473684210527,
+      "marked": 5,
+      "elements": [
+        {
+          "cause": "site-important",
+          "detail": "inline style at depth 0"
+        },
+        {
+          "cause": "site-important",
+          "detail": "inline style at depth 0"
+        },
+        {
+          "cause": "site-important",
+          "detail": "inline style at depth 0"
+        },
+        {
+          "cause": "site-important",
+          "detail": "inline style at depth 0"
+        },
+        {
+          "cause": "site-important",
+          "detail": "inline style at depth 0"
+        }
+      ]
+    },
+    {
+      "domain": "microsoft.com",
+      "url": "https://www.microsoft.com/zh-tw",
+      "theme": "dark",
+      "fgToken": 0.7391304347826086,
+      "marked": 1,
+      "elements": [
+        {
+          "cause": "site-important",
+          "detail": ":host button, :host a, :host span, :host div, ::slotted(button), ::slotted(a) at depth 0"
+        }
+      ]
+    },
+    {
+      "domain": "ui.com",
+      "url": "https://ui.com/",
+      "theme": "custom",
+      "fgToken": 0.9464285714285714,
+      "marked": 2,
+      "elements": [
+        {
+          "cause": "site-important",
+          "detail": ".hujWew .sc-eb12a7ef-1 at depth 0"
+        },
+        {
+          "cause": "site-important",
+          "detail": ".epOnJS .sc-eb12a7ef-1 at depth 0"
+        }
+      ]
+    },
+    {
+      "domain": "amazonaws.com",
+      "url": "https://aws.amazon.com/tw/financial-services/",
+      "theme": "dark",
+      "fgToken": 0.6666666666666666,
+      "marked": 5,
+      "elements": [
+        {
+          "cause": "site-important",
+          "detail": "[data-eb-784e8193] .rggn_c623175b at depth 1"
+        },
+        {
+          "cause": "site-important",
+          "detail": "[data-eb-784e8193] .rggn_c623175b at depth 1"
+        },
+        {
+          "cause": "site-important",
+          "detail": "[data-eb-784e8193] .rggn_c623175b at depth 1"
+        },
+        {
+          "cause": "site-important",
+          "detail": "[data-eb-784e8193] .rggn_c623175b at depth 1"
+        },
+        {
+          "cause": "site-important",
+          "detail": "[data-eb-784e8193] .rggn_c623175b at depth 1"
+        }
+      ]
+    },
+    {
+      "domain": "nginx.com",
+      "url": "https://www.f5.com/products/nginx",
+      "theme": "minimal",
+      "fgToken": 0.6666666666666666,
+      "marked": 5,
+      "elements": [
+        {
+          "cause": "site-important",
+          "detail": ".text-carbon\\! at depth 1"
+        },
+        {
+          "cause": "site-important",
+          "detail": ".text-carbon\\! at depth 1"
+        },
+        {
+          "cause": "site-important",
+          "detail": ".text-carbon\\! at depth 1"
+        },
+        {
+          "cause": "site-important",
+          "detail": ".text-carbon\\! at depth 1"
+        },
+        {
+          "cause": "site-important",
+          "detail": ".text-carbon\\! at depth 1"
+        }
+      ]
+    },
+    {
+      "domain": "oracle.com",
+      "url": "https://www.oracle.com/scm/",
+      "theme": "dark",
+      "fgToken": 0.9090909090909091,
+      "marked": 0,
+      "elements": []
+    },
+    {
+      "domain": "eribertdeoliveira.com",
+      "url": "https://eribertdeoliveira.com/",
+      "theme": "dark",
+      "fgToken": 0.7346938775510204,
+      "marked": 5,
+      "elements": [
+        {
+          "cause": "site-important",
+          "detail": ".et_pb_text_0.et_pb_text, .et_pb_text_3.et_pb_text, .et_pb_text_6.et_pb_text, .e at depth 3"
+        },
+        {
+          "cause": "site-important",
+          "detail": ".et_pb_text_0.et_pb_text, .et_pb_text_3.et_pb_text, .et_pb_text_6.et_pb_text, .e at depth 3"
+        },
+        {
+          "cause": "site-important",
+          "detail": ".et_pb_text_0.et_pb_text, .et_pb_text_3.et_pb_text, .et_pb_text_6.et_pb_text, .e at depth 1"
+        },
+        {
+          "cause": "site-important",
+          "detail": ".et_pb_text_0.et_pb_text, .et_pb_text_3.et_pb_text, .et_pb_text_6.et_pb_text, .e at depth 2"
+        },
+        {
+          "cause": "site-important",
+          "detail": ".et_pb_text_0.et_pb_text, .et_pb_text_3.et_pb_text, .et_pb_text_6.et_pb_text, .e at depth 2"
+        }
+      ]
+    },
+    {
+      "domain": "mnd.gov.tw",
+      "url": "https://www.mnd.gov.tw/",
+      "theme": "sepia",
+      "fgToken": 0.9166666666666666,
+      "marked": 3,
+      "elements": [
+        {
+          "cause": "uix-rule",
+          "detail": "html[data-uix-theme] body at depth 9"
+        },
+        {
+          "cause": "uix-rule",
+          "detail": "html[data-uix-theme] body at depth 10"
+        },
+        {
+          "cause": "uix-rule",
+          "detail": "html[data-uix-theme] body at depth 10"
+        }
+      ]
+    },
+    {
+      "domain": "daiker.com.tw",
+      "url": "https://www.daiker.com.tw/",
+      "theme": "dark",
+      "fgToken": 0.9166666666666666,
+      "marked": 0,
+      "elements": []
+    }
+  ]
+}

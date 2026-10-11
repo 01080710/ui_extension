@@ -1,3 +1,4 @@
 node_modules/
 dist/
-bench/results/
+# bench/results/ is committed on purpose: the human audit labels cannot be
+# regenerated, and docs/coverage-report.md is built from these files.

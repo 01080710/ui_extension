@@ -1,0 +1,876 @@
+[
+ {
+  "domain": "mtgglobals.com",
+  "stratum": "head",
+  "url": "https://www.mtgglobals.com/",
+  "cms": "other",
+  "status": "too-little-text",
+  "pages": [
+   {
+    "page": "home",
+    "url": "https://www.mtgglobals.com/",
+    "status": "too-little-text",
+    "n": 0
+   },
+   {
+    "page": "inner",
+    "status": "no-inner-link"
+   }
+  ]
+ },
+ {
+  "domain": "hicloudcam.com",
+  "stratum": "head",
+  "url": "http://sgpauth.hicloudcam.com:443/signIn?from=4e4148ba90184a7cbd81&r=569423775693355479&returnUrl=plugin&host=www.hicloudcam.com&u=RTzf5o/xK5VlgY9UVPYZvDQYwSYbfZdbidEcRngr/pYgZDnpRdILIefsZWEm6cGU&s=WzbO4ls0NVKRjk4gLXihQiUW016MENUkA768jx5Y9e811Iy6BWuZPGu5rW63p0LgxoL2nlD7Ohjwgr1mpQ0Z8A==&c=1406038113&v=",
+  "cms": "other",
+  "status": "too-little-text",
+  "pages": [
+   {
+    "page": "home",
+    "url": "http://sgpauth.hicloudcam.com:443/signIn?from=4e4148ba90184a7cbd81&r=569423775693355479&returnUrl=plugin&host=www.hicloudcam.com&u=RTzf5o/xK5VlgY9UVPYZvDQYwSYbfZdbidEcRngr/pYgZDnpRdILIefsZWEm6cGU&s=WzbO4ls0NVKRjk4gLXihQiUW016MENUkA768jx5Y9e811Iy6BWuZPGu5rW63p0LgxoL2nlD7Ohjwgr1mpQ0Z8A==&c=1406038113&v=",
+    "status": "too-little-text",
+    "n": 3
+   },
+   {
+    "page": "inner",
+    "status": "no-inner-link"
+   }
+  ]
+ },
+ {
+  "domain": "paytmfirstgames.com",
+  "stratum": "head",
+  "url": "https://www.firstgames.in/",
+  "cms": "other",
+  "status": "ok",
+  "pages": [
+   {
+    "page": "home",
+    "url": "https://www.firstgames.in/",
+    "status": "ok",
+    "n": 29,
+    "baseline": {
+     "readable": 1,
+     "noiseShift": 0
+    },
+    "runs": [
+     {
+      "theme": "minimal",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.20689655172413793,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "minimal",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.7586206896551724,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "dark",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.20689655172413793,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "dark",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.7586206896551724,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "material",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "material",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.7241379310344828,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "solarized",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.20689655172413793,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "solarized",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.7931034482758621,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "brutalism",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.20689655172413793,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "brutalism",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.6896551724137931,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "custom",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.20689655172413793,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "custom",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.7586206896551724,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "contrast",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.20689655172413793,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "contrast",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.8620689655172413,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "sepia",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.13793103448275862,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "sepia",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.896551724137931,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "terminal",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.9310344827586207,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "terminal",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.9310344827586207,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "corporate",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.20689655172413793,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "corporate",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.7931034482758621,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     }
+    ]
+   },
+   {
+    "page": "inner",
+    "status": "no-inner-link"
+   }
+  ]
+ },
+ {
+  "domain": "hichina.com",
+  "stratum": "head",
+  "url": "https://www.hichina.com/",
+  "cms": "other",
+  "status": "ok",
+  "pages": [
+   {
+    "page": "home",
+    "url": "https://www.hichina.com/",
+    "status": "ok",
+    "n": 125,
+    "baseline": {
+     "readable": 0.782258064516129,
+     "noiseShift": 0
+    },
+    "runs": [
+     {
+      "theme": "minimal",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "minimal",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.952,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "dark",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "dark",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.952,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "material",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "material",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.952,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "solarized",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "solarized",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.952,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "brutalism",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "brutalism",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.952,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "custom",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "custom",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.952,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "contrast",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "contrast",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.952,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "sepia",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "sepia",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.952,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "terminal",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.008,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "terminal",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.952,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "corporate",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "corporate",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.472,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     }
+    ]
+   },
+   {
+    "page": "inner",
+    "status": "no-inner-link"
+   }
+  ]
+ },
+ {
+  "domain": "arubanetworks.com",
+  "stratum": "head",
+  "url": "https://www.hpe.com/us/en/products/networking.html",
+  "cms": "other",
+  "status": "ok",
+  "pages": [
+   {
+    "page": "home",
+    "url": "https://www.hpe.com/us/en/products/networking.html",
+    "status": "ok",
+    "n": 38,
+    "baseline": {
+     "readable": 0.5789473684210527,
+     "noiseShift": 0
+    },
+    "runs": [
+     {
+      "theme": "minimal",
+      "mode": "A",
+      "fgToken": 0.8947368421052632,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.3157894736842105,
+      "inlineImportant": 0,
+      "misses": [
+       "div#truste-consent-text.truste-messageColumn rgb(95, 95, 95)",
+       "a#truste-consent-button rgb(95, 95, 95)",
+       "a#truste-consent-required rgb(95, 95, 95)",
+       "a#truste-show-consent rgb(95, 95, 95)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "minimal",
+      "mode": "B",
+      "fgToken": 0.8947368421052632,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.39473684210526316,
+      "inlineImportant": 0,
+      "misses": [
+       "div#truste-consent-text.truste-messageColumn rgb(95, 95, 95)",
+       "a#truste-consent-button rgb(95, 95, 95)",
+       "a#truste-consent-required rgb(95, 95, 95)",
+       "a#truste-show-consent rgb(95, 95, 95)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "dark",
+      "mode": "A",
+      "fgToken": 0.8947368421052632,
+      "bgToken": 0.868421052631579,
+      "readable": 0.9736842105263158,
+      "shifted": 0.3157894736842105,
+      "inlineImportant": 0,
+      "misses": [
+       "div#truste-consent-text.truste-messageColumn rgb(95, 95, 95)",
+       "a#truste-consent-button rgb(95, 95, 95)",
+       "a#truste-consent-required rgb(95, 95, 95)",
+       "a#truste-show-consent rgb(95, 95, 95)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "dark",
+      "mode": "B",
+      "fgToken": 0.8947368421052632,
+      "bgToken": 0.868421052631579,
+      "readable": 0.9736842105263158,
+      "shifted": 0.39473684210526316,
+      "inlineImportant": 0,
+      "misses": [
+       "div#truste-consent-text.truste-messageColumn rgb(95, 95, 95)",
+       "a#truste-consent-button rgb(95, 95, 95)",
+       "a#truste-consent-required rgb(95, 95, 95)",
+       "a#truste-show-consent rgb(95, 95, 95)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "material",
+      "mode": "A",
+      "fgToken": 0.8947368421052632,
+      "bgToken": 0.868421052631579,
+      "readable": 1,
+      "shifted": 0.3157894736842105,
+      "inlineImportant": 0,
+      "misses": [
+       "div#truste-consent-text.truste-messageColumn rgb(95, 95, 95)",
+       "a#truste-consent-button rgb(95, 95, 95)",
+       "a#truste-consent-required rgb(95, 95, 95)",
+       "a#truste-show-consent rgb(95, 95, 95)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "material",
+      "mode": "B",
+      "fgToken": 0.8947368421052632,
+      "bgToken": 0.868421052631579,
+      "readable": 1,
+      "shifted": 0.39473684210526316,
+      "inlineImportant": 0,
+      "misses": [
+       "div#truste-consent-text.truste-messageColumn rgb(95, 95, 95)",
+       "a#truste-consent-button rgb(95, 95, 95)",
+       "a#truste-consent-required rgb(95, 95, 95)",
+       "a#truste-show-consent rgb(95, 95, 95)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "solarized",
+      "mode": "A",
+      "fgToken": 0.8947368421052632,
+      "bgToken": 0.868421052631579,
+      "readable": 1,
+      "shifted": 0.3157894736842105,
+      "inlineImportant": 0,
+      "misses": [
+       "div#truste-consent-text.truste-messageColumn rgb(95, 95, 95)",
+       "a#truste-consent-button rgb(95, 95, 95)",
+       "a#truste-consent-required rgb(95, 95, 95)",
+       "a#truste-show-consent rgb(95, 95, 95)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "solarized",
+      "mode": "B",
+      "fgToken": 0.8947368421052632,
+      "bgToken": 0.868421052631579,
+      "readable": 1,
+      "shifted": 0.39473684210526316,
+      "inlineImportant": 0,
+      "misses": [
+       "div#truste-consent-text.truste-messageColumn rgb(95, 95, 95)",
+       "a#truste-consent-button rgb(95, 95, 95)",
+       "a#truste-consent-required rgb(95, 95, 95)",
+       "a#truste-show-consent rgb(95, 95, 95)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "brutalism",
+      "mode": "A",
+      "fgToken": 0.8947368421052632,
+      "bgToken": 0.868421052631579,
+      "readable": 1,
+      "shifted": 0.3157894736842105,
+      "inlineImportant": 0,
+      "misses": [
+       "div#truste-consent-text.truste-messageColumn rgb(95, 95, 95)",
+       "a#truste-consent-button rgb(95, 95, 95)",
+       "a#truste-consent-required rgb(95, 95, 95)",
+       "a#truste-show-consent rgb(95, 95, 95)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "brutalism",
+      "mode": "B",
+      "fgToken": 0.8947368421052632,
+      "bgToken": 0.868421052631579,
+      "readable": 1,
+      "shifted": 0.39473684210526316,
+      "inlineImportant": 0,
+      "misses": [
+       "div#truste-consent-text.truste-messageColumn rgb(95, 95, 95)",
+       "a#truste-consent-button rgb(95, 95, 95)",
+       "a#truste-consent-required rgb(95, 95, 95)",
+       "a#truste-show-consent rgb(95, 95, 95)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "custom",
+      "mode": "A",
+      "fgToken": 0.8947368421052632,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.3157894736842105,
+      "inlineImportant": 0,
+      "misses": [
+       "div#truste-consent-text.truste-messageColumn rgb(95, 95, 95)",
+       "a#truste-consent-button rgb(95, 95, 95)",
+       "a#truste-consent-required rgb(95, 95, 95)",
+       "a#truste-show-consent rgb(95, 95, 95)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "custom",
+      "mode": "B",
+      "fgToken": 0.8947368421052632,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.39473684210526316,
+      "inlineImportant": 0,
+      "misses": [
+       "div#truste-consent-text.truste-messageColumn rgb(95, 95, 95)",
+       "a#truste-consent-button rgb(95, 95, 95)",
+       "a#truste-consent-required rgb(95, 95, 95)",
+       "a#truste-show-consent rgb(95, 95, 95)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "contrast",
+      "mode": "A",
+      "fgToken": 0.8947368421052632,
+      "bgToken": 0.868421052631579,
+      "readable": 0.9736842105263158,
+      "shifted": 0.3157894736842105,
+      "inlineImportant": 0,
+      "misses": [
+       "div#truste-consent-text.truste-messageColumn rgb(95, 95, 95)",
+       "a#truste-consent-button rgb(95, 95, 95)",
+       "a#truste-consent-required rgb(95, 95, 95)",
+       "a#truste-show-consent rgb(95, 95, 95)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "contrast",
+      "mode": "B",
+      "fgToken": 0.8947368421052632,
+      "bgToken": 0.868421052631579,
+      "readable": 0.9736842105263158,
+      "shifted": 0.39473684210526316,
+      "inlineImportant": 0,
+      "misses": [
+       "div#truste-consent-text.truste-messageColumn rgb(95, 95, 95)",
+       "a#truste-consent-button rgb(95, 95, 95)",
+       "a#truste-consent-required rgb(95, 95, 95)",
+       "a#truste-show-consent rgb(95, 95, 95)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "sepia",
+      "mode": "A",
+      "fgToken": 0.8947368421052632,
+      "bgToken": 0.868421052631579,
+      "readable": 1,
+      "shifted": 0.4473684210526316,
+      "inlineImportant": 0,
+      "misses": [
+       "div#truste-consent-text.truste-messageColumn rgb(95, 95, 95)",
+       "a#truste-consent-button rgb(95, 95, 95)",
+       "a#truste-consent-required rgb(95, 95, 95)",
+       "a#truste-show-consent rgb(95, 95, 95)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "sepia",
+      "mode": "B",
+      "fgToken": 0.8947368421052632,
+      "bgToken": 0.868421052631579,
+      "readable": 1,
+      "shifted": 0.6052631578947368,
+      "inlineImportant": 0,
+      "misses": [
+       "div#truste-consent-text.truste-messageColumn rgb(95, 95, 95)",
+       "a#truste-consent-button rgb(95, 95, 95)",
+       "a#truste-consent-required rgb(95, 95, 95)",
+       "a#truste-show-consent rgb(95, 95, 95)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "terminal",
+      "mode": "A",
+      "fgToken": 0.8947368421052632,
+      "bgToken": 0.868421052631579,
+      "readable": 0.9736842105263158,
+      "shifted": 0.7894736842105263,
+      "inlineImportant": 0,
+      "misses": [
+       "div#truste-consent-text.truste-messageColumn rgb(95, 95, 95)",
+       "a#truste-consent-button rgb(95, 95, 95)",
+       "a#truste-consent-required rgb(95, 95, 95)",
+       "a#truste-show-consent rgb(95, 95, 95)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "terminal",
+      "mode": "B",
+      "fgToken": 0.8947368421052632,
+      "bgToken": 0.868421052631579,
+      "readable": 0.9736842105263158,
+      "shifted": 0.7894736842105263,
+      "inlineImportant": 0,
+      "misses": [
+       "div#truste-consent-text.truste-messageColumn rgb(95, 95, 95)",
+       "a#truste-consent-button rgb(95, 95, 95)",
+       "a#truste-consent-required rgb(95, 95, 95)",
+       "a#truste-show-consent rgb(95, 95, 95)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "corporate",
+      "mode": "A",
+      "fgToken": 0.8947368421052632,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.3157894736842105,
+      "inlineImportant": 0,
+      "misses": [
+       "div#truste-consent-text.truste-messageColumn rgb(95, 95, 95)",
+       "a#truste-consent-button rgb(95, 95, 95)",
+       "a#truste-consent-required rgb(95, 95, 95)",
+       "a#truste-show-consent rgb(95, 95, 95)"
+      ],
+      "exceptions": []
+     },
+     {
+      "theme": "corporate",
+      "mode": "B",
+      "fgToken": 0.8947368421052632,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.3157894736842105,
+      "inlineImportant": 0,
+      "misses": [
+       "div#truste-consent-text.truste-messageColumn rgb(95, 95, 95)",
+       "a#truste-consent-button rgb(95, 95, 95)",
+       "a#truste-consent-required rgb(95, 95, 95)",
+       "a#truste-show-consent rgb(95, 95, 95)"
+      ],
+      "exceptions": []
+     }
+    ]
+   },
+   {
+    "page": "inner",
+    "url": "https://www.hpe.com/us/en/products/networking/mist.html",
+    "status": "unreachable"
+   }
+  ]
+ }
+]

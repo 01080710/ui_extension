@@ -1,0 +1,779 @@
+[
+ {
+  "domain": "slovak-cottages.com",
+  "stratum": "tail",
+  "status": "unreachable"
+ },
+ {
+  "domain": "yokagames.com",
+  "stratum": "tail",
+  "url": "https://yokagames.com/",
+  "cms": "wordpress",
+  "status": "too-little-text",
+  "pages": [
+   {
+    "page": "home",
+    "url": "https://yokagames.com/",
+    "status": "too-little-text",
+    "n": 8
+   },
+   {
+    "page": "inner",
+    "url": "http://yokagames.com/2026/05/zhengmianduijuesanguoshajihuanshikapaiyouxichanpinfabuhuiqingbaogongkai/",
+    "status": "too-little-text",
+    "n": 14
+   }
+  ]
+ },
+ {
+  "domain": "shoesconcierge.jp",
+  "stratum": "tail",
+  "url": "https://www.shoesconcierge.jp/shop/?wovn=zh-CHT",
+  "cms": "other",
+  "status": "ok",
+  "pages": [
+   {
+    "page": "home",
+    "url": "https://www.shoesconcierge.jp/shop/?wovn=zh-CHT",
+    "status": "ok",
+    "n": 62,
+    "baseline": {
+     "readable": 0.9032258064516129,
+     "noiseShift": 0
+    },
+    "runs": [
+     {
+      "theme": "minimal",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.016129032258064516,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "minimal",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.3709677419354839,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "dark",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.016129032258064516,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "dark",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.3709677419354839,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "material",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.04838709677419355,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "material",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.4032258064516129,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "solarized",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.016129032258064516,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "solarized",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.3709677419354839,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "brutalism",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.016129032258064516,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "brutalism",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.2903225806451613,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "custom",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.016129032258064516,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "custom",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.3709677419354839,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "contrast",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.016129032258064516,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "contrast",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.3709677419354839,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "sepia",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.016129032258064516,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "sepia",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.45161290322580644,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "terminal",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.04838709677419355,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "terminal",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.3225806451612903,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "corporate",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.016129032258064516,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "corporate",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.2903225806451613,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     }
+    ]
+   },
+   {
+    "page": "inner",
+    "url": "https://mobile.shoesconcierge.jp/contents/catalog/km45_ecatalog/#page=1",
+    "status": "too-little-text",
+    "n": 0
+   }
+  ]
+ },
+ {
+  "domain": "livestartpage.com",
+  "stratum": "tail",
+  "status": "error",
+  "error": "extension content script not found in page"
+ },
+ {
+  "domain": "matrixdobrasil.ai",
+  "stratum": "tail",
+  "url": "https://matrixgo.ai/",
+  "cms": "wordpress",
+  "status": "ok",
+  "pages": [
+   {
+    "page": "home",
+    "url": "https://matrixgo.ai/",
+    "status": "too-little-text",
+    "n": 17
+   },
+   {
+    "page": "inner",
+    "url": "https://matrixgo.ai/inteligencia-artificial-generativa/",
+    "status": "ok",
+    "n": 43,
+    "baseline": {
+     "readable": 0.47058823529411764,
+     "noiseShift": 0
+    },
+    "runs": [
+     {
+      "theme": "minimal",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.023255813953488372,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "minimal",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.4186046511627907,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "dark",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.5348837209302325,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "dark",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.6744186046511628,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "material",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.5348837209302325,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "material",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.6744186046511628,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "solarized",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.5348837209302325,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "solarized",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.6744186046511628,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "brutalism",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.5348837209302325,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "brutalism",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.5813953488372093,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "custom",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.5348837209302325,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "custom",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.6744186046511628,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "contrast",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.5348837209302325,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "contrast",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.6744186046511628,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "sepia",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.627906976744186,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "sepia",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.6976744186046512,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "terminal",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.7674418604651163,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "terminal",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.7674418604651163,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "corporate",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.5348837209302325,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "corporate",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.5813953488372093,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "domain": "hanwhasolutions.com",
+  "stratum": "tail",
+  "url": "https://www.hanwhasolutions.com/ko/",
+  "cms": "other",
+  "status": "ok",
+  "pages": [
+   {
+    "page": "home",
+    "url": "https://www.hanwhasolutions.com/ko/",
+    "status": "ok",
+    "n": 34,
+    "baseline": {
+     "readable": 0.39285714285714285,
+     "noiseShift": 0
+    },
+    "runs": [
+     {
+      "theme": "minimal",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.17647058823529413,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "minimal",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.5,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "dark",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.17647058823529413,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "dark",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.5,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "material",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.17647058823529413,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "material",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.5,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "solarized",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.17647058823529413,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "solarized",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.5,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "brutalism",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.17647058823529413,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "brutalism",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.5,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "custom",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.17647058823529413,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "custom",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.5,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "contrast",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.17647058823529413,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "contrast",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.5,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "sepia",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.23529411764705882,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "sepia",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.5588235294117647,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "terminal",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.14705882352941177,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "terminal",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.5,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "corporate",
+      "mode": "A",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.17647058823529413,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     },
+     {
+      "theme": "corporate",
+      "mode": "B",
+      "fgToken": 1,
+      "bgToken": 1,
+      "readable": 1,
+      "shifted": 0.5,
+      "inlineImportant": 0,
+      "misses": [],
+      "exceptions": []
+     }
+    ]
+   },
+   {
+    "page": "inner",
+    "status": "no-inner-link"
+   }
+  ]
+ },
+ {
+  "domain": "07kmbg777.site",
+  "stratum": "tail",
+  "status": "timeout",
+  "restarted": true
+ }
+]
