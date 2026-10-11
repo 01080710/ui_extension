@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>UIX fixture</title>
+<style>
+  body { margin: 0; font-family: Georgia, serif; background: #fafafa; color: #333; }
+  .sticky { position: sticky; top: 0; background: #222; color: #fff; padding: 12px; }
+  .chat { position: fixed; right: 12px; bottom: 12px; width: 200px; height: 80px; background: #fe0; }
+  .overlay { position: fixed; inset: 0; pointer-events: none; }
+  .card { background: #fff; border: 1px solid #ddd; padding: 16px; margin: 16px; }
+  .fa { font-family: "FixtureIcons"; }
+  .fa-star::before { content: "*"; }
+  .forced { color: #c00 !important; }
+  .hard .hard-text { color: #c00 !important; } /* outranks the UIX reset in the author origin */
+</style>
+</head>
+<body>
+  <header class="sticky" id="hdr"><nav><ul><li><a href="#a">Home</a></li><li><a href="#b">Docs</a></li></ul></nav></header>
+  <main>
+    <h1>Fixture heading</h1>
+    <p id="para">Paragraph text with a <a id="link" href="#x">link</a> and <code>code</code>.</p>
+    <i class="fa fa-star" id="icon" aria-hidden="true"></i>
+    <div class="card" id="card">
+      <form id="form">
+        <label>Name <input id="text" type="text" placeholder="type here"></label>
+        <label><input id="check" type="checkbox"> Check</label>
+        <select id="select"><option>One</option></select>
+        <textarea id="area"></textarea>
+        <button id="btn" type="button">Button</button>
+        <button id="submit" type="submit">Submit</button>
+      </form>
+    </div>
+    <button aria-expanded="true" id="disclosure">Menu</button>
+    <div role="dialog" id="dialog">Dialog body</div>
+    <div role="tablist"><button role="tab" aria-selected="true">Tab 1</button></div>
+    <table id="table"><thead><tr><th>H</th></tr></thead><tbody><tr><td>1</td></tr><tr><td>2</td></tr></tbody></table>
+    <p class="forced" id="forced">Site !important colour</p>
+    <div class="hard"><p class="hard-text" id="hard">Higher-specificity site !important</p></div>
+    <p id="inlineimp" style="color: #c00 !important">Inline !important</p>
+  </main>
+  <footer>Footer</footer>
+  <fixture-widget id="widget"></fixture-widget>
+  <script>
+    customElements.define('fixture-widget', class extends HTMLElement {
+      constructor() {
+        super();
+        const p = document.createElement('p');
+        p.id = 'inner';
+        p.style.color = '#c00';
+        p.textContent = 'Text inside a shadow root';
+        this.attachShadow({ mode: 'open' }).appendChild(p);
+      }
+    });
+  </script>
+  <div class="chat" id="chat">Chat widget</div>
+  <div class="overlay" id="overlay"></div>
+</body>
+</html>

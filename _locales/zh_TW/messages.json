@@ -1,0 +1,136 @@
+{
+  "extName": {
+    "message": "UIX 風格切換器"
+  },
+  "extDescription": {
+    "message": "用十種設計 Token 風格重新渲染任何網站。按 U 開啟面板，按 I 關閉。"
+  },
+  "panelTitle": {
+    "message": "UI 風格切換"
+  },
+  "closePanel": {
+    "message": "關閉面板 (I)"
+  },
+  "legendTheme": {
+    "message": "風格（全站共用）"
+  },
+  "optionNone": {
+    "message": "原網站樣式（不套用）"
+  },
+  "accentLabel": {
+    "message": "主色"
+  },
+  "enhancedLabel": {
+    "message": "強化模式（元件外觀）"
+  },
+  "followSystemLabel": {
+    "message": "系統深色時改用"
+  },
+  "excludeSiteLabel": {
+    "message": "在 $HOST$ 停用",
+    "placeholders": {
+      "host": {
+        "content": "$1"
+      }
+    }
+  },
+  "hintKeys": {
+    "message": "U 開啟 · I 關閉 · Alt+Shift+U 任何時候"
+  },
+  "applyButton": {
+    "message": "套用"
+  },
+  "statusApplied": {
+    "message": "已套用：$THEME$",
+    "placeholders": {
+      "theme": {
+        "content": "$1"
+      }
+    }
+  },
+  "statusOff": {
+    "message": "已還原原網站樣式"
+  },
+  "statusExcluded": {
+    "message": "已儲存；此網站在例外清單中，不套用"
+  },
+  "statusSaveFailed": {
+    "message": "已套用到此分頁，但儲存失敗（其他分頁不會同步）"
+  },
+  "exportLabel": {
+    "message": "匯出 Token"
+  },
+  "exportButton": {
+    "message": "下載"
+  },
+  "exportNeedsTheme": {
+    "message": "先套用一個風格才能匯出"
+  },
+  "exportDone": {
+    "message": "已下載 $FILE$",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "exportDtcg": {
+    "message": "DTCG JSON"
+  },
+  "exportCss": {
+    "message": "CSS 變數"
+  },
+  "exportTailwind": {
+    "message": "Tailwind v4 @theme"
+  },
+  "themeMinimal": {
+    "message": "Minimal Light"
+  },
+  "themeDark": {
+    "message": "Dark Mode"
+  },
+  "themeMaterial": {
+    "message": "Material"
+  },
+  "themeSolarized": {
+    "message": "Solarized"
+  },
+  "themeBrutalism": {
+    "message": "Neo-Brutalism"
+  },
+  "themeCustom": {
+    "message": "自訂主色"
+  },
+  "themeContrast": {
+    "message": "High Contrast"
+  },
+  "themeSepia": {
+    "message": "Sepia 閱讀"
+  },
+  "themeTerminal": {
+    "message": "Terminal"
+  },
+  "themeCorporate": {
+    "message": "Corporate"
+  },
+  "fontsLabel": {
+    "message": "更換字型（可能讓版面移動）"
+  },
+  "commandTogglePanel": {
+    "message": "開關風格面板"
+  },
+  "copyButton": {
+    "message": "複製"
+  },
+  "copyDone": {
+    "message": "已複製 $FORMAT$ 到剪貼簿",
+    "placeholders": {
+      "format": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyFailed": {
+    "message": "這個網站不允許複製，請改用下載"
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "extName": {
+    "message": "UIX Style Switcher"
+  },
+  "extDescription": {
+    "message": "Re-render any website with one of ten design-token themes. Press U to open the panel, I to close it."
+  },
+  "panelTitle": {
+    "message": "UI style switcher"
+  },
+  "closePanel": {
+    "message": "Close panel (I)"
+  },
+  "legendTheme": {
+    "message": "Theme (all sites)"
+  },
+  "optionNone": {
+    "message": "Original site (off)"
+  },
+  "accentLabel": {
+    "message": "Accent colour"
+  },
+  "enhancedLabel": {
+    "message": "Enhanced mode (component shape)"
+  },
+  "followSystemLabel": {
+    "message": "In OS dark mode use"
+  },
+  "excludeSiteLabel": {
+    "message": "Disable on $HOST$",
+    "placeholders": {
+      "host": {
+        "content": "$1"
+      }
+    }
+  },
+  "hintKeys": {
+    "message": "U open · I close · Alt+Shift+U anywhere"
+  },
+  "applyButton": {
+    "message": "Apply"
+  },
+  "statusApplied": {
+    "message": "Applied: $THEME$",
+    "placeholders": {
+      "theme": {
+        "content": "$1"
+      }
+    }
+  },
+  "statusOff": {
+    "message": "Original site styles restored"
+  },
+  "statusExcluded": {
+    "message": "Saved; this site is excluded"
+  },
+  "statusSaveFailed": {
+    "message": "Applied to this tab, but saving failed (other tabs won't sync)"
+  },
+  "exportLabel": {
+    "message": "Export tokens"
+  },
+  "exportButton": {
+    "message": "Download"
+  },
+  "exportNeedsTheme": {
+    "message": "Apply a theme before exporting"
+  },
+  "exportDone": {
+    "message": "Downloaded $FILE$",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "exportDtcg": {
+    "message": "DTCG JSON"
+  },
+  "exportCss": {
+    "message": "CSS variables"
+  },
+  "exportTailwind": {
+    "message": "Tailwind v4 @theme"
+  },
+  "themeMinimal": {
+    "message": "Minimal Light"
+  },
+  "themeDark": {
+    "message": "Dark Mode"
+  },
+  "themeMaterial": {
+    "message": "Material"
+  },
+  "themeSolarized": {
+    "message": "Solarized"
+  },
+  "themeBrutalism": {
+    "message": "Neo-Brutalism"
+  },
+  "themeCustom": {
+    "message": "Custom accent"
+  },
+  "themeContrast": {
+    "message": "High Contrast"
+  },
+  "themeSepia": {
+    "message": "Sepia Reading"
+  },
+  "themeTerminal": {
+    "message": "Terminal"
+  },
+  "themeCorporate": {
+    "message": "Corporate"
+  },
+  "fontsLabel": {
+    "message": "Change fonts (may shift layout)"
+  },
+  "commandTogglePanel": {
+    "message": "Toggle the style panel"
+  },
+  "copyButton": {
+    "message": "Copy"
+  },
+  "copyDone": {
+    "message": "Copied $FORMAT$ to the clipboard",
+    "placeholders": {
+      "format": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyFailed": {
+    "message": "This site blocks copying; use Download instead"
+  }
+}

@@ -1,0 +1,38 @@
+site-pages with Mode A fgToken < 0.95: 62; analysing 20
+thegranitegroup.com          dark       misses 0 → 
+thegranitegroup.com          dark       misses 0 → 
+amazonaws.com                dark       misses 5 → site-important, site-important, site-important, site-important, site-important
+ithome.com.tw                minimal    misses 4 → site-important, site-important, site-important, site-important
+sk858.com.tw                 minimal    misses 5 → uix-rule, site-important, uix-rule, uix-rule, site-important
+netmadeira.com               error page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://netmad
+h5v8q.com                    dark       misses 0 → 
+mnd.gov.tw                   minimal    misses 0 → 
+eprice.com.tw                minimal    misses 0 → 
+dellemc.com                  dark       misses 4 → site-important, site-important, site-important, site-important
+arubanetworks.com            minimal    misses 4 → site-important, site-important, site-important, site-important
+entertainment14.net          minimal    misses 5 → site-important, site-important, site-important, site-important, site-important
+microsoft.com                dark       misses 1 → site-important
+ui.com                       custom     misses 2 → site-important, site-important
+amazonaws.com                dark       misses 5 → site-important, site-important, site-important, site-important, site-important
+nginx.com                    minimal    misses 5 → site-important, site-important, site-important, site-important, site-important
+oracle.com                   dark       misses 0 → 
+eribertdeoliveira.com        dark       misses 5 → site-important, site-important, site-important, site-important, site-important
+mnd.gov.tw                   sepia      misses 3 → uix-rule, uix-rule, uix-rule
+daiker.com.tw                dark       misses 0 → 
+{
+  "pool": 62,
+  "analysed": 20,
+  "withMisses": 12,
+  "byPage": {
+    "site-important": 10,
+    "uix-rule": 2
+  },
+  "byElement": {
+    "site-important": 42,
+    "uix-rule": 6
+  },
+  "siteImportantShareOfPages": 0.8333333333333334
+}
+exit=0

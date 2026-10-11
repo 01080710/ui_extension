@@ -1,0 +1,21 @@
+{
+  "seed": 20261011,
+  "source": "top-1m.csv",
+  "listSize": 1000000,
+  "strata": {
+    "tail": {
+      "minRank": 10000,
+      "maxRank": 1000000,
+      "want": 100,
+      "poolSize": 990001,
+      "candidates": 300
+    },
+    "tw": {
+      "minRank": 1,
+      "maxRank": 1000000,
+      "want": 50,
+      "poolSize": 2832,
+      "candidates": 150
+    }
+  }
+}

@@ -1,0 +1,502 @@
+/* =====================================================================
+   UIX app.css — design-token theme engine for arbitrary websites
+   ---------------------------------------------------------------------
+   §0 Primitives      shared raw values (font stacks)
+   §1 Theme tokens    one block per theme: semantic tokens only, no rules
+   §2 T1 Foundation   Mode A — page colour reset (a, img, p, ul/li, h*);
+                      fonts only with [data-uix-fonts] (opt-in, implied by Mode B)
+   §3 T2 Core         Mode A — colours for button, input, nav, header/footer, form
+   §4 Enhanced        Mode B — shape for T2, then T3 and T4 components
+   §5 Theme modifiers the few rules that only make sense for one theme
+
+   Rules
+   - Every selector starts with html[data-uix-theme]: with no theme chosen,
+     this file matches nothing. tests/css.test.js enforces this.
+   - Components read semantic tokens only (--uix-*), never raw colours.
+   - Site styles are overridden with !important; specificity is tiered so
+     later sections win over the §2 reset:
+       reset  :where(...)   → (0,1,1)
+       component selectors  → (0,1,2) and up
+   - Mode A changes paint only (colour, background, border colour).
+     Fonts reflow text, so they need [data-uix-fonts]; anything else that can
+     move layout (radius, shadow, padding, line-height) waits for Mode B.
+   ===================================================================== */
+
+
+/* §0 Primitives ------------------------------------------------------- */
+
+html[data-uix-theme] {
+  --uix-stack-sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial,
+    "PingFang TC", "Noto Sans TC", "Microsoft JhengHei", sans-serif;
+  --uix-stack-serif: Georgia, "Times New Roman", "Noto Serif TC", "Songti TC", PMingLiU, serif;
+  --uix-stack-mono: ui-monospace, SFMono-Regular, Menlo, Consolas, "Noto Sans Mono CJK TC",
+    "PingFang TC", monospace;
+}
+
+
+/* §1 Theme tokens ----------------------------------------------------- */
+
+html[data-uix-theme="minimal"] {
+  --uix-scheme: light;
+  --uix-bg: #ffffff;
+  --uix-surface: #f6f7f9;
+  --uix-fg: #111418;
+  --uix-muted: #5b6470;
+  --uix-border: #d9dde3;
+  --uix-link: #1f5fd1;
+  --uix-accent: #1f5fd1;
+  --uix-accent-fg: #ffffff;
+  --uix-focus: #1f5fd1;
+  --uix-radius: 6px;
+  --uix-shadow: 0 1px 2px rgba(16, 24, 40, 0.06);
+  --uix-ring: 1px;
+  --uix-space: 8px;
+  --uix-font: var(--uix-stack-sans);
+  --uix-leading: 1.6;
+  --uix-brand-bg: #1f5fd1;
+  --uix-brand-fg: #ffffff;
+}
+
+html[data-uix-theme="dark"] {
+  --uix-scheme: dark;
+  --uix-bg: #121212;
+  --uix-surface: #1e1f22;
+  --uix-fg: #e6e6e6;
+  --uix-muted: #a0a4ab;
+  --uix-border: #34373c;
+  --uix-link: #8ab4f8;
+  --uix-accent: #8ab4f8;
+  --uix-accent-fg: #0b1220;
+  --uix-focus: #8ab4f8;
+  --uix-radius: 8px;
+  --uix-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
+  --uix-ring: 1px;
+  --uix-space: 8px;
+  --uix-font: var(--uix-stack-sans);
+  --uix-leading: 1.6;
+  --uix-brand-bg: #23395b;
+  --uix-brand-fg: #ffffff;
+}
+
+html[data-uix-theme="material"] {
+  --uix-scheme: light;
+  --uix-bg: #fafafa;
+  --uix-surface: #ffffff;
+  --uix-fg: #1d1b20;
+  --uix-muted: #49454f;
+  --uix-border: #cac4d0;
+  --uix-link: #6750a4;
+  --uix-accent: #6750a4;
+  --uix-accent-fg: #ffffff;
+  --uix-focus: #6750a4;
+  --uix-radius: 12px;
+  --uix-shadow: 0 1px 3px rgba(0, 0, 0, 0.2), 0 2px 6px rgba(0, 0, 0, 0.12);
+  --uix-ring: 1px;
+  --uix-space: 10px;
+  --uix-font: Roboto, var(--uix-stack-sans);
+  --uix-leading: 1.6;
+  --uix-brand-bg: #6750a4;
+  --uix-brand-fg: #ffffff;
+}
+
+html[data-uix-theme="solarized"] {
+  --uix-scheme: light;
+  --uix-bg: #fdf6e3;
+  --uix-surface: #eee8d5;
+  --uix-fg: #3c4f55;
+  --uix-muted: #586e75;
+  --uix-border: #d3cbb7;
+  --uix-link: #1f6aa5;
+  --uix-accent: #1f6aa5;
+  --uix-accent-fg: #fdf6e3;
+  --uix-focus: #d33682;
+  --uix-radius: 4px;
+  --uix-shadow: none;
+  --uix-ring: 1px;
+  --uix-space: 8px;
+  --uix-font: var(--uix-stack-sans);
+  --uix-leading: 1.65;
+  --uix-brand-bg: #1f6aa5;
+  --uix-brand-fg: #fdf6e3;
+}
+
+html[data-uix-theme="brutalism"] {
+  --uix-scheme: light;
+  --uix-bg: #fffdf5;
+  --uix-surface: #ffffff;
+  --uix-fg: #000000;
+  --uix-muted: #333333;
+  --uix-border: #000000;
+  --uix-link: #1a3cff;
+  --uix-accent: #ffd400;
+  --uix-accent-fg: #000000;
+  --uix-focus: #1a3cff;
+  --uix-radius: 0;
+  --uix-shadow: 4px 4px 0 #000000;
+  --uix-ring: 2px;
+  --uix-space: 10px;
+  --uix-font: var(--uix-stack-sans);
+  --uix-leading: 1.5;
+  --uix-brand-bg: #000000;
+  --uix-brand-fg: #ffffff;
+}
+
+/* Base for the user-picked accent; --uix-accent/-fg/-focus/-link are
+   overridden at runtime with inline custom properties (see core.js). */
+html[data-uix-theme="custom"] {
+  --uix-scheme: light;
+  --uix-bg: #ffffff;
+  --uix-surface: #f6f7f9;
+  --uix-fg: #111418;
+  --uix-muted: #5b6470;
+  --uix-border: #d9dde3;
+  --uix-link: #1f5fd1;
+  --uix-accent: #1f5fd1;
+  --uix-accent-fg: #ffffff;
+  --uix-focus: #1f5fd1;
+  --uix-radius: 8px;
+  --uix-shadow: 0 1px 2px rgba(16, 24, 40, 0.06);
+  --uix-ring: 1px;
+  --uix-space: 8px;
+  --uix-font: var(--uix-stack-sans);
+  --uix-leading: 1.6;
+  --uix-brand-bg: #1f5fd1;
+  --uix-brand-fg: #ffffff;
+}
+
+html[data-uix-theme="contrast"] {
+  --uix-scheme: dark;
+  --uix-bg: #000000;
+  --uix-surface: #000000;
+  --uix-fg: #ffffff;
+  --uix-muted: #e0e0e0;
+  --uix-border: #ffffff;
+  --uix-link: #ffff00;
+  --uix-accent: #ffff00;
+  --uix-accent-fg: #000000;
+  --uix-focus: #00ffff;
+  --uix-radius: 0;
+  --uix-shadow: none;
+  --uix-ring: 2px;
+  --uix-space: 10px;
+  --uix-font: var(--uix-stack-sans);
+  --uix-leading: 1.7;
+  --uix-brand-bg: #000000;
+  --uix-brand-fg: #ffffff;
+}
+
+html[data-uix-theme="sepia"] {
+  --uix-scheme: light;
+  --uix-bg: #f4ecd8;
+  --uix-surface: #ece0c4;
+  --uix-fg: #3b2f22;
+  --uix-muted: #6b5a45;
+  --uix-border: #d6c7a6;
+  --uix-link: #7a3e12;
+  --uix-accent: #8a4b1c;
+  --uix-accent-fg: #ffffff;
+  --uix-focus: #8a4b1c;
+  --uix-radius: 4px;
+  --uix-shadow: none;
+  --uix-ring: 1px;
+  --uix-space: 8px;
+  --uix-font: var(--uix-stack-serif);
+  --uix-leading: 1.8;
+  --uix-brand-bg: #5a3a1e;
+  --uix-brand-fg: #f4ecd8;
+}
+
+html[data-uix-theme="terminal"] {
+  --uix-scheme: dark;
+  --uix-bg: #0b0f0b;
+  --uix-surface: #111811;
+  --uix-fg: #33ff77;
+  --uix-muted: #22cc66;
+  --uix-border: #1f6f3a;
+  --uix-link: #7dffb0;
+  --uix-accent: #33ff77;
+  --uix-accent-fg: #000000;
+  --uix-focus: #7dffb0;
+  --uix-radius: 0;
+  --uix-shadow: none;
+  --uix-ring: 1px;
+  --uix-space: 6px;
+  --uix-font: var(--uix-stack-mono);
+  --uix-leading: 1.5;
+  --uix-brand-bg: #0f2a17;
+  --uix-brand-fg: #33ff77;
+}
+
+html[data-uix-theme="corporate"] {
+  --uix-scheme: light;
+  --uix-bg: #f5f7fa;
+  --uix-surface: #ffffff;
+  --uix-fg: #1b2430;
+  --uix-muted: #5a6878;
+  --uix-border: #d5dbe3;
+  --uix-link: #0b4f9c;
+  --uix-accent: #0b4f9c;
+  --uix-accent-fg: #ffffff;
+  --uix-focus: #0b4f9c;
+  --uix-radius: 4px;
+  --uix-shadow: 0 1px 2px rgba(16, 24, 40, 0.08);
+  --uix-ring: 1px;
+  --uix-space: 4px;
+  --uix-font: var(--uix-stack-sans);
+  --uix-leading: 1.45;
+  --uix-brand-bg: #0b4f9c;
+  --uix-brand-fg: #ffffff;
+}
+
+
+/* §2 T1 Foundation (Mode A) ------------------------------------------- */
+
+html[data-uix-theme] {
+  color-scheme: var(--uix-scheme) !important;
+  background-color: var(--uix-bg) !important;
+  accent-color: var(--uix-accent);
+  caret-color: var(--uix-accent);
+}
+
+html[data-uix-theme] body {
+  background-color: var(--uix-bg) !important;
+  color: var(--uix-fg) !important;
+}
+
+/* Reset site paint so the theme reads consistently. Media keeps its pixels. */
+html[data-uix-theme] :where(body *:not(svg, svg *, img, picture, video, canvas, iframe, object, embed)) {
+  background-color: transparent !important;
+  color: inherit !important;
+  border-color: var(--uix-border) !important;
+  text-shadow: none !important;
+}
+
+/* Fonts (opt-in): skip icon fonts (common class patterns + aria-hidden
+   decorative glyphs) and code, which gets the mono stack below. */
+html[data-uix-theme][data-uix-fonts] body {
+  font-family: var(--uix-font) !important;
+}
+
+html[data-uix-theme][data-uix-fonts] :where(body *:not(
+  i, svg, svg *, [aria-hidden="true"], [class*="icon" i], [class*="fa-"],
+  [class*="material-symbols"], [class*="material-icons"], [class*="glyph" i],
+  code, pre, kbd, samp, pre *
+)) {
+  font-family: var(--uix-font) !important;
+}
+
+html[data-uix-theme][data-uix-fonts] :where(code, pre, kbd, samp) {
+  font-family: var(--uix-stack-mono) !important;
+}
+
+html[data-uix-theme] :where(code, pre, kbd, samp) {
+  background-color: var(--uix-surface) !important;
+}
+
+html[data-uix-theme] a:any-link {
+  color: var(--uix-link) !important;
+}
+
+html[data-uix-theme] :is(small, figcaption, time, cite, caption) {
+  color: var(--uix-muted) !important;
+}
+
+html[data-uix-theme] ::placeholder {
+  color: var(--uix-muted) !important;
+  opacity: 1 !important;
+}
+
+html[data-uix-theme] ::selection {
+  background-color: var(--uix-accent) !important;
+  color: var(--uix-accent-fg) !important;
+}
+
+html[data-uix-theme] :focus-visible {
+  outline: 2px solid var(--uix-focus) !important;
+  outline-offset: 2px !important;
+}
+
+/* Floating layers keep an opaque surface after the reset.
+   [data-uix-layer] is set by content.js on fixed/sticky elements. */
+html[data-uix-theme] [data-uix-layer] {
+  background-color: var(--uix-bg) !important;
+}
+
+html[data-uix-theme] :is(
+  [role="dialog"], [role="alertdialog"], dialog, [aria-modal="true"],
+  [role="menu"], [role="listbox"], [role="tooltip"], [popover]
+) {
+  background-color: var(--uix-surface) !important;
+  color: var(--uix-fg) !important;
+}
+
+/* Site chrome that was dark or saturated in the original (marked by content.js
+   before the reset is applied) gets a brand surface instead of being cleared,
+   so white icons — often images we cannot recolour — stay visible.
+   The attribute is doubled to outrank Mode B's header/footer surface. */
+html[data-uix-theme] [data-uix-brand][data-uix-brand] {
+  background-color: var(--uix-brand-bg) !important;
+  color: var(--uix-brand-fg) !important;
+}
+
+html[data-uix-theme] [data-uix-brand][data-uix-brand] a:any-link {
+  color: var(--uix-brand-fg) !important;
+}
+
+
+/* §3 T2 Core components (Mode A: colour only) ------------------------- */
+
+html[data-uix-theme] :is(button, [role="button"], input:is([type="button"], [type="reset"])) {
+  background-color: var(--uix-surface) !important;
+  color: var(--uix-fg) !important;
+  border-color: var(--uix-border) !important;
+}
+
+html[data-uix-theme] :is(button[type="submit"], input[type="submit"]) {
+  background-color: var(--uix-accent) !important;
+  color: var(--uix-accent-fg) !important;
+  border-color: var(--uix-accent) !important;
+}
+
+html[data-uix-theme] :is(
+  input:not([type="checkbox"], [type="radio"], [type="range"], [type="color"], [type="file"],
+    [type="image"], [type="hidden"], [type="button"], [type="submit"], [type="reset"]),
+  textarea, select
+) {
+  background-color: var(--uix-bg) !important;
+  color: var(--uix-fg) !important;
+  border-color: var(--uix-border) !important;
+}
+
+html[data-uix-theme] :is(input[type="checkbox"], input[type="radio"], input[type="range"], progress) {
+  accent-color: var(--uix-accent) !important;
+}
+
+html[data-uix-theme] hr {
+  border-color: var(--uix-border) !important;
+  background-color: var(--uix-border) !important;
+}
+
+
+/* §4 Enhanced (Mode B) ------------------------------------------------ */
+
+/* T2 shape. Borders are drawn with inset box-shadow so widths never change layout. */
+html[data-uix-theme][data-uix-enhanced] :is(button, [role="button"], input:is([type="button"], [type="submit"], [type="reset"])) {
+  border-radius: var(--uix-radius) !important;
+  box-shadow: inset 0 0 0 var(--uix-ring) var(--uix-border), var(--uix-shadow) !important;
+  transition: filter 120ms ease, box-shadow 120ms ease;
+}
+
+html[data-uix-theme][data-uix-enhanced] :is(button, [role="button"], input:is([type="button"], [type="submit"], [type="reset"])):hover {
+  filter: brightness(0.96);
+}
+
+html[data-uix-theme][data-uix-enhanced] :is(
+  input:not([type="checkbox"], [type="radio"], [type="range"], [type="color"], [type="file"],
+    [type="image"], [type="hidden"], [type="button"], [type="submit"], [type="reset"]),
+  textarea, select
+) {
+  border-radius: var(--uix-radius) !important;
+  box-shadow: inset 0 0 0 var(--uix-ring) var(--uix-border) !important;
+}
+
+html[data-uix-theme][data-uix-enhanced] :is(
+  input:not([type="checkbox"], [type="radio"], [type="range"], [type="color"], [type="file"],
+    [type="image"], [type="hidden"], [type="button"], [type="submit"], [type="reset"]),
+  textarea, select
+):focus {
+  box-shadow: inset 0 0 0 calc(var(--uix-ring) + 1px) var(--uix-accent) !important;
+}
+
+html[data-uix-theme][data-uix-enhanced] :is(header, [role="banner"]) {
+  background-color: var(--uix-surface) !important;
+  box-shadow: inset 0 -1px 0 var(--uix-border) !important;
+}
+
+html[data-uix-theme][data-uix-enhanced] :is(footer, [role="contentinfo"]) {
+  background-color: var(--uix-surface) !important;
+  box-shadow: inset 0 1px 0 var(--uix-border) !important;
+}
+
+html[data-uix-theme][data-uix-enhanced] :is(nav, [role="navigation"]) a:any-link:hover {
+  background-color: var(--uix-surface) !important;
+  border-radius: var(--uix-radius) !important;
+}
+
+html[data-uix-theme][data-uix-enhanced] :is(p, li, dd, blockquote) {
+  line-height: var(--uix-leading) !important;
+}
+
+/* T3 — disclosure, dialog, table (textarea/select share the input rules above) */
+html[data-uix-theme][data-uix-enhanced] [aria-expanded="true"] {
+  color: var(--uix-accent) !important;
+}
+
+html[data-uix-theme][data-uix-enhanced] :is([role="dialog"], [role="alertdialog"], dialog, [aria-modal="true"]) {
+  border-radius: var(--uix-radius) !important;
+  box-shadow: inset 0 0 0 var(--uix-ring) var(--uix-border), var(--uix-shadow) !important;
+}
+
+html[data-uix-theme][data-uix-enhanced] table {
+  border-collapse: collapse !important;
+}
+
+html[data-uix-theme][data-uix-enhanced] :is(th, td) {
+  padding: var(--uix-space) calc(var(--uix-space) * 1.5) !important;
+  border-bottom: 1px solid var(--uix-border) !important;
+}
+
+html[data-uix-theme][data-uix-enhanced] th {
+  background-color: var(--uix-surface) !important;
+  font-weight: 600 !important;
+}
+
+html[data-uix-theme][data-uix-enhanced] tbody tr:nth-child(even) td {
+  background-color: color-mix(in srgb, var(--uix-surface) 60%, transparent) !important;
+}
+
+/* T4 — tabs, menu, alert, details, tooltip */
+html[data-uix-theme][data-uix-enhanced] [role="tab"][aria-selected="true"] {
+  color: var(--uix-accent) !important;
+  box-shadow: inset 0 -2px 0 var(--uix-accent) !important;
+}
+
+html[data-uix-theme][data-uix-enhanced] :is([role="menu"], [role="listbox"]) {
+  border-radius: var(--uix-radius) !important;
+  box-shadow: inset 0 0 0 var(--uix-ring) var(--uix-border), var(--uix-shadow) !important;
+}
+
+html[data-uix-theme][data-uix-enhanced] [role="alert"] {
+  background-color: var(--uix-surface) !important;
+  box-shadow: inset 3px 0 0 var(--uix-accent) !important;
+}
+
+html[data-uix-theme][data-uix-enhanced] details {
+  border-radius: var(--uix-radius) !important;
+  box-shadow: inset 0 0 0 var(--uix-ring) var(--uix-border) !important;
+}
+
+html[data-uix-theme][data-uix-enhanced] [role="tooltip"] {
+  background-color: var(--uix-fg) !important;
+  color: var(--uix-bg) !important;
+  border-radius: var(--uix-radius) !important;
+}
+
+
+/* §5 Theme modifiers -------------------------------------------------- */
+
+html[data-uix-theme="contrast"] a:any-link {
+  text-decoration: underline !important;
+}
+
+html[data-uix-theme="contrast"] :focus-visible {
+  outline-width: 3px !important;
+}
+
+html[data-uix-theme="dark"] img {
+  filter: brightness(0.92);
+}
+
+html[data-uix-theme="brutalism"][data-uix-enhanced] :is(button, [role="button"], input[type="submit"]) {
+  font-weight: 700 !important;
+}

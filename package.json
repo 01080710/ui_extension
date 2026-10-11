@@ -1,0 +1,18 @@
+{
+  "name": "uix-style-switcher",
+  "version": "0.2.0",
+  "private": true,
+  "description": "Chrome extension: design-token themes for any website",
+  "scripts": {
+    "test": "node --test tests/",
+    "test:e2e": "node --test --test-concurrency=1 bench/e2e.test.js",
+    "bench": "node bench/coverage.js",
+    "build": "node scripts/build.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "playwright": "^1.64.0"
+  }
+}
