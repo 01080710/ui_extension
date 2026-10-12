@@ -1,0 +1,18 @@
+{
+  "name": "uix-pack-server",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Local server for the UIX component pack: page capture → Claude → runnable project .zip",
+  "main": "server.js",
+  "scripts": {
+    "start": "node --env-file=.env server.js",
+    "test": "node --test test/"
+  },
+  "engines": {
+    "node": ">=20.6"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.133.0",
+    "archiver": "^7.0.1"
+  }
+}

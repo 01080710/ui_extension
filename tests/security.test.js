@@ -8,7 +8,10 @@ const CFG = require('../src/config.js');
 const { ROOT, read } = require('./helpers.js');
 
 const manifest = JSON.parse(read('manifest.json'));
-const contentScripts = ['src/config.js', 'src/core.js', 'src/exporter.js', 'src/shadow-style.js', 'src/content.js'];
+const contentScripts = [
+  'src/config.js', 'src/core.js', 'src/exporter.js', 'src/shadow-style.js',
+  'src/pack-core.js', 'src/pack-capture.js', 'src/pack-ui.js', 'src/content.js',
+];
 const sources = [...contentScripts, 'src/background.js'];
 
 test('l1: no popup anywhere', () => {
@@ -17,7 +20,7 @@ test('l1: no popup anywhere', () => {
   const files = fs
     .readdirSync(ROOT, { recursive: true })
     .map(String)
-    .filter((f) => !/^(node_modules|dist)\b/.test(f));
+    .filter((f) => !/(^|[\\/])(node_modules|dist|\.git)([\\/]|$)/.test(f)); // server/node_modules too
   assert.deepEqual(files.filter((f) => /popup\.(html|js)$/i.test(path.basename(f))), []);
 });
 
@@ -47,9 +50,28 @@ test('manifest: content scripts load config → core → content and exist on di
 });
 
 test('no HTML-string sinks, eval or remote code in scripts', () => {
+  // The one URL allowed is the loopback pack server (http://127.0.0.1:<port>).
   const sinks =
-    /\.(innerHTML|outerHTML)\s*=|insertAdjacentHTML|document\.write|\beval\s*\(|new Function\s*\(|setTimeout\(\s*['"`]|setInterval\(\s*['"`]|https?:\/\//;
+    /\.(innerHTML|outerHTML)\s*=|insertAdjacentHTML|document\.write|\beval\s*\(|new Function\s*\(|setTimeout\(\s*['"`]|setInterval\(\s*['"`]|https?:\/\/(?!127\.0\.0\.1:\d+['/])/;
   sources.forEach((f) => assert.doesNotMatch(read(f), sinks, f));
+});
+
+test('pack: the server URL is loopback only', () => {
+  const u = new URL(CFG.PACK.server);
+  assert.equal(u.protocol, 'http:');
+  assert.equal(u.hostname, '127.0.0.1');
+  assert.equal(u.pathname, '/');
+  const auditPort = /args\.port \|\| (\d+)/.exec(read('bench/audit-server.js'))[1];
+  assert.notEqual(u.port, auditPort, 'pack server and audit server must be able to run together');
+});
+
+test('pack: only the background worker touches the network', () => {
+  contentScripts.forEach((f) => assert.doesNotMatch(read(f), /\bfetch\s*\(|XMLHttpRequest|WebSocket|EventSource|sendBeacon/, f));
+  assert.match(read('src/background.js'), /fetch\(`\$\{PACK\.server\}\$\{path\}`/);
+});
+
+test('pack: no API key handling in the extension', () => {
+  sources.forEach((f) => assert.doesNotMatch(read(f), /ANTHROPIC|x-api-key|sk-ant-/i, f));
 });
 
 test('importScripts only loads bundled files', () => {
@@ -59,7 +81,10 @@ test('importScripts only loads bundled files', () => {
 });
 
 test('runtime messages are accepted only from this extension', () => {
-  ['src/content.js', 'src/background.js'].forEach((f) => assert.match(read(f), /sender\.id !== chrome\.runtime\.id/, f));
+  sources
+    .filter((f) => /onMessage\.addListener/.test(read(f)))
+    .forEach((f) => assert.match(read(f), /sender\.id !== chrome\.runtime\.id/, f));
+  assert.ok(sources.filter((f) => /onMessage\.addListener/.test(read(f))).includes('src/pack-ui.js'));
 });
 
 test('C1 injects only bundled CSS, into the requesting frame only', () => {
@@ -90,6 +115,14 @@ test('content.js reads ids/keys/attributes from config, not literals', () => {
   assert.ok(!src.includes(`'${CFG.STORAGE_KEY}'`));
 });
 
-test('D1: content.js has no user-facing CJK literals (all text via chrome.i18n)', () => {
-  assert.doesNotMatch(read('src/content.js'), /[㐀-鿿]/);
+test('D1: content scripts have no user-facing CJK literals (all text via chrome.i18n)', () => {
+  ['src/content.js', 'src/pack-ui.js', 'src/pack-core.js', 'src/pack-capture.js'].forEach((f) =>
+    assert.doesNotMatch(read(f), /[㐀-鿿]/, f),
+  );
+});
+
+test('pack-ui reads storage keys and message types from config, not literals', () => {
+  const src = read('src/pack-ui.js');
+  Object.values(CFG.PACK.storage).forEach((k) => assert.ok(!src.includes(`'${k}'`), `literal ${k}`));
+  Object.values(CFG.MESSAGE_TYPES).forEach((k) => assert.ok(!src.includes(`'${k}'`), `literal ${k}`));
 });

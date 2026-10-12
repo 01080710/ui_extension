@@ -67,7 +67,13 @@
 
     // C3: browser-level shortcut (chrome.commands) — works while focus is inside an iframe.
     COMMANDS: { togglePanel: 'toggle-panel' },
-    MESSAGE_TYPES: { togglePanel: 'uix:toggle-panel', injectUserCss: 'uix:inject-user-css' },
+    MESSAGE_TYPES: {
+      togglePanel: 'uix:toggle-panel',
+      injectUserCss: 'uix:inject-user-css',
+      packAnalyze: 'uix:pack-analyze',
+      packGenerate: 'uix:pack-generate',
+      packProgress: 'uix:pack-progress',
+    },
 
     // C1: the same stylesheet re-injected in the USER cascade origin. User !important
     // beats every author !important, inline included (cascade analysis: 10 of 12
@@ -107,5 +113,93 @@
       { id: 'css', msg: 'exportCss', ext: 'css', mime: 'text/css' },
       { id: 'tailwind', msg: 'exportTailwind', ext: 'tailwind.css', mime: 'text/css' },
     ],
+
+    // Component pack: the visible part of the page → AI analysis → decision cards →
+    // a runnable project as .zip. All network traffic goes through the background
+    // worker to the local server only (server/ in this repo); the API key never
+    // reaches the extension. The server reads these same lists, so ids cannot drift.
+    PACK: {
+      // Loopback only; the server refuses any other bind. Not 8787: bench/audit-server.js uses it.
+      server: 'http://127.0.0.1:8788',
+      timeoutMs: { analyze: 120000, generate: 600000 },
+      keepAliveMs: 20000, // MV3 worker idles out after 30 s without extension API calls
+      sessionMaxAgeMs: 1800000, // an unfinished pack is restored for 30 min
+      storage: { last: 'uix.pack.last', token: 'uix.pack.token', session: 'uix.pack.session' },
+      defaultZipName: 'uix-pack.zip', // used when the server's filename fails validation
+      // Card A. Order = chip order. `msg` is a key in _locales/*/messages.json.
+      stack: {
+        framework: [
+          { id: 'react', msg: 'packFwReact' },
+          { id: 'vue', msg: 'packFwVue' },
+          { id: 'svelte', msg: 'packFwSvelte' },
+          { id: 'vanilla', msg: 'packFwVanilla' },
+        ],
+        language: [
+          { id: 'ts', msg: 'packLangTs' },
+          { id: 'js', msg: 'packLangJs' },
+        ],
+        styling: [
+          { id: 'tailwind', msg: 'packStyleTailwind' },
+          { id: 'css-modules', msg: 'packStyleCssModules' },
+          { id: 'css', msg: 'packStyleCss' },
+        ],
+      },
+      stackFields: [
+        { id: 'framework', msg: 'packFieldFramework' },
+        { id: 'language', msg: 'packFieldLanguage' },
+        { id: 'styling', msg: 'packFieldStyling' },
+      ],
+      // Card B.
+      assetKinds: [
+        { id: 'images', msg: 'packAssetImages' },
+        { id: 'fonts', msg: 'packAssetFonts' },
+        { id: 'icons', msg: 'packAssetIcons' },
+      ],
+      assetModes: [
+        { id: 'bundle', msg: 'packModeBundle' },
+        { id: 'placeholder', msg: 'packModePlaceholder' },
+        { id: 'link', msg: 'packModeLink' },
+      ],
+      phases: [
+        { id: 'analyze', msg: 'packPhaseAnalyze' },
+        { id: 'generate', msg: 'packPhaseGenerate' },
+        { id: 'pack', msg: 'packPhasePack' },
+      ],
+      maxRequiredQuestions: 3,
+      maxQuestions: 6, // after need_clarification rounds
+      maxOptions: 6,
+      maxTextLength: 300, // question / option / summary strings from the server
+      capture: {
+        viewports: 2, // capture what intersects [scrollY, scrollY + 2 × viewport height)
+        maxNodes: 900,
+        maxDepth: 40,
+        maxText: 160,
+        maxIcons: 40,
+        maxIconPaths: 12,
+        maxIconPathLength: 4000,
+        maxIconSize: 64, // px; bigger SVGs are illustrations, kept as boxes
+        maxImages: 60,
+        maxChars: 400000, // JSON size budget sent to the server
+        skipTags: ['script', 'style', 'noscript', 'template', 'iframe', 'object', 'embed', 'link', 'meta', 'head', 'base'],
+        attrs: ['role', 'aria-label', 'alt', 'type', 'placeholder', 'title'],
+        styles: [
+          'display', 'position', 'flex-direction', 'flex-wrap', 'justify-content', 'align-items', 'gap',
+          'grid-template-columns', 'width', 'height', 'max-width', 'padding', 'margin',
+          'color', 'background-color', 'background-image', 'border', 'border-radius', 'box-shadow',
+          'font-family', 'font-size', 'font-weight', 'line-height', 'letter-spacing', 'text-align',
+          'text-transform', 'text-decoration-line', 'opacity', 'object-fit', 'overflow',
+        ],
+        // Values that say nothing; dropped to keep the payload small.
+        defaultValues: ['none', 'normal', 'auto', '0px', 'rgba(0, 0, 0, 0)', 'static', 'visible', 'start', 'stretch', 'nowrap', 'row', '1'],
+        // Analytics / ad hosts: their pixels and frames are never sent. Subdomains match.
+        trackerHosts: [
+          'google-analytics.com', 'googletagmanager.com', 'doubleclick.net', 'googlesyndication.com',
+          'googleadservices.com', 'facebook.net', 'connect.facebook.net', 'hotjar.com', 'clarity.ms',
+          'segment.io', 'segment.com', 'mixpanel.com', 'amplitude.com', 'scorecardresearch.com',
+          'quantserve.com', 'criteo.com', 'taboola.com', 'outbrain.com', 'adnxs.com', 'bat.bing.com',
+          'analytics.tiktok.com','analytics.twitter.com', 'snap.licdn.com', 'px.ads.linkedin.com',
+        ],
+      },
+    },
   });
 });

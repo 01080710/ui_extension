@@ -18,6 +18,15 @@ npm run build          # → dist/chrome, dist/edge, dist/firefox
 `chrome://extensions` → Developer mode → **Load unpacked** → `dist/chrome`.
 Load `dist/`, not the repo root: `node_modules` would be packed in.
 
+## Component pack (local AI server)
+
+1. `cd server && npm install && cp .env.example .env`. Fill in `ANTHROPIC_API_KEY`, a random `LOCAL_TOKEN` (24+ chars), and `EXTENSION_ORIGIN=chrome-extension://<id from chrome://extensions>`.
+2. `npm start`. It listens on `127.0.0.1:8788` only and needs the token and this extension's origin on every request.
+3. On any page: **U** → **元件樣式包**. The first time, paste `LOCAL_TOKEN` into the card. Its value is stored in `chrome.storage.local`, never in source.
+4. Best case is two clicks: **元件樣式包** → **確認並生成** → the `.zip` downloads. Unzip it, open the folder, and run `npm install && npm run dev`.
+5. Tests: `npm test` (extension) and `cd server && npm test` (fake Claude, real HTTP and zip).
+6. Visible page text and image URLs are sent to Anthropic. Form values, link targets and URL query strings never leave the browser.
+
 ## Layout
 
 | Path | Role |
@@ -27,7 +36,11 @@ Load `dist/`, not the repo root: `node_modules` would be packed in.
 | `src/content.js` | DOM wiring: storage, panel in closed Shadow DOM, keys, layer/brand scanner, shadow-root styling |
 | `src/shadow-style.js` | Mode A colour rules adopted into site shadow roots |
 | `src/exporter.js` | Token export builders |
-| `src/background.js` | Relays Alt+Shift+U; injects app.css in the USER origin on request (C1, needs `scripting`) |
+| `src/background.js` | Relays Alt+Shift+U; injects app.css in the USER origin on request (C1, needs `scripting`); the only network caller (component pack → local server) |
+| `src/pack-core.js` | Component pack pure logic: sanitising, card defaults, pending count, clarification merge |
+| `src/pack-capture.js` | Visible-area DOM → compact JSON (no scripts, hidden nodes, trackers, form values) |
+| `src/pack-ui.js` | Decision cards in the panel's shadow root; flow and storage |
+| `server/` | Local Node server: auth, DOM re-simplification, Claude calls, path checks, zip |
 | `styles/app.css` | Token engine: §0 primitives → §1 theme tokens → §2 T1 → §3 T2 → §4 Mode B (T2–T4) → §5 theme modifiers |
 | `bench/` | Real-site coverage benchmark, human audit, cascade analysis |
 

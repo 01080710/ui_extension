@@ -2,3 +2,5 @@ node_modules/
 dist/
 # bench/results/ is committed on purpose: the human audit labels cannot be
 # regenerated, and docs/coverage-report.md is built from these files.
+# server secrets (copy server/.env.example)
+.env

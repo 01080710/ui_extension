@@ -34,6 +34,9 @@
         "src/core.js",
         "src/exporter.js",
         "src/shadow-style.js",
+        "src/pack-core.js",
+        "src/pack-capture.js",
+        "src/pack-ui.js",
         "src/content.js"
       ],
       "css": [

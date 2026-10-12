@@ -26,11 +26,16 @@ test('D1: default locale exists and every locale has the same keys', () => {
 });
 
 test('D1: every message key referenced in code/config exists', () => {
-  const src = read('src/content.js');
+  const src = ['src/content.js', 'src/pack-ui.js', 'src/pack-core.js'].map(read).join('\n');
+  const P = CFG.PACK;
   const used = new Set([
     ...[...src.matchAll(/\bt\('([A-Za-z]+)'/g)].map((m) => m[1]),
+    // pack-ui maps error codes to keys in a table; every value must exist too
+    ...[...read('src/pack-ui.js').matchAll(/:\s*'(packErr[A-Za-z]+)'/g)].map((m) => m[1]),
     ...CFG.THEMES.map((x) => x.msg),
     ...CFG.EXPORT_FORMATS.map((x) => x.msg),
+    ...Object.values(P.stack).flat().map((x) => x.msg),
+    ...[P.stackFields, P.assetKinds, P.assetModes, P.phases].flat().map((x) => x.msg),
   ]);
   const manifest = read('manifest.json');
   [...manifest.matchAll(/__MSG_([A-Za-z]+)__/g)].forEach((m) => used.add(m[1]));

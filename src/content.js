@@ -13,6 +13,11 @@
   const CORE = globalThis.UIX_CORE;
   const EXPORT = globalThis.UIX_EXPORT;
   const SHADOW = globalThis.UIX_SHADOW;
+  // Component pack (optional: the panel works without it).
+  const PACK_CORE = globalThis.UIX_PACK_CORE;
+  const PACK_CAPTURE = globalThis.UIX_PACK_CAPTURE;
+  const PACK_UI = globalThis.UIX_PACK_UI;
+  const hasPack = Boolean(PACK_CORE && PACK_CAPTURE && PACK_UI);
   if (!CFG || !CORE || !EXPORT || !SHADOW || globalThis.__uixContentLoaded) return;
   globalThis.__uixContentLoaded = true;
 
@@ -316,6 +321,20 @@
     }
   }
 
+  /**
+   * Component pack input: the visible part of the page plus, when a theme is active,
+   * the same CSS / Tailwind token files the export buttons produce.
+   */
+  function capturePage() {
+    const css = buildCurrentExport('css'); // null when no theme is active
+    const tailwind = buildCurrentExport('tailwind');
+    const theme =
+      css && tailwind
+        ? { id: effective.theme, mode: effective.enhanced ? 'enhanced' : 'default', css: css.body, tailwind: tailwind.body }
+        : null;
+    return PACK_CAPTURE.capture({ doc: document, win: window, cfg: CFG, host, theme });
+  }
+
   // ---------------------------------------------------------------- panel
 
   const PANEL_CSS = `
@@ -415,8 +434,12 @@
     let hostEl = null;
     let refs = null;
     let lastFocus = null;
+    let shadowRef = null;
 
     const isVisible = () => Boolean(hostEl) && hostEl.style.display !== 'none';
+    // The shadow root is closed, so the window key listener cannot see a text field
+    // focused inside the panel (the pack token input); ask the panel directly.
+    const hasEditableFocus = () => Boolean(shadowRef) && CORE.isEditableElement(shadowRef.activeElement);
 
     function setDisplay(value) {
       hostEl.style.setProperty('display', value, 'important');
@@ -436,7 +459,8 @@
       setDisplay('none'); // default: hidden until U
 
       const shadow = hostEl.attachShadow({ mode: 'closed' });
-      adoptStyles(shadow, PANEL_CSS);
+      shadowRef = shadow;
+      adoptStyles(shadow, hasPack ? PANEL_CSS + PACK_UI.css : PANEL_CSS);
 
       const closeBtn = h('button', { attrs: { type: 'button', class: 'close', 'aria-label': t('closePanel') }, text: '×' });
       const options = [{ id: '', label: t('optionNone') }, ...CFG.THEMES.map((x) => ({ id: x.id, label: t(x.msg) }))].map(
@@ -465,6 +489,9 @@
       );
       const exportBtn = h('button', { attrs: { type: 'button', class: 'ghost' }, text: t('exportButton') });
       const copyBtn = h('button', { attrs: { type: 'button', class: 'ghost' }, text: t('copyButton') });
+      const packBtn = hasPack
+        ? h('button', { attrs: { type: 'button', class: 'ghost', 'data-pack-entry': '' }, text: t('packButton') })
+        : null;
       const status = h('div', { attrs: { class: 'status', role: 'status', 'aria-live': 'polite' } });
 
       const form = h('form', { attrs: { class: 'panel', 'aria-label': t('panelTitle') } }, [
@@ -485,7 +512,7 @@
         ]),
         h('div', { attrs: { class: 'group' } }, [
           h('div', { attrs: { class: 'row' } }, [h('span', { text: t('exportLabel') }), formatSelect]),
-          h('div', { attrs: { class: 'actions' } }, [exportBtn, copyBtn]),
+          h('div', { attrs: { class: 'actions' } }, packBtn ? [packBtn, exportBtn, copyBtn] : [exportBtn, copyBtn]),
         ]),
         h('div', { attrs: { class: 'foot' } }, [
           h('span', { attrs: { class: 'hint' }, text: t('hintKeys') }),
@@ -504,6 +531,11 @@
       exportBtn.addEventListener('click', () => {
         refs.status.textContent = exportTokens(formatSelect.value).message;
       });
+      if (packBtn) {
+        const pack = PACK_UI.create({ cfg: CFG, core: PACK_CORE, host, h, t, form, capture: capturePage, onClose: close });
+        shadow.appendChild(pack.view);
+        packBtn.addEventListener('click', () => pack.start());
+      }
 
       refs = { form, accentInput, accentRow, enhancedInput, fontsInput, followInput, darkSelect, excludeInput, status };
       root.appendChild(hostEl); // outside <body>: survives body swaps, not hit by body-scoped rules
@@ -587,7 +619,7 @@
       lastFocus = null;
     }
 
-    return { open, close, sync, isVisible };
+    return { open, close, sync, isVisible, hasEditableFocus };
   })();
 
   // ---------------------------------------------------------------- keys
@@ -600,7 +632,8 @@
 
   function onKeyDown(evt) {
     const origin = typeof evt.composedPath === 'function' ? evt.composedPath()[0] : evt.target;
-    const editable = CORE.isEditableElement(origin) || CORE.isEditableElement(deepActiveElement());
+    const editable =
+      CORE.isEditableElement(origin) || CORE.isEditableElement(deepActiveElement()) || panel.hasEditableFocus();
     const action = CORE.resolveKeyAction(evt, { visible: panel.isVisible(), editable, keys: CFG.KEYS });
     if (!action) return;
     // Only swallow the key when we actually act on it.
